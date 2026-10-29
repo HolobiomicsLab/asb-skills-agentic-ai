@@ -1,0 +1,49 @@
+{
+  "workflow": "domain_rag_citation_evaluation",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "web-search-llm-filtering retrieves and filters evidence but does not perform the required domain-agent keyword enhancement.",
+      "severity": "advisory",
+      "slug": "web-search-llm-filtering",
+      "stage": "enhance_evidence"
+    },
+    {
+      "check": "V4",
+      "detail": "agricultural-query-decomposition-into-subqueries emits retrieval inputs and does not retrieve local or web evidence.",
+      "severity": "advisory",
+      "slug": "agricultural-query-decomposition-into-subqueries",
+      "stage": "retrieve_evidence"
+    },
+    {
+      "check": "V4",
+      "detail": "per-query-composite-score-analysis analyzes precomputed composite scores and does not score cited answers from the supplied human annotations.",
+      "severity": "advisory",
+      "slug": "per-query-composite-score-analysis",
+      "stage": "score_grounded_answers"
+    },
+    {
+      "check": "V4",
+      "detail": "llm-multi-agent-orchestration produces governed household-energy JSON and does not synthesize the AgriIR A-D-W answer bundle.",
+      "severity": "advisory",
+      "slug": "llm-multi-agent-orchestration",
+      "stage": "synthesize_answers"
+    },
+    {
+      "check": "V4",
+      "detail": "llm-response-quality-annotation-aggregation evaluates completed responses and does not synthesize an answer from retrieved evidence.",
+      "severity": "advisory",
+      "slug": "llm-response-quality-annotation-aggregation",
+      "stage": "synthesize_answers"
+    }
+  ],
+  "verdict": "pass"
+}

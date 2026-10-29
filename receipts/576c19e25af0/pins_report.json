@@ -1,0 +1,101 @@
+{
+  "workflows": {
+    "domain_rag_citation_evaluation": {
+      "workflow_id": "domain_rag_citation_evaluation",
+      "prefer": [
+        {
+          "stage": "decompose_queries",
+          "pin": "subquery-decomposition-prompting",
+          "status": "resolved",
+          "resolved_slug": "subquery-decomposition-prompting"
+        },
+        {
+          "stage": "retrieve_evidence",
+          "pin": "parallel-multi-source-retrieval-orchestration",
+          "status": "resolved",
+          "resolved_slug": "parallel-multi-source-retrieval-orchestration"
+        },
+        {
+          "stage": "enhance_evidence",
+          "pin": "domain-agent-keyword-enhancement",
+          "status": "resolved",
+          "resolved_slug": "domain-agent-keyword-enhancement"
+        },
+        {
+          "stage": "synthesize_answers",
+          "pin": "temperature-controlled-answer-synthesis",
+          "status": "resolved",
+          "resolved_slug": "temperature-controlled-answer-synthesis"
+        },
+        {
+          "stage": "insert_citations",
+          "pin": "agricultural-answer-citation-insertion",
+          "status": "resolved",
+          "resolved_slug": "agricultural-answer-citation-insertion"
+        },
+        {
+          "stage": "score_grounded_answers",
+          "pin": "citation-quality-scoring",
+          "status": "resolved",
+          "resolved_slug": "citation-quality-scoring"
+        }
+      ],
+      "avoid": [
+        {
+          "scope": "synthesize_answers",
+          "pin": "six-stage-retrieval-augmented-answer-synthesis",
+          "status": "resolved",
+          "resolved_slug": "six-stage-retrieval-augmented-answer-synthesis"
+        }
+      ],
+      "summary": {
+        "prefer_total": 6,
+        "prefer_resolved": 6,
+        "avoid_total": 1,
+        "avoid_resolved": 1
+      }
+    },
+    "objective_aligned_t5_few_shot": {
+      "workflow_id": "objective_aligned_t5_few_shot",
+      "prefer": [
+        {
+          "stage": "prepare_adaptation_data",
+          "pin": "omcs-sentence-splitting-adaptation-data-preparation",
+          "status": "resolved",
+          "resolved_slug": "omcs-sentence-splitting-adaptation-data-preparation"
+        },
+        {
+          "stage": "format_few_shot_examples",
+          "pin": "atomic2020-knowledge-completion-data-formatting",
+          "status": "resolved",
+          "resolved_slug": "atomic2020-knowledge-completion-data-formatting"
+        },
+        {
+          "stage": "adapt_checkpoint",
+          "pin": "denoising-objective-adaptation-training",
+          "status": "resolved",
+          "resolved_slug": "denoising-objective-adaptation-training"
+        },
+        {
+          "stage": "finetune_kb_completion",
+          "pin": "t5-encoder-decoder-fine-tuning",
+          "status": "resolved",
+          "resolved_slug": "t5-encoder-decoder-fine-tuning"
+        },
+        {
+          "stage": "evaluate_few_shot_strategy",
+          "pin": "few-shot-evaluation-of-language-models",
+          "status": "resolved",
+          "resolved_slug": "few-shot-evaluation-of-language-models"
+        }
+      ],
+      "avoid": [],
+      "summary": {
+        "prefer_total": 5,
+        "prefer_resolved": 5,
+        "avoid_total": 0,
+        "avoid_resolved": 0
+      }
+    }
+  }
+}

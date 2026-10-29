@@ -1,0 +1,251 @@
+schema_version: 0.3.0
+workflow_id: domain_rag_citation_evaluation
+kind: composite-workflow
+techniques: []
+steps:
+- id: decompose_queries
+  goal: split each complex domain question into bounded retrieval subqueries
+  edam_operation: http://edamontology.org/operation_0226
+  skills:
+  - subquery-decomposition-prompting
+  - agricultural-query-refinement-llm
+  - six-stage-retrieval-augmented-answer-synthesis
+  tools:
+  - AgriIR
+  - DuckDuckGo
+  - Gemma3:1B
+  - Gemma3:27B
+  - Llama3.2:3B
+  - Ollama
+  inputs:
+  - type: jsonl
+    flavour: refined-agricultural-policy-queries
+  - type: yaml
+    flavour: decomposition-configuration
+  outputs:
+  - type: jsonl
+    flavour: retrieval-subqueries
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1007-978-3-032-21324-2-37
+    dois:
+    - 10.1007/978-3-032-21324-2_37
+  after: []
+  candidate_tools:
+  - FAISS
+- id: retrieve_evidence
+  goal: retrieve local and web evidence for every decomposed subquery
+  edam_operation: http://edamontology.org/operation_0306
+  skills:
+  - parallel-multi-source-retrieval-orchestration
+  - agricultural-query-decomposition-into-subqueries
+  - web-retrieval-integration-with-vector-search
+  - faiss-vector-search-retrieval
+  tools:
+  - AgriIR
+  - FAISS
+  inputs:
+  - type: jsonl
+    flavour: retrieval-subqueries
+  - type: index
+    flavour: agriir-faiss
+  - type: yaml
+    flavour: agricultural-web-source-policy
+  outputs:
+  - type: jsonl
+    flavour: retrieved-local-chunks
+  - type: jsonl
+    flavour: retrieved-web-chunks
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1007-978-3-032-21324-2-37
+    dois:
+    - 10.1007/978-3-032-21324-2_37
+  after:
+  - decompose_queries
+  candidate_tools:
+  - Llama3.2:3B
+  - ollama
+  - AgriIR_dataset
+  - DuckDuckGo
+  - Gemma3:1B
+  - Gemma3:27B
+  - Qwen3-Embedding-8B
+  inputs_from:
+    decompose_queries:
+    - jsonl:retrieval-subqueries
+- id: enhance_evidence
+  goal: inject selected domain-agent keywords into both retrieved evidence pools
+  edam_operation: http://edamontology.org/operation_2422
+  skills:
+  - domain-agent-keyword-enhancement
+  - web-search-llm-filtering
+  tools:
+  - AgriIR
+  - DuckDuckGo
+  - FAISS
+  - Gemma3:1B
+  - Gemma3:27B
+  - Llama3.2:3B
+  - Ollama
+  inputs:
+  - type: jsonl
+    flavour: refined-agricultural-policy-queries
+  - type: jsonl
+    flavour: retrieval-subqueries
+  - type: jsonl
+    flavour: retrieved-local-chunks
+  - type: jsonl
+    flavour: retrieved-web-chunks
+  - type: yaml
+    flavour: domain-agent-catalogue
+  outputs:
+  - type: jsonl
+    flavour: agent-enhanced-local-chunks
+  - type: jsonl
+    flavour: agent-enhanced-web-chunks
+  - type: json
+    flavour: agent-keyword-context
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1007-978-3-032-21324-2-37
+    dois:
+    - 10.1007/978-3-032-21324-2_37
+  after:
+  - decompose_queries
+  - retrieve_evidence
+  inputs_from:
+    decompose_queries:
+    - jsonl:retrieval-subqueries
+    retrieve_evidence:
+    - jsonl:retrieved-local-chunks
+    - jsonl:retrieved-web-chunks
+- id: synthesize_answers
+  goal: generate evidence-grounded answers before citation insertion
+  edam_operation: http://edamontology.org/operation_3778
+  skills:
+  - temperature-controlled-answer-synthesis
+  - llm-response-quality-annotation-aggregation
+  - llm-multi-agent-orchestration
+  tools:
+  - AgriIR
+  - DuckDuckGo
+  - FAISS
+  - Gemma3:1B
+  - Gemma3:27B
+  - Llama3.2:3B
+  - Ollama
+  inputs:
+  - type: jsonl
+    flavour: refined-agricultural-policy-queries
+  - type: jsonl
+    flavour: agent-enhanced-local-chunks
+  - type: jsonl
+    flavour: agent-enhanced-web-chunks
+  - type: json
+    flavour: agent-keyword-context
+  - type: yaml
+    flavour: answer-generation-configuration
+  outputs:
+  - type: json
+    flavour: synthesized-answer-a-d-w
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1007-978-3-032-21324-2-37
+    - asb-paper-10-1145-3744256-3812595
+    dois:
+    - 10.1007/978-3-032-21324-2_37
+    - 10.1145/3744256.3812595
+  after:
+  - enhance_evidence
+  candidate_tools:
+  - ChatGPT-4o
+  - GPT-OSS-120B
+  - Gemini 2.5 Flash
+  - DeepInfra API
+  - OpenRouter
+  - Python
+  - WattCouncil
+  - conda
+  - pip
+  inputs_from:
+    enhance_evidence:
+    - jsonl:agent-enhanced-local-chunks
+    - jsonl:agent-enhanced-web-chunks
+    - json:agent-keyword-context
+- id: insert_citations
+  goal: attach each supported answer sentence to a retrieved source chunk
+  edam_operation: http://edamontology.org/operation_0282
+  skills:
+  - agricultural-answer-citation-insertion
+  - sentence-embedding-similarity-scoring
+  - citation-source-attribution
+  - post-hoc-answer-grounding
+  tools:
+  - AgriIR
+  - FAISS
+  - Sentence Transformer
+  inputs:
+  - type: json
+    flavour: synthesized-answer-a-d-w
+  outputs:
+  - type: json
+    flavour: cited-answer-with-index
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1007-978-3-032-21324-2-37
+    dois:
+    - 10.1007/978-3-032-21324-2_37
+  after:
+  - synthesize_answers
+  candidate_tools:
+  - Ollama
+  inputs_from:
+    synthesize_answers:
+    - json:synthesized-answer-a-d-w
+- id: score_grounded_answers
+  goal: aggregate human answer and citation judgments for the fixed query set
+  edam_operation: http://edamontology.org/operation_0306
+  skills:
+  - citation-quality-scoring
+  - composite-score-compilation-across-model-conditions
+  - per-query-composite-score-analysis
+  tools:
+  - AgriIR
+  - ChatGPT-4o
+  - FAISS
+  - GPT-OSS-120B
+  - Gemini 2.5 Flash
+  - Gemma3:1B
+  - Gemma3:27B
+  - Llama3.2:3B
+  inputs:
+  - type: json
+    flavour: cited-answer-with-index
+  - type: csv
+    flavour: agricultural-answer-citation-human-annotations
+  outputs:
+  - type: csv
+    flavour: grounded-answer-scores
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1007-978-3-032-21324-2-37
+    dois:
+    - 10.1007/978-3-032-21324-2_37
+  after:
+  - insert_citations
+  inputs_from:
+    insert_citations:
+    - json:cited-answer-with-index
+verification:
+  final_outputs:
+  - path: synthesized_answer.json
+    type: file
+  - path: cited_answer.json
+    type: file
+  - path: benchmark_scores.csv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

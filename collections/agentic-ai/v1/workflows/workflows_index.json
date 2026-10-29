@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "domain-rag-citation-evaluation",
+    "name": "domain-rag-citation-evaluation-workflow",
+    "description": "Use when a fixed set of agricultural policy questions must be decomposed, grounded in local and web evidence, answered with deterministic source citations, and scored from human answer and citation annotations.\n",
+    "techniques": [],
+    "stage_count": 6,
+    "stages": [
+      "decompose_queries",
+      "retrieve_evidence",
+      "enhance_evidence",
+      "synthesize_answers",
+      "insert_citations",
+      "score_grounded_answers"
+    ],
+    "member_tools": [
+      "AgriIR",
+      "DuckDuckGo",
+      "Gemma3:1B",
+      "Gemma3:27B",
+      "Llama3.2:3B",
+      "Ollama",
+      "FAISS",
+      "Sentence Transformer",
+      "ChatGPT-4o",
+      "GPT-OSS-120B",
+      "Gemini 2.5 Flash"
+    ],
+    "coverage_gaps": [],
+    "bound_by": "perspicacite-semantic"
+  },
+  {
+    "slug": "objective-aligned-t5-few-shot",
+    "name": "objective-aligned-t5-few-shot-workflow",
+    "description": "Use when a T5 encoder-decoder model must be adapted on task-related commonsense sentences, fine-tuned from a small ATOMIC2020 sample with an aligned masked template, and evaluated against a supervised few-shot baseline.\n",
+    "techniques": [],
+    "stage_count": 5,
+    "stages": [
+      "prepare_adaptation_data",
+      "format_few_shot_examples",
+      "adapt_checkpoint",
+      "finetune_kb_completion",
+      "evaluate_few_shot_strategy"
+    ],
+    "member_tools": [
+      "Ada Factor optimizer",
+      "T5",
+      "T5-base",
+      "T5-large",
+      "T5-lm",
+      "T5-v1",
+      "Match Task to Objective (MTO) framework",
+      "Sentence Splitter"
+    ],
+    "coverage_gaps": [],
+    "bound_by": "perspicacite-semantic"
+  }
+]

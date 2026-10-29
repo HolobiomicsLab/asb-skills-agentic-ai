@@ -1,0 +1,35 @@
+{
+  "workflow": "objective_aligned_t5_few_shot",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [
+    {
+      "check": "V4",
+      "detail": "few-shot-qa-fine-tuning targets multiple-choice QA accuracy and does not fine-tune the required ATOMIC tail-generation checkpoint.",
+      "severity": "advisory",
+      "slug": "few-shot-qa-fine-tuning",
+      "stage": "finetune_kb_completion"
+    },
+    {
+      "check": "V4",
+      "detail": "head-tail-pair-classifier-training learns an objective-selection classifier and does not format few-shot KB-completion examples.",
+      "severity": "advisory",
+      "slug": "head-tail-pair-classifier-training",
+      "stage": "format_few_shot_examples"
+    },
+    {
+      "check": "V4",
+      "detail": "task-category-classification assigns objective categories and does not produce the required relation-stratified masked examples.",
+      "severity": "advisory",
+      "slug": "task-category-classification",
+      "stage": "format_few_shot_examples"
+    }
+  ],
+  "verdict": "pass"
+}
