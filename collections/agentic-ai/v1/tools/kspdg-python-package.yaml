@@ -1,0 +1,18 @@
+name: kspdg python package
+slug: kspdg-python-package
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`kspdg` python package ... pip install -e .'
+- python evaluate.cpython-312.pyc configs/example_eval_cfg.yaml ... otherwise call evaluate.cpython-39.pyc for python 3.9
+derived_from:
+- doi: 10.1016/j.asr.2025.06.034
+  title: Large language models as autonomous spacecraft operators in kerbal space program
+source_repos:
+- https://github.com/ARCLab-MIT/kspdg
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ARCLab-MIT/kspdg

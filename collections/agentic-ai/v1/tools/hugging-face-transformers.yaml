@@ -1,0 +1,21 @@
+name: Hugging Face Transformers
+slug: hugging-face-transformers
+version_used: null
+edam_topics: []
+evidence_spans:
+- Hugging Face model name or path
+- pip install -r requirements.txt
+derived_from:
+- doi: 10.1109/bigdata66926.2025.11401449
+  title: Benchmarking LLMs for Pairwise Causal Discovery in Biomedical and Multi-Domain Contexts
+- doi: 10.1109/icassp55912.2026.11463006
+  title: Visual Saliency Steering Distillation for Multimodal Chain-of-Thought Reasoning
+source_repos:
+- https://github.com/sydneyanuyah/CausalDiscovery
+- https://github.com/BGWH123/VSSD
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sydneyanuyah/CausalDiscovery

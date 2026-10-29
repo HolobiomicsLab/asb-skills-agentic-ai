@@ -1,0 +1,17 @@
+name: TMY (Typical Meteorological Year) weather data
+slug: tmy-typical-meteorological-year-weather-data
+version_used: null
+edam_topics: []
+evidence_spans:
+- Generate seasonal weather profiles (using **LLM** or **TMY** real data)
+derived_from:
+- doi: 10.1145/3744256.3812595
+  title: 'WattCouncil: Context-Aware Household Energy Scenario Generation With Governed LLMs'
+source_repos:
+- https://github.com/Singularity-AI-Lab/wattcouncil
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Singularity-AI-Lab/wattcouncil

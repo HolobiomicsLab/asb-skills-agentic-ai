@@ -1,0 +1,20 @@
+name: GPT-3.5
+slug: gpt-3-5
+version_used: '3.5'
+edam_topics: []
+evidence_spans:
+- In this work, we leverage GPT-3.5 and LLaMA models to develop an intelligent agent capable of controlling a spacecraft in real time.
+derived_from:
+- doi: 10.1016/j.asr.2025.06.034
+  title: Large language models as autonomous spacecraft operators in kerbal space program
+- doi: 10.1038/s41746-025-02174-0
+  title: Benchmarking proprietary and open-source language and vision-language models for gastroenterology clinical reasoning
+source_repos:
+- https://github.com/ARCLab-MIT/kspdg
+- https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ARCLab-MIT/kspdg

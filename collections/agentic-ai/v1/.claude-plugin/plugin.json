@@ -1,0 +1,16 @@
+{
+  "author": {
+    "name": "Holobiomics Lab",
+    "url": "https://github.com/HolobiomicsLab"
+  },
+  "description": "ASB Agentic Ai: 668 evidence-grounded skills collected from a consolidated literature cut with local retrieval.",
+  "homepage": "https://github.com/HolobiomicsLab/asb-skills-agentic-ai",
+  "keywords": [
+    "agentic-ai",
+    "scientific skills"
+  ],
+  "license": "CC-BY-4.0",
+  "name": "agentic-ai",
+  "repository": "https://github.com/HolobiomicsLab/asb-skills-agentic-ai",
+  "version": "0.1.0"
+}

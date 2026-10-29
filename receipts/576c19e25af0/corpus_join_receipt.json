@@ -1,0 +1,238 @@
+{
+  "access_map": {
+    "bronze": "link-only",
+    "closed": "link-only",
+    "gold": {
+      "otherwise": "open-access",
+      "permissive": "gold-oa"
+    },
+    "green": "green-oa",
+    "hybrid": {
+      "cc": "open-access",
+      "otherwise": "link-only"
+    },
+    "otherwise": "link-only",
+    "unknown": "link-only"
+  },
+  "capped_rows": [
+    {
+      "doi": "10.1007/978-3-032-06004-4_4",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1007/978-3-032-09527-5_16",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1007/978-3-032-21324-2_37",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1007/s10458-025-09695-8",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1007/s10489-024-05660-2",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1038/s41598-026-49319-z",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1038/s41746-025-02174-0",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1103/physrevd.110.044063",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1109/aiiot65859.2025.11105319",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1109/cai68641.2026.11536354",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1109/embc58623.2025.11253879",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1109/icassp55912.2026.11462754",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1109/icassp55912.2026.11464478",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1109/jstsp.2026.3671186",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1109/pacificvis68791.2026.00041",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1145/3658644.3690231",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1145/3746027.3756869",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1145/3746027.3758311",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.48550/arxiv.2504.12501",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.48550/arxiv.2601.01321",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.48550/arxiv.2603.25681",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.48550/arxiv.2608.13867",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    }
+  ],
+  "counts": {
+    "access.type": {
+      "gold-oa": 3,
+      "green-oa": 24,
+      "open-access": 2
+    },
+    "builds": 29,
+    "capped": 22,
+    "license_tier": {
+      "noncommercial": 4,
+      "open": 7,
+      "unknown": 18
+    },
+    "oa_status_raw": {
+      "gold": 5,
+      "green": 24
+    },
+    "unique_dois": 29,
+    "unmatched": 0
+  },
+  "domain": "agentic-ai",
+  "duplicate_dois": [],
+  "inputs": {
+    "access_map": "1716c1f87ab08cb241c77e357c5e938b16a1d71d6d4022be7412da82fcb1a59b",
+    "builds/asbb_subwave2_2026-08-31__coll_digital_twin_ai_opportunities_and_challenges_from_large_language_models_to_world_models_cq/build_manifest.json": "0158b9d5714ebefd8f785759370ffc6242cc3ffe577415a4c44e532ac3b5c029",
+    "builds/asbb_subwave2_2026-08-31__coll_digital_twin_ai_opportunities_and_challenges_from_large_language_models_to_world_models_cq/external_enrichment.json": "460316e830b8f662ac8faa2a89767d8980d8ed4bad1a7c0bce413766e787d101",
+    "builds/asbb_subwave2_2026-08-31__coll_engineering_reliable_coding_agents_evaluating_and_operating_the_system_around_the_model_cq/build_manifest.json": "b78b352d171a5cddc274ed5361ae653ef5641dd6b84abbfc03bb7f7152eb5d35",
+    "builds/asbb_subwave2_2026-08-31__coll_engineering_reliable_coding_agents_evaluating_and_operating_the_system_around_the_model_cq/external_enrichment.json": "6cd2213867b9994797e25b4f964193c09b95ec95e383a7a8aacacb39604ef8ab",
+    "builds/asbb_subwave2_2026-08-31__coll_reinforcement_learning_from_human_feedback_cq/build_manifest.json": "b8a5fdd20e781d5d52832f9a3adbcf0e49e3be7ecabb4489d41dd1ec310120fe",
+    "builds/asbb_subwave2_2026-08-31__coll_reinforcement_learning_from_human_feedback_cq/external_enrichment.json": "6bc613b6c383c4ddedd75871d81a3802be7c04987b1c8e14600defaac9e4ee34",
+    "builds/asbb_subwave2_2026-08-31__coll_self_improvement_of_large_language_models_a_technical_overview_and_future_outlook_cq/build_manifest.json": "8d621b73e6fcb677efd5824847a4f93483f31380747fa853a99ab9da9baf4446",
+    "builds/asbb_subwave2_2026-08-31__coll_self_improvement_of_large_language_models_a_technical_overview_and_future_outlook_cq/external_enrichment.json": "95cb49b0e540723b4ae91f0f3d35f9d457d99e17e6a8a6223753404f224b439d",
+    "builds/asbb_wave250_2026-09-01__coll_agentleak_a_benchmark_for_internal_channel_privacy_leakage_in_multi_agent_llm_systems_cq/build_manifest.json": "59cb37bfff65a622fa8e9ad51de11acaef81ced185489b869d37b28c48100e09",
+    "builds/asbb_wave250_2026-09-01__coll_agentleak_a_benchmark_for_internal_channel_privacy_leakage_in_multi_agent_llm_systems_cq/external_enrichment.json": "3448050331301a66fbcca9f1e97ec5e23e4ce3be5d6738f0f5fc75a54e47a510",
+    "builds/asbb_wave250_2026-09-01__coll_agriir_a_scalable_framework_for_domain_specific_knowledge_retrieval_cq/build_manifest.json": "cb032d886454cec9202549c94482d10f9abe336710897245e178614de747513e",
+    "builds/asbb_wave250_2026-09-01__coll_agriir_a_scalable_framework_for_domain_specific_knowledge_retrieval_cq/external_enrichment.json": "2e8cc34e84c476933670679d480b7bead56c290d5aa1cbb6d85311a2256d9304",
+    "builds/asbb_wave250_2026-09-01__coll_audiofab_building_a_general_and_intelligent_audio_factory_through_tool_learning_cq/build_manifest.json": "12851efd30a7d80e6811039b0079fae924c477bf528794185a5f592e298d26a2",
+    "builds/asbb_wave250_2026-09-01__coll_audiofab_building_a_general_and_intelligent_audio_factory_through_tool_learning_cq/external_enrichment.json": "f1de4d8a5fd1e5eb184d15f964360252ee418da00f6beb82d4339bef6383139f",
+    "builds/asbb_wave250_2026-09-01__coll_autovqa_g_self_improving_agentic_framework_for_automated_visual_question_answering_and_grounding_annotation_cq/build_manifest.json": "c182bd2898b050aa294981693da8f81c43313a917ed39112481d914cc4b50f57",
+    "builds/asbb_wave250_2026-09-01__coll_autovqa_g_self_improving_agentic_framework_for_automated_visual_question_answering_and_grounding_annotation_cq/external_enrichment.json": "d2db813c5933a6a56a7417cc2ccbf30f0421d400b3c4248083ac74a57e8514bd",
+    "builds/asbb_wave250_2026-09-01__coll_benchmarking_llms_for_pairwise_causal_discovery_in_biomedical_and_multi_domain_contexts_cq/build_manifest.json": "77fc18a2e0800e9c7cef6254ce86f58f89616b093bfe29a70de02c3d2be3b46c",
+    "builds/asbb_wave250_2026-09-01__coll_benchmarking_llms_for_pairwise_causal_discovery_in_biomedical_and_multi_domain_contexts_cq/external_enrichment.json": "ddf6460b684d2ddb95e1bacf0f0a4b1c7653f25be070293fc86c92eae866dc51",
+    "builds/asbb_wave250_2026-09-01__coll_evl_mcot_enhanced_vision_language_multi_cot_for_harmful_meme_detection_cq/build_manifest.json": "59df2f6350e1360646115ba0afa2d6138b06097fa8a1995e23291ae8bce07453",
+    "builds/asbb_wave250_2026-09-01__coll_evl_mcot_enhanced_vision_language_multi_cot_for_harmful_meme_detection_cq/external_enrichment.json": "29902ecb0603f1bd4faf0b3d3bbc9ac1742ac9f11b789464390acef8ea952af9",
+    "builds/asbb_wave250_2026-09-01__coll_infocir_multimedia_analysis_for_composed_image_retrieval_cq/build_manifest.json": "1eaad2397500f701533b07e3996da4b9acb48fea5b29a77ef0948265ec4aea8f",
+    "builds/asbb_wave250_2026-09-01__coll_infocir_multimedia_analysis_for_composed_image_retrieval_cq/external_enrichment.json": "5f0e21435118b3508382d4784330b3dac3ee8ae8b53948b0b243e8d99222f9a2",
+    "builds/asbb_wave250_2026-09-01__coll_jps_jailbreak_multimodal_large_language_models_with_collaborative_visual_perturbation_and_textual_steering_cq/build_manifest.json": "496b0e65bcf89f49d4f172a1ff160c6605b16423a8938cc776af946041a0cd1e",
+    "builds/asbb_wave250_2026-09-01__coll_jps_jailbreak_multimodal_large_language_models_with_collaborative_visual_perturbation_and_textual_steering_cq/external_enrichment.json": "70d4f5dfc1b78c4f5335c0aa24398712646d4d91141e25707dfb0c4da8020e1d",
+    "builds/asbb_wave250_2026-09-01__coll_labels_generated_by_large_language_models_help_measure_people_s_empathy_in_vitro_cq/build_manifest.json": "4fe7358ef73a80184feddc947c4cf1abbfb473083b536e824f64bb7a672241f3",
+    "builds/asbb_wave250_2026-09-01__coll_labels_generated_by_large_language_models_help_measure_people_s_empathy_in_vitro_cq/external_enrichment.json": "bb50eda236edcf688c553c4be6e075c1bb28940dc54a4ad54012f91487eef254",
+    "builds/asbb_wave250_2026-09-01__coll_large_language_models_as_autonomous_spacecraft_operators_in_kerbal_space_program_cq/build_manifest.json": "49057c8766793ac48ae1f852a16d5239c25344b6d23d21867a1546bf1b6524fe",
+    "builds/asbb_wave250_2026-09-01__coll_large_language_models_as_autonomous_spacecraft_operators_in_kerbal_space_program_cq/external_enrichment.json": "90c8e40b7fbd5164fa31c80896e3ab56b96dada1dff61ab813bf50a0d82d0314",
+    "builds/asbb_wave250_2026-09-01__coll_low_variance_trust_region_optimization_with_independent_actors_and_sequential_updates_in_cooperative_multi_agent_reinforcement_learning_cq/build_manifest.json": "9d308d2bade01822cdb39fdd645e12c4d8527eb671da7acc58a13613a3db9330",
+    "builds/asbb_wave250_2026-09-01__coll_low_variance_trust_region_optimization_with_independent_actors_and_sequential_updates_in_cooperative_multi_agent_reinforcement_learning_cq/external_enrichment.json": "9994900d4735386ff929256750f09972e8d75bfc71bf13d6843a252e4665809d",
+    "builds/asbb_wave250_2026-09-01__coll_maltopic_multi_agent_llm_topic_modeling_framework_cq/build_manifest.json": "f7526f23ecb87d46d4a65199476d18d4af653299dc173c42be2ff8837397916a",
+    "builds/asbb_wave250_2026-09-01__coll_maltopic_multi_agent_llm_topic_modeling_framework_cq/external_enrichment.json": "319b50911f5a66d14b946e68782ac4c5c99246c62ecdf5968d4a838696d99596",
+    "builds/asbb_wave250_2026-09-01__coll_matching_tasks_to_objectives_fine_tuning_and_prompt_tuning_strategies_for_encoder_decoder_pre_trained_language_models_cq/build_manifest.json": "1850dd1e05d242f351fd20a953a5dafbeadb65044f81135b96fdd04deffc8ffa",
+    "builds/asbb_wave250_2026-09-01__coll_matching_tasks_to_objectives_fine_tuning_and_prompt_tuning_strategies_for_encoder_decoder_pre_trained_language_models_cq/external_enrichment.json": "73e5a8580ece2362453fcf0885fec687c04fe03b023b146c7d15c45704435f69",
+    "builds/asbb_wave250_2026-09-01__coll_medpao_a_protocol_driven_agent_for_structuring_medical_reports_cq/build_manifest.json": "784609e1ffc6498fea98fe752bb947415854b995b703d942ddcabde43a8bd3c3",
+    "builds/asbb_wave250_2026-09-01__coll_medpao_a_protocol_driven_agent_for_structuring_medical_reports_cq/external_enrichment.json": "185fb58b6dc02ad62b2e248eb36bda91a1aeaf512da02766721054454aafdf2e",
+    "builds/asbb_wave250_2026-09-01__coll_new_search_pipeline_for_gravitational_waves_with_higher_order_modes_using_mode_by_mode_filtering_cq/build_manifest.json": "f6aa0f3ab6a3fa6b3d3243227ade419e91f5e3d5435131201b9311a08d8e2e59",
+    "builds/asbb_wave250_2026-09-01__coll_new_search_pipeline_for_gravitational_waves_with_higher_order_modes_using_mode_by_mode_filtering_cq/external_enrichment.json": "d3556a8a47db5fe932d44b5e18ad6511e0fc680a0ba813c684a48ffec3c2f24d",
+    "builds/asbb_wave250_2026-09-01__coll_nutrigen_personalized_meal_plan_generator_leveraging_large_language_models_to_enhance_dietary_and_nutritional_adherence_cq/build_manifest.json": "122a6ba419f50f67db3b0acb00d94adfff91333428cc16dede154be4c1ff5406",
+    "builds/asbb_wave250_2026-09-01__coll_nutrigen_personalized_meal_plan_generator_leveraging_large_language_models_to_enhance_dietary_and_nutritional_adherence_cq/external_enrichment.json": "7d64208f8d1c0eb4a5cb722a21a7c9dea59e2272b15143106cb1cc41ba5ae3de",
+    "builds/asbb_wave250_2026-09-01__coll_predict_the_retrieval_test_time_adaptation_for_retrieval_augmented_generation_cq/build_manifest.json": "3bb2e6cfa39330f5f67e1c99e10d1694a307004857dc214edd9c3a81ed1be9dc",
+    "builds/asbb_wave250_2026-09-01__coll_predict_the_retrieval_test_time_adaptation_for_retrieval_augmented_generation_cq/external_enrichment.json": "86a2a4df130764cce979767a3457dd2fc571f42c03491bd52eaa94244f094050",
+    "builds/asbb_wave250_2026-09-01__coll_prophetfuzz_fully_automated_prediction_and_fuzzing_of_high_risk_option_combinations_with_only_documentation_via_large_language_model_cq/build_manifest.json": "c48bd95ceb3669f1a80078952669ac1b0da0f26b422fc83946be377314f86b4e",
+    "builds/asbb_wave250_2026-09-01__coll_prophetfuzz_fully_automated_prediction_and_fuzzing_of_high_risk_option_combinations_with_only_documentation_via_large_language_model_cq/external_enrichment.json": "b702b7189713e72d4d9f409b3d44d0def5ee989c5969505a49ee89be132f982a",
+    "builds/asbb_wave250_2026-09-01__coll_refactx_scalable_reasoning_with_reliable_facts_via_constrained_generation_cq/build_manifest.json": "a984be7263d4c93477ab6659b7776b29e057dc260ee9341a58dbcea8459f5026",
+    "builds/asbb_wave250_2026-09-01__coll_refactx_scalable_reasoning_with_reliable_facts_via_constrained_generation_cq/external_enrichment.json": "6b51412d8f45ad312887f9d074be40e2033a60c7c370863d46796ec9768cf8ec",
+    "builds/asbb_wave250_2026-09-01__coll_streamingcot_a_dataset_for_temporal_dynamics_and_multimodal_chain_of_thought_reasoning_in_streaming_videoqa_cq/build_manifest.json": "db85ab506bb66e4f5dce5622b9a5e274f0a82da17725a8ba3a65aad15fbb157f",
+    "builds/asbb_wave250_2026-09-01__coll_streamingcot_a_dataset_for_temporal_dynamics_and_multimodal_chain_of_thought_reasoning_in_streaming_videoqa_cq/external_enrichment.json": "29f290be6c11ea56182a8ec30c3bc93cf5cc775b3702e1c57df168ca4107b6bd",
+    "builds/asbb_wave250_2026-09-01__coll_uncertainty_aware_llm_guided_policy_shaping_for_sparse_reward_reinforcement_learning_cq/build_manifest.json": "d4c4da73b8016c37849fd68b3a8efeb6a82c2e7240f1258fac63327875c2de11",
+    "builds/asbb_wave250_2026-09-01__coll_uncertainty_aware_llm_guided_policy_shaping_for_sparse_reward_reinforcement_learning_cq/external_enrichment.json": "8de823cb8cc0385ebb143b9f62500cd2047ad4365e08f00c35ed7013c46bd817",
+    "builds/asbb_wave250_2026-09-01__coll_vision_language_and_large_language_model_performance_in_gastroenterology_gpt_claude_llama_phi_mistral_gemma_and_quantized_models_cq/build_manifest.json": "db00743cd6740374b93985c04a49c4bd9d64884860da58148c0b0fe982e006cf",
+    "builds/asbb_wave250_2026-09-01__coll_vision_language_and_large_language_model_performance_in_gastroenterology_gpt_claude_llama_phi_mistral_gemma_and_quantized_models_cq/external_enrichment.json": "4bc71f981d0fee02c6a7a9144482ea3e4cdb87fd56fd103fad8a46a8126ece90",
+    "builds/asbb_wave250_2026-09-01__coll_visual_information_extraction_from_documents_via_classification_guided_large_vision_language_models_cq/build_manifest.json": "95bb81d62380abbbb47290b0fa3fe50359537a485425f2beff3723a308e28878",
+    "builds/asbb_wave250_2026-09-01__coll_visual_information_extraction_from_documents_via_classification_guided_large_vision_language_models_cq/external_enrichment.json": "916c3e4aae6bd70039fdf0790dc895e6c0882dc896c6414c81dfc01b0dc53abe",
+    "builds/asbb_wave250_2026-09-01__coll_visual_saliency_steering_distillation_for_multimodal_chain_of_thought_reasoning_cq/build_manifest.json": "0f29696f7ee2c71fdc7eb808db589f3f3e500850b494fa57062ea22088bb9db7",
+    "builds/asbb_wave250_2026-09-01__coll_visual_saliency_steering_distillation_for_multimodal_chain_of_thought_reasoning_cq/external_enrichment.json": "0485246297cb7d6a531a518d1caea7a5f9860cd22f525ae244a71b3bbb23184e",
+    "builds/asbb_wave250_2026-09-01__coll_wattcouncil_context_aware_household_energy_scenario_generation_with_governed_llms_cq/build_manifest.json": "e59794ed4d10be3671538ad20ed0c11f7f4ea945532c1bae0a040f700141b090",
+    "builds/asbb_wave250_2026-09-01__coll_wattcouncil_context_aware_household_energy_scenario_generation_with_governed_llms_cq/external_enrichment.json": "877d8c35858d90cbb8aab7c278322fa6ce4b63449af2c0bf8e2efada501bc3f9",
+    "tiered": "aff11799a98b34c10751ce5f0a926c41a7b13124ca1c4c7c7fdd9dc9aff0f106"
+  },
+  "schema": "asbb-corpus-join-receipt/1.0",
+  "stage": "S4",
+  "unmatched_rows": []
+}

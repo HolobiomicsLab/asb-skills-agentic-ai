@@ -1,0 +1,20 @@
+name: astropy
+slug: astropy
+version_used: null
+edam_topics: []
+evidence_spans:
+- the `kspdg` library depends upon [astropy](https://www.astropy.org/), which in turn depends upon [pyerfa]
+derived_from:
+- doi: 10.1016/j.asr.2025.06.034
+  title: Large language models as autonomous spacecraft operators in kerbal space program
+- doi: 10.1103/physrevd.110.044063
+  title: New search pipeline for gravitational waves with higher-order modes using mode-by-mode filtering
+source_repos:
+- https://github.com/ARCLab-MIT/kspdg
+- https://github.com/JayWadekar/gwIAS-HM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ARCLab-MIT/kspdg

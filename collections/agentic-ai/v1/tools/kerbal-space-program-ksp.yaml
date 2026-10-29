@@ -1,0 +1,17 @@
+name: Kerbal Space Program (KSP)
+slug: kerbal-space-program-ksp
+version_used: null
+edam_topics: []
+evidence_spans:
+- Kerbal Space Program Differential Games suite (KSPDG)—the primary focus of this work
+derived_from:
+- doi: 10.1016/j.asr.2025.06.034
+  title: Large language models as autonomous spacecraft operators in kerbal space program
+source_repos:
+- https://github.com/ARCLab-MIT/kspdg
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ARCLab-MIT/kspdg

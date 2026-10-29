@@ -1,0 +1,21 @@
+name: matplotlib
+slug: matplotlib
+version_used: null
+edam_topics: []
+evidence_spans:
+- <img src="https://raw.githubusercontent.com/BGWH123/VSSD/main/image/all_vs_alpha.png" width="600" alt="Analysis of alpha">
+- pip install -r requirements.txt
+derived_from:
+- doi: 10.1103/physrevd.110.044063
+  title: New search pipeline for gravitational waves with higher-order modes using mode-by-mode filtering
+- doi: 10.1109/icassp55912.2026.11463006
+  title: Visual Saliency Steering Distillation for Multimodal Chain-of-Thought Reasoning
+source_repos:
+- https://github.com/JayWadekar/gwIAS-HM
+- https://github.com/BGWH123/VSSD
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JayWadekar/gwIAS-HM

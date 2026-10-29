@@ -1,0 +1,24 @@
+name: github.com/ARCLab-MIT/kspdg
+slug: github-com-arclab-mit-kspdg
+version_used: null
+edam_topics: []
+evidence_spans:
+- git clone git@github.com:mit-ll/spacegym-kspdg.git
+- You can explore and learn more about these agents in our [agents folder]
+- See the information about the challenge in the [upstream repository](https://github.com/mit-ll/spacegym-kspdg/tree main)
+- You can explore and learn more about these agents in our [agents folder](https://github.com/ARCLab-MIT/kspdg/tree/main/arclab_mit/agents)
+- 'Source: github:github.com__ARCLab-MIT__kspdg'
+- git clone git@github.com:jrodrigv/PhysicsRangeExtender.git
+- git clone --recursive https://github.com/liberfa/pyerfa/
+- One of them is [tiktoken](https://github.com/openai/tiktoken)
+derived_from:
+- doi: 10.1016/j.asr.2025.06.034
+  title: Large language models as autonomous spacecraft operators in kerbal space program
+source_repos:
+- https://github.com/ARCLab-MIT/kspdg
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ARCLab-MIT/kspdg

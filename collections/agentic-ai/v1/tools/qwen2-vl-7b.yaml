@@ -1,0 +1,17 @@
+name: Qwen2-VL-7B
+slug: qwen2-vl-7b
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- **Qwen2-VL-7B**: Qwen series multimodal model'
+derived_from:
+- doi: 10.1145/3746027.3754561
+  title: 'JPS: Jailbreak Multimodal Large Language Models with Collaborative Visual Perturbation and Textual Steering'
+source_repos:
+- https://github.com/thu-coai/JPS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/thu-coai/JPS

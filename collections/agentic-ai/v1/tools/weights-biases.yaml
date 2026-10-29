@@ -1,0 +1,20 @@
+name: Weights & Biases
+slug: weights-biases
+version_used: null
+edam_topics: []
+evidence_spans:
+- All experiments carried out during this investigation have been tracked using Weights & Biases (wandb).
+- Appendix A. Detailed Weights & Biases Projects
+- experiment tracking and detailed results can be reviewed on Weights & Biases
+- This section focuses on integrating with Weights & Biases (wandb) for managing training files.
+derived_from:
+- doi: 10.1016/j.asr.2025.06.034
+  title: Large language models as autonomous spacecraft operators in kerbal space program
+source_repos:
+- https://github.com/ARCLab-MIT/kspdg
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ARCLab-MIT/kspdg

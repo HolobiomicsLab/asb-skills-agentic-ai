@@ -1,0 +1,18 @@
+name: agentleak
+slug: agentleak
+version_used: null
+edam_topics: []
+evidence_spans:
+- pip install -e .
+- 'python -m agentleak run --attack-family F4   # Specific attacks'
+derived_from:
+- doi: 10.1109/access.2026.3704541
+  title: 'AgentLeak: A Benchmark for Internal-Channel Privacy Leakage in Multi-Agent LLM Systems'
+source_repos:
+- https://github.com/Privatris/AgentLeak
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Privatris/AgentLeak

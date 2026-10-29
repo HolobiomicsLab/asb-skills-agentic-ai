@@ -1,0 +1,20 @@
+name: FAISS
+slug: faiss
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1007/978-3-032-21324-2_37
+  title: 'AgriIR: A Scalable Framework for Domain-Specific Knowledge Retrieval'
+- doi: 10.1038/s41598-026-49319-z
+  title: Visual information extraction from documents via classification-guided large vision-language models
+source_repos:
+- https://github.com/facebookresearch/faiss
+- https://github.com/Shuvam-Banerji-Seal/AgriIR
+- https://github.com/FairmeHIT/Multi-VIE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/facebookresearch/faiss

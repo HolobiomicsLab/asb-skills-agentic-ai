@@ -1,0 +1,18 @@
+name: LlamaGuard3 Judge
+slug: llamaguard3-judge
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- LlamaGuard3 Judge'
+- "- GPT-4o Mini Judge\n- LlamaGuard3 Judge  \n- HarmBench Judge"
+derived_from:
+- doi: 10.1145/3746027.3754561
+  title: 'JPS: Jailbreak Multimodal Large Language Models with Collaborative Visual Perturbation and Textual Steering'
+source_repos:
+- https://github.com/thu-coai/JPS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/thu-coai/JPS

@@ -1,0 +1,1371 @@
+{
+  "auto_merges_applied": false,
+  "components_ge_0_90": 52,
+  "components_ge_0_95": 3,
+  "input_digests": {
+    "coverage_summary_sha256": "576c19e25af057bbec62a49ecd1b5ab143e729a7097c2bea103967787167b2fc",
+    "outputs": 668
+  },
+  "model": "BAAI/bge-small-en-v1.5",
+  "pairs_0_90_to_0_95": [
+    {
+      "left": {
+        "canonical_slug": "mean-absolute-error-benchmark-evaluation",
+        "merge_kind": "single",
+        "output_id": "mean-absolute-error-benchmark-evaluation"
+      },
+      "right": {
+        "canonical_slug": "mean-absolute-error-computation",
+        "merge_kind": "single",
+        "output_id": "mean-absolute-error-computation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_nutrigen_personalized_meal_plan_generator_leveraging_large_language_models_to_enhance_dietary_and_nutritional_adherence_cq",
+      "score": 0.94491
+    },
+    {
+      "left": {
+        "canonical_slug": "hourly-energy-consumption-profile-generation",
+        "merge_kind": "single",
+        "output_id": "hourly-energy-consumption-profile-generation"
+      },
+      "right": {
+        "canonical_slug": "household-energy-consumption-profile-comparison",
+        "merge_kind": "single",
+        "output_id": "household-energy-consumption-profile-comparison"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_wattcouncil_context_aware_household_energy_scenario_generation_with_governed_llms_cq",
+      "score": 0.938892
+    },
+    {
+      "left": {
+        "canonical_slug": "embedding-cosine-topic-similarity-evaluation",
+        "merge_kind": "single",
+        "output_id": "embedding-cosine-topic-similarity-evaluation"
+      },
+      "right": {
+        "canonical_slug": "topic-embedding-similarity-computation",
+        "merge_kind": "single",
+        "output_id": "topic-embedding-similarity-computation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_maltopic_multi_agent_llm_topic_modeling_framework_cq",
+      "score": 0.938845
+    },
+    {
+      "left": {
+        "canonical_slug": "llm-agent-orchestration-pao",
+        "merge_kind": "single",
+        "output_id": "llm-agent-orchestration-pao"
+      },
+      "right": {
+        "canonical_slug": "plan-act-observe-agent-orchestration",
+        "merge_kind": "single",
+        "output_id": "plan-act-observe-agent-orchestration"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_medpao_a_protocol_driven_agent_for_structuring_medical_reports_cq",
+      "score": 0.937959
+    },
+    {
+      "left": {
+        "canonical_slug": "denoising-objective-adaptation-training",
+        "merge_kind": "single",
+        "output_id": "denoising-objective-adaptation-training"
+      },
+      "right": {
+        "canonical_slug": "objective-aligned-adaptation-pretraining",
+        "merge_kind": "single",
+        "output_id": "objective-aligned-adaptation-pretraining"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_matching_tasks_to_objectives_fine_tuning_and_prompt_tuning_strategies_for_encoder_decoder_pre_trained_language_models_cq",
+      "score": 0.936494
+    },
+    {
+      "left": {
+        "canonical_slug": "high-risk-option-combination-prediction",
+        "merge_kind": "single",
+        "output_id": "high-risk-option-combination-prediction"
+      },
+      "right": {
+        "canonical_slug": "option-combination-risk-categorization",
+        "merge_kind": "single",
+        "output_id": "option-combination-risk-categorization"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_prophetfuzz_fully_automated_prediction_and_fuzzing_of_high_risk_option_combinations_with_only_documentation_via_large_language_model_cq",
+      "score": 0.936428
+    },
+    {
+      "left": {
+        "canonical_slug": "agricultural-answer-citation-insertion",
+        "merge_kind": "single",
+        "output_id": "agricultural-answer-citation-insertion"
+      },
+      "right": {
+        "canonical_slug": "citation-source-attribution",
+        "merge_kind": "single",
+        "output_id": "citation-source-attribution"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_agriir_a_scalable_framework_for_domain_specific_knowledge_retrieval_cq",
+      "score": 0.935446
+    },
+    {
+      "left": {
+        "canonical_slug": "automatic-speech-transcription",
+        "merge_kind": "single",
+        "output_id": "automatic-speech-transcription"
+      },
+      "right": {
+        "canonical_slug": "timbre-preserving-speech-resynthesis",
+        "merge_kind": "single",
+        "output_id": "timbre-preserving-speech-resynthesis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_audiofab_building_a_general_and_intelligent_audio_factory_through_tool_learning_cq",
+      "score": 0.934382
+    },
+    {
+      "left": {
+        "canonical_slug": "video-quality-filter-rule-application",
+        "merge_kind": "single",
+        "output_id": "video-quality-filter-rule-application"
+      },
+      "right": {
+        "canonical_slug": "video-quality-screening-pipeline",
+        "merge_kind": "single",
+        "output_id": "video-quality-screening-pipeline"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_streamingcot_a_dataset_for_temporal_dynamics_and_multimodal_chain_of_thought_reasoning_in_streaming_videoqa_cq",
+      "score": 0.933398
+    },
+    {
+      "left": {
+        "canonical_slug": "llm-meal-plan-generation",
+        "merge_kind": "single",
+        "output_id": "llm-meal-plan-generation"
+      },
+      "right": {
+        "canonical_slug": "meal-plan-calorie-aggregation",
+        "merge_kind": "single",
+        "output_id": "meal-plan-calorie-aggregation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_nutrigen_personalized_meal_plan_generator_leveraging_large_language_models_to_enhance_dietary_and_nutritional_adherence_cq",
+      "score": 0.933081
+    },
+    {
+      "left": {
+        "canonical_slug": "constraint-guided-option-reasoning",
+        "merge_kind": "single",
+        "output_id": "constraint-guided-option-reasoning"
+      },
+      "right": {
+        "canonical_slug": "option-constraint-precision-annotation",
+        "merge_kind": "single",
+        "output_id": "option-constraint-precision-annotation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_prophetfuzz_fully_automated_prediction_and_fuzzing_of_high_risk_option_combinations_with_only_documentation_via_large_language_model_cq",
+      "score": 0.933004
+    },
+    {
+      "left": {
+        "canonical_slug": "objective-aligned-adaptation-pretraining",
+        "merge_kind": "single",
+        "output_id": "objective-aligned-adaptation-pretraining"
+      },
+      "right": {
+        "canonical_slug": "pretraining-objective-mapping",
+        "merge_kind": "single",
+        "output_id": "pretraining-objective-mapping"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_matching_tasks_to_objectives_fine_tuning_and_prompt_tuning_strategies_for_encoder_decoder_pre_trained_language_models_cq",
+      "score": 0.932044
+    },
+    {
+      "left": {
+        "canonical_slug": "ontology-mapping-snomed-radlex",
+        "merge_kind": "single",
+        "output_id": "ontology-mapping-snomed-radlex"
+      },
+      "right": {
+        "canonical_slug": "primary-secondary-ontology-segregation",
+        "merge_kind": "single",
+        "output_id": "primary-secondary-ontology-segregation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_medpao_a_protocol_driven_agent_for_structuring_medical_reports_cq",
+      "score": 0.931489
+    },
+    {
+      "left": {
+        "canonical_slug": "radiology-report-structuring",
+        "merge_kind": "single",
+        "output_id": "radiology-report-structuring"
+      },
+      "right": {
+        "canonical_slug": "structured-report-generation",
+        "merge_kind": "single",
+        "output_id": "structured-report-generation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_medpao_a_protocol_driven_agent_for_structuring_medical_reports_cq",
+      "score": 0.928374
+    },
+    {
+      "left": {
+        "canonical_slug": "masked-choice-prompt-template-design",
+        "merge_kind": "single",
+        "output_id": "masked-choice-prompt-template-design"
+      },
+      "right": {
+        "canonical_slug": "prompt-tuning-template-design",
+        "merge_kind": "single",
+        "output_id": "prompt-tuning-template-design"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_matching_tasks_to_objectives_fine_tuning_and_prompt_tuning_strategies_for_encoder_decoder_pre_trained_language_models_cq",
+      "score": 0.928212
+    },
+    {
+      "left": {
+        "canonical_slug": "catalog-record-count-verification",
+        "merge_kind": "single",
+        "output_id": "catalog-record-count-verification"
+      },
+      "right": {
+        "canonical_slug": "reliability-catalog-record-extraction",
+        "merge_kind": "single",
+        "output_id": "reliability-catalog-record-extraction"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_engineering_reliable_coding_agents_evaluating_and_operating_the_system_around_the_model_cq",
+      "score": 0.927935
+    },
+    {
+      "left": {
+        "canonical_slug": "caloric-error-computation",
+        "merge_kind": "single",
+        "output_id": "caloric-error-computation"
+      },
+      "right": {
+        "canonical_slug": "caloric-target-deviation-analysis",
+        "merge_kind": "single",
+        "output_id": "caloric-target-deviation-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_nutrigen_personalized_meal_plan_generator_leveraging_large_language_models_to_enhance_dietary_and_nutritional_adherence_cq",
+      "score": 0.92788
+    },
+    {
+      "left": {
+        "canonical_slug": "multi-benchmark-accuracy-precision-comparison",
+        "merge_kind": "single",
+        "output_id": "multi-benchmark-accuracy-precision-comparison"
+      },
+      "right": {
+        "canonical_slug": "qa-benchmark-experiment-reproduction",
+        "merge_kind": "single",
+        "output_id": "qa-benchmark-experiment-reproduction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_refactx_scalable_reasoning_with_reliable_facts_via_constrained_generation_cq",
+      "score": 0.927776
+    },
+    {
+      "left": {
+        "canonical_slug": "cot-bbox-accuracy-verification",
+        "merge_kind": "single",
+        "output_id": "cot-bbox-accuracy-verification"
+      },
+      "right": {
+        "canonical_slug": "cot-consistency-verification",
+        "merge_kind": "single",
+        "output_id": "cot-consistency-verification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_autovqa_g_self_improving_agentic_framework_for_automated_visual_question_answering_and_grounding_annotation_cq",
+      "score": 0.926799
+    },
+    {
+      "left": {
+        "canonical_slug": "self-supervised-suffix-prediction-loss-construction",
+        "merge_kind": "single",
+        "output_id": "self-supervised-suffix-prediction-loss-construction"
+      },
+      "right": {
+        "canonical_slug": "suffix-prediction-self-supervised-training",
+        "merge_kind": "single",
+        "output_id": "suffix-prediction-self-supervised-training"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_predict_the_retrieval_test_time_adaptation_for_retrieval_augmented_generation_cq",
+      "score": 0.924957
+    },
+    {
+      "left": {
+        "canonical_slug": "constraint-extraction-benchmark-comparison",
+        "merge_kind": "single",
+        "output_id": "constraint-extraction-benchmark-comparison"
+      },
+      "right": {
+        "canonical_slug": "llm-prompt-based-constraint-extraction",
+        "merge_kind": "single",
+        "output_id": "llm-prompt-based-constraint-extraction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_prophetfuzz_fully_automated_prediction_and_fuzzing_of_high_risk_option_combinations_with_only_documentation_via_large_language_model_cq",
+      "score": 0.924502
+    },
+    {
+      "left": {
+        "canonical_slug": "harmful-meme-multimodal-classification",
+        "merge_kind": "single",
+        "output_id": "harmful-meme-multimodal-classification"
+      },
+      "right": {
+        "canonical_slug": "hateful-meme-classification-model-training",
+        "merge_kind": "single",
+        "output_id": "hateful-meme-classification-model-training"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_evl_mcot_enhanced_vision_language_multi_cot_for_harmful_meme_detection_cq",
+      "score": 0.924174
+    },
+    {
+      "left": {
+        "canonical_slug": "knowledge-graph-tuple-sentence-templating",
+        "merge_kind": "single",
+        "output_id": "knowledge-graph-tuple-sentence-templating"
+      },
+      "right": {
+        "canonical_slug": "sentence-splitter-training-on-knowledge-graph-tuples",
+        "merge_kind": "single",
+        "output_id": "sentence-splitter-training-on-knowledge-graph-tuples"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_matching_tasks_to_objectives_fine_tuning_and_prompt_tuning_strategies_for_encoder_decoder_pre_trained_language_models_cq",
+      "score": 0.923934
+    },
+    {
+      "left": {
+        "canonical_slug": "retrieval-augmented-generation-overhead-comparison",
+        "merge_kind": "single",
+        "output_id": "retrieval-augmented-generation-overhead-comparison"
+      },
+      "right": {
+        "canonical_slug": "test-time-adaptation-for-retrieval-augmented-generation",
+        "merge_kind": "single",
+        "output_id": "test-time-adaptation-for-retrieval-augmented-generation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_predict_the_retrieval_test_time_adaptation_for_retrieval_augmented_generation_cq",
+      "score": 0.922668
+    },
+    {
+      "left": {
+        "canonical_slug": "denoising-objective-adaptation-training",
+        "merge_kind": "single",
+        "output_id": "denoising-objective-adaptation-training"
+      },
+      "right": {
+        "canonical_slug": "denoising-vs-lm-objective-alignment",
+        "merge_kind": "single",
+        "output_id": "denoising-vs-lm-objective-alignment"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_matching_tasks_to_objectives_fine_tuning_and_prompt_tuning_strategies_for_encoder_decoder_pre_trained_language_models_cq",
+      "score": 0.922046
+    },
+    {
+      "left": {
+        "canonical_slug": "encoder-decoder-text-to-text-evaluation",
+        "merge_kind": "single",
+        "output_id": "encoder-decoder-text-to-text-evaluation"
+      },
+      "right": {
+        "canonical_slug": "t5-encoder-decoder-fine-tuning",
+        "merge_kind": "single",
+        "output_id": "t5-encoder-decoder-fine-tuning"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_matching_tasks_to_objectives_fine_tuning_and_prompt_tuning_strategies_for_encoder_decoder_pre_trained_language_models_cq",
+      "score": 0.921917
+    },
+    {
+      "left": {
+        "canonical_slug": "speech-emotion-recognition",
+        "merge_kind": "single",
+        "output_id": "speech-emotion-recognition"
+      },
+      "right": {
+        "canonical_slug": "timbre-preserving-speech-resynthesis",
+        "merge_kind": "single",
+        "output_id": "timbre-preserving-speech-resynthesis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_audiofab_building_a_general_and_intelligent_audio_factory_through_tool_learning_cq",
+      "score": 0.92112
+    },
+    {
+      "left": {
+        "canonical_slug": "bbox-grounding-accuracy-scoring",
+        "merge_kind": "single",
+        "output_id": "bbox-grounding-accuracy-scoring"
+      },
+      "right": {
+        "canonical_slug": "cot-bbox-accuracy-verification",
+        "merge_kind": "single",
+        "output_id": "cot-bbox-accuracy-verification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_autovqa_g_self_improving_agentic_framework_for_automated_visual_question_answering_and_grounding_annotation_cq",
+      "score": 0.920195
+    },
+    {
+      "left": {
+        "canonical_slug": "medical-concept-extraction",
+        "merge_kind": "single",
+        "output_id": "medical-concept-extraction"
+      },
+      "right": {
+        "canonical_slug": "structured-report-generation",
+        "merge_kind": "single",
+        "output_id": "structured-report-generation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_medpao_a_protocol_driven_agent_for_structuring_medical_reports_cq",
+      "score": 0.920104
+    },
+    {
+      "left": {
+        "canonical_slug": "survey-free-text-topic-analysis",
+        "merge_kind": "single",
+        "output_id": "survey-free-text-topic-analysis"
+      },
+      "right": {
+        "canonical_slug": "survey-response-topic-characterization",
+        "merge_kind": "single",
+        "output_id": "survey-response-topic-characterization"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_maltopic_multi_agent_llm_topic_modeling_framework_cq",
+      "score": 0.920099
+    },
+    {
+      "left": {
+        "canonical_slug": "objective-aligned-prompt-template-design",
+        "merge_kind": "single",
+        "output_id": "objective-aligned-prompt-template-design"
+      },
+      "right": {
+        "canonical_slug": "prompt-tuning-template-design",
+        "merge_kind": "single",
+        "output_id": "prompt-tuning-template-design"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_matching_tasks_to_objectives_fine_tuning_and_prompt_tuning_strategies_for_encoder_decoder_pre_trained_language_models_cq",
+      "score": 0.919285
+    },
+    {
+      "left": {
+        "canonical_slug": "test-time-adaptation-hyperparameter-sweep",
+        "merge_kind": "single",
+        "output_id": "test-time-adaptation-hyperparameter-sweep"
+      },
+      "right": {
+        "canonical_slug": "test-time-adaptation-runtime-benchmarking",
+        "merge_kind": "single",
+        "output_id": "test-time-adaptation-runtime-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_predict_the_retrieval_test_time_adaptation_for_retrieval_augmented_generation_cq",
+      "score": 0.918293
+    },
+    {
+      "left": {
+        "canonical_slug": "exact-match-qa-scoring",
+        "merge_kind": "single",
+        "output_id": "exact-match-qa-scoring"
+      },
+      "right": {
+        "canonical_slug": "llm-as-a-judge-answer-evaluation",
+        "merge_kind": "single",
+        "output_id": "llm-as-a-judge-answer-evaluation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_refactx_scalable_reasoning_with_reliable_facts_via_constrained_generation_cq",
+      "score": 0.918116
+    },
+    {
+      "left": {
+        "canonical_slug": "llm-agent-orchestration",
+        "merge_kind": "single",
+        "output_id": "llm-agent-orchestration"
+      },
+      "right": {
+        "canonical_slug": "multi-agent-pipeline-orchestration",
+        "merge_kind": "single",
+        "output_id": "multi-agent-pipeline-orchestration"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_maltopic_multi_agent_llm_topic_modeling_framework_cq",
+      "score": 0.917583
+    },
+    {
+      "left": {
+        "canonical_slug": "physical-constraint-validation-of-load-profiles",
+        "merge_kind": "single",
+        "output_id": "physical-constraint-validation-of-load-profiles"
+      },
+      "right": {
+        "canonical_slug": "schema-constraint-validation",
+        "merge_kind": "single",
+        "output_id": "schema-constraint-validation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_wattcouncil_context_aware_household_energy_scenario_generation_with_governed_llms_cq",
+      "score": 0.917164
+    },
+    {
+      "left": {
+        "canonical_slug": "document-type-image-classification",
+        "merge_kind": "single",
+        "output_id": "document-type-image-classification"
+      },
+      "right": {
+        "canonical_slug": "keyword-based-document-type-classification",
+        "merge_kind": "single",
+        "output_id": "keyword-based-document-type-classification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_visual_information_extraction_from_documents_via_classification_guided_large_vision_language_models_cq",
+      "score": 0.917068
+    },
+    {
+      "left": {
+        "canonical_slug": "hourly-energy-consumption-profile-generation",
+        "merge_kind": "single",
+        "output_id": "hourly-energy-consumption-profile-generation"
+      },
+      "right": {
+        "canonical_slug": "household-energy-scenario-generation",
+        "merge_kind": "single",
+        "output_id": "household-energy-scenario-generation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_wattcouncil_context_aware_household_energy_scenario_generation_with_governed_llms_cq",
+      "score": 0.91663
+    },
+    {
+      "left": {
+        "canonical_slug": "survey-free-text-theme-extraction",
+        "merge_kind": "single",
+        "output_id": "survey-free-text-theme-extraction"
+      },
+      "right": {
+        "canonical_slug": "survey-free-text-topic-analysis",
+        "merge_kind": "single",
+        "output_id": "survey-free-text-topic-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_maltopic_multi_agent_llm_topic_modeling_framework_cq",
+      "score": 0.91627
+    },
+    {
+      "left": {
+        "canonical_slug": "llm-response-option-extraction",
+        "merge_kind": "single",
+        "output_id": "llm-response-option-extraction"
+      },
+      "right": {
+        "canonical_slug": "mcq-option-extraction-from-llm-responses",
+        "merge_kind": "single",
+        "output_id": "mcq-option-extraction-from-llm-responses"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vision_language_and_large_language_model_performance_in_gastroenterology_gpt_claude_llama_phi_mistral_gemma_and_quantized_models_cq",
+      "score": 0.916005
+    },
+    {
+      "left": {
+        "canonical_slug": "crag-benchmark-evaluation-protocol",
+        "merge_kind": "single",
+        "output_id": "crag-benchmark-evaluation-protocol"
+      },
+      "right": {
+        "canonical_slug": "per-domain-accuracy-aggregation",
+        "merge_kind": "single",
+        "output_id": "per-domain-accuracy-aggregation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_predict_the_retrieval_test_time_adaptation_for_retrieval_augmented_generation_cq",
+      "score": 0.915608
+    },
+    {
+      "left": {
+        "canonical_slug": "llm-meal-plan-generation",
+        "merge_kind": "single",
+        "output_id": "llm-meal-plan-generation"
+      },
+      "right": {
+        "canonical_slug": "retrieval-augmented-meal-plan-generation",
+        "merge_kind": "single",
+        "output_id": "retrieval-augmented-meal-plan-generation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_nutrigen_personalized_meal_plan_generator_leveraging_large_language_models_to_enhance_dietary_and_nutritional_adherence_cq",
+      "score": 0.915566
+    },
+    {
+      "left": {
+        "canonical_slug": "meal-plan-generation-prompt-execution",
+        "merge_kind": "single",
+        "output_id": "meal-plan-generation-prompt-execution"
+      },
+      "right": {
+        "canonical_slug": "retrieval-augmented-meal-plan-generation",
+        "merge_kind": "single",
+        "output_id": "retrieval-augmented-meal-plan-generation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_nutrigen_personalized_meal_plan_generator_leveraging_large_language_models_to_enhance_dietary_and_nutritional_adherence_cq",
+      "score": 0.915212
+    },
+    {
+      "left": {
+        "canonical_slug": "cohens-kappa-agreement-analysis",
+        "merge_kind": "single",
+        "output_id": "cohens-kappa-agreement-analysis"
+      },
+      "right": {
+        "canonical_slug": "fleiss-kappa-multirater-agreement-computation",
+        "merge_kind": "single",
+        "output_id": "fleiss-kappa-multirater-agreement-computation"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_engineering_reliable_coding_agents_evaluating_and_operating_the_system_around_the_model_cq",
+      "score": 0.914881
+    },
+    {
+      "left": {
+        "canonical_slug": "data-assimilation-paradigm-taxonomy",
+        "merge_kind": "single",
+        "output_id": "data-assimilation-paradigm-taxonomy"
+      },
+      "right": {
+        "canonical_slug": "hybrid-learning-data-assimilation-classification",
+        "merge_kind": "single",
+        "output_id": "hybrid-learning-data-assimilation-classification"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_digital_twin_ai_opportunities_and_challenges_from_large_language_models_to_world_models_cq",
+      "score": 0.914577
+    },
+    {
+      "left": {
+        "canonical_slug": "entropy-based-policy-blending",
+        "merge_kind": "single",
+        "output_id": "entropy-based-policy-blending"
+      },
+      "right": {
+        "canonical_slug": "reinforcement-learning-policy-shaping",
+        "merge_kind": "single",
+        "output_id": "reinforcement-learning-policy-shaping"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_uncertainty_aware_llm_guided_policy_shaping_for_sparse_reward_reinforcement_learning_cq",
+      "score": 0.913917
+    },
+    {
+      "left": {
+        "canonical_slug": "masked-token-loss-aggregation",
+        "merge_kind": "single",
+        "output_id": "masked-token-loss-aggregation"
+      },
+      "right": {
+        "canonical_slug": "prompt-token-masking-in-loss-computation",
+        "merge_kind": "single",
+        "output_id": "prompt-token-masking-in-loss-computation"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_reinforcement_learning_from_human_feedback_cq",
+      "score": 0.913841
+    },
+    {
+      "left": {
+        "canonical_slug": "command-placeholder-resolution",
+        "merge_kind": "single",
+        "output_id": "command-placeholder-resolution"
+      },
+      "right": {
+        "canonical_slug": "file-placeholder-matching",
+        "merge_kind": "single",
+        "output_id": "file-placeholder-matching"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_prophetfuzz_fully_automated_prediction_and_fuzzing_of_high_risk_option_combinations_with_only_documentation_via_large_language_model_cq",
+      "score": 0.913567
+    },
+    {
+      "left": {
+        "canonical_slug": "medical-concept-extraction",
+        "merge_kind": "single",
+        "output_id": "medical-concept-extraction"
+      },
+      "right": {
+        "canonical_slug": "radiology-report-structuring",
+        "merge_kind": "single",
+        "output_id": "radiology-report-structuring"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_medpao_a_protocol_driven_agent_for_structuring_medical_reports_cq",
+      "score": 0.913503
+    },
+    {
+      "left": {
+        "canonical_slug": "atomic2020-knowledge-completion-data-formatting",
+        "merge_kind": "single",
+        "output_id": "atomic2020-knowledge-completion-data-formatting"
+      },
+      "right": {
+        "canonical_slug": "commonsense-knowledge-completion-evaluation",
+        "merge_kind": "single",
+        "output_id": "commonsense-knowledge-completion-evaluation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_matching_tasks_to_objectives_fine_tuning_and_prompt_tuning_strategies_for_encoder_decoder_pre_trained_language_models_cq",
+      "score": 0.912353
+    },
+    {
+      "left": {
+        "canonical_slug": "caloric-error-computation",
+        "merge_kind": "single",
+        "output_id": "caloric-error-computation"
+      },
+      "right": {
+        "canonical_slug": "mean-absolute-error-computation",
+        "merge_kind": "single",
+        "output_id": "mean-absolute-error-computation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_nutrigen_personalized_meal_plan_generator_leveraging_large_language_models_to_enhance_dietary_and_nutritional_adherence_cq",
+      "score": 0.912328
+    },
+    {
+      "left": {
+        "canonical_slug": "chat-template-data-formatting",
+        "merge_kind": "single",
+        "output_id": "chat-template-data-formatting"
+      },
+      "right": {
+        "canonical_slug": "chatml-template-rendering",
+        "merge_kind": "single",
+        "output_id": "chatml-template-rendering"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_reinforcement_learning_from_human_feedback_cq",
+      "score": 0.912267
+    },
+    {
+      "left": {
+        "canonical_slug": "api-key-configured-llm-inference",
+        "merge_kind": "single",
+        "output_id": "api-key-configured-llm-inference"
+      },
+      "right": {
+        "canonical_slug": "prompt-template-driven-generation",
+        "merge_kind": "single",
+        "output_id": "prompt-template-driven-generation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_nutrigen_personalized_meal_plan_generator_leveraging_large_language_models_to_enhance_dietary_and_nutritional_adherence_cq",
+      "score": 0.912263
+    },
+    {
+      "left": {
+        "canonical_slug": "llm-multi-agent-orchestration",
+        "merge_kind": "single",
+        "output_id": "llm-multi-agent-orchestration"
+      },
+      "right": {
+        "canonical_slug": "llm-structured-generation",
+        "merge_kind": "single",
+        "output_id": "llm-structured-generation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_wattcouncil_context_aware_household_energy_scenario_generation_with_governed_llms_cq",
+      "score": 0.912259
+    },
+    {
+      "left": {
+        "canonical_slug": "b-tree-prefix-lookup-tuning",
+        "merge_kind": "single",
+        "output_id": "b-tree-prefix-lookup-tuning"
+      },
+      "right": {
+        "canonical_slug": "prefix-tree-index-construction",
+        "merge_kind": "single",
+        "output_id": "prefix-tree-index-construction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_refactx_scalable_reasoning_with_reliable_facts_via_constrained_generation_cq",
+      "score": 0.911168
+    },
+    {
+      "left": {
+        "canonical_slug": "chain-of-thought-consistency-verification",
+        "merge_kind": "single",
+        "output_id": "chain-of-thought-consistency-verification"
+      },
+      "right": {
+        "canonical_slug": "cot-consistency-verification",
+        "merge_kind": "single",
+        "output_id": "cot-consistency-verification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_autovqa_g_self_improving_agentic_framework_for_automated_visual_question_answering_and_grounding_annotation_cq",
+      "score": 0.911057
+    },
+    {
+      "left": {
+        "canonical_slug": "mcq-accuracy-scoring",
+        "merge_kind": "single",
+        "output_id": "mcq-accuracy-scoring"
+      },
+      "right": {
+        "canonical_slug": "paired-accuracy-significance-testing",
+        "merge_kind": "single",
+        "output_id": "paired-accuracy-significance-testing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vision_language_and_large_language_model_performance_in_gastroenterology_gpt_claude_llama_phi_mistral_gemma_and_quantized_models_cq",
+      "score": 0.910034
+    },
+    {
+      "left": {
+        "canonical_slug": "vqa-grounding-annotation-generation",
+        "merge_kind": "single",
+        "output_id": "vqa-grounding-annotation-generation"
+      },
+      "right": {
+        "canonical_slug": "vqag-annotation-pipeline-execution",
+        "merge_kind": "single",
+        "output_id": "vqag-annotation-pipeline-execution"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_autovqa_g_self_improving_agentic_framework_for_automated_visual_question_answering_and_grounding_annotation_cq",
+      "score": 0.909374
+    },
+    {
+      "left": {
+        "canonical_slug": "agricultural-query-refinement-llm",
+        "merge_kind": "single",
+        "output_id": "agricultural-query-refinement-llm"
+      },
+      "right": {
+        "canonical_slug": "web-search-llm-filtering",
+        "merge_kind": "single",
+        "output_id": "web-search-llm-filtering"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_agriir_a_scalable_framework_for_domain_specific_knowledge_retrieval_cq",
+      "score": 0.90915
+    },
+    {
+      "left": {
+        "canonical_slug": "baseline-topic-list-comparison",
+        "merge_kind": "single",
+        "output_id": "baseline-topic-list-comparison"
+      },
+      "right": {
+        "canonical_slug": "generated-vs-reference-topic-comparison",
+        "merge_kind": "single",
+        "output_id": "generated-vs-reference-topic-comparison"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_maltopic_multi_agent_llm_topic_modeling_framework_cq",
+      "score": 0.908936
+    },
+    {
+      "left": {
+        "canonical_slug": "llm-mcq-scoring",
+        "merge_kind": "single",
+        "output_id": "llm-mcq-scoring"
+      },
+      "right": {
+        "canonical_slug": "mcq-accuracy-scoring",
+        "merge_kind": "single",
+        "output_id": "mcq-accuracy-scoring"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vision_language_and_large_language_model_performance_in_gastroenterology_gpt_claude_llama_phi_mistral_gemma_and_quantized_models_cq",
+      "score": 0.90874
+    },
+    {
+      "left": {
+        "canonical_slug": "llm-meal-plan-generation",
+        "merge_kind": "single",
+        "output_id": "llm-meal-plan-generation"
+      },
+      "right": {
+        "canonical_slug": "prompt-template-driven-generation",
+        "merge_kind": "single",
+        "output_id": "prompt-template-driven-generation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_nutrigen_personalized_meal_plan_generator_leveraging_large_language_models_to_enhance_dietary_and_nutritional_adherence_cq",
+      "score": 0.908677
+    },
+    {
+      "left": {
+        "canonical_slug": "caption-conditioned-response-evaluation",
+        "merge_kind": "single",
+        "output_id": "caption-conditioned-response-evaluation"
+      },
+      "right": {
+        "canonical_slug": "vision-language-model-image-question-answering-benchmarking",
+        "merge_kind": "single",
+        "output_id": "vision-language-model-image-question-answering-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vision_language_and_large_language_model_performance_in_gastroenterology_gpt_claude_llama_phi_mistral_gemma_and_quantized_models_cq",
+      "score": 0.908026
+    },
+    {
+      "left": {
+        "canonical_slug": "instruction-dataset-preparation-for-sft",
+        "merge_kind": "single",
+        "output_id": "instruction-dataset-preparation-for-sft"
+      },
+      "right": {
+        "canonical_slug": "instruction-tuning-sft-stage",
+        "merge_kind": "single",
+        "output_id": "instruction-tuning-sft-stage"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_reinforcement_learning_from_human_feedback_cq",
+      "score": 0.908022
+    },
+    {
+      "left": {
+        "canonical_slug": "llm-meal-plan-generation",
+        "merge_kind": "single",
+        "output_id": "llm-meal-plan-generation"
+      },
+      "right": {
+        "canonical_slug": "meal-plan-generation-prompt-execution",
+        "merge_kind": "single",
+        "output_id": "meal-plan-generation-prompt-execution"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_nutrigen_personalized_meal_plan_generator_leveraging_large_language_models_to_enhance_dietary_and_nutritional_adherence_cq",
+      "score": 0.907961
+    },
+    {
+      "left": {
+        "canonical_slug": "objective-aligned-prompt-template-design",
+        "merge_kind": "single",
+        "output_id": "objective-aligned-prompt-template-design"
+      },
+      "right": {
+        "canonical_slug": "pretraining-objective-template-alignment",
+        "merge_kind": "single",
+        "output_id": "pretraining-objective-template-alignment"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_matching_tasks_to_objectives_fine_tuning_and_prompt_tuning_strategies_for_encoder_decoder_pre_trained_language_models_cq",
+      "score": 0.907831
+    },
+    {
+      "left": {
+        "canonical_slug": "objective-aligned-prompt-template-design",
+        "merge_kind": "single",
+        "output_id": "objective-aligned-prompt-template-design"
+      },
+      "right": {
+        "canonical_slug": "pretraining-objective-mapping",
+        "merge_kind": "single",
+        "output_id": "pretraining-objective-mapping"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_matching_tasks_to_objectives_fine_tuning_and_prompt_tuning_strategies_for_encoder_decoder_pre_trained_language_models_cq",
+      "score": 0.906615
+    },
+    {
+      "left": {
+        "canonical_slug": "masked-choice-prompt-template-design",
+        "merge_kind": "single",
+        "output_id": "masked-choice-prompt-template-design"
+      },
+      "right": {
+        "canonical_slug": "objective-aligned-prompt-template-design",
+        "merge_kind": "single",
+        "output_id": "objective-aligned-prompt-template-design"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_matching_tasks_to_objectives_fine_tuning_and_prompt_tuning_strategies_for_encoder_decoder_pre_trained_language_models_cq",
+      "score": 0.906102
+    },
+    {
+      "left": {
+        "canonical_slug": "abcdef-protocol-concept-categorization",
+        "merge_kind": "single",
+        "output_id": "abcdef-protocol-concept-categorization"
+      },
+      "right": {
+        "canonical_slug": "medical-concept-extraction",
+        "merge_kind": "single",
+        "output_id": "medical-concept-extraction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_medpao_a_protocol_driven_agent_for_structuring_medical_reports_cq",
+      "score": 0.904872
+    },
+    {
+      "left": {
+        "canonical_slug": "household-composition-generation",
+        "merge_kind": "single",
+        "output_id": "household-composition-generation"
+      },
+      "right": {
+        "canonical_slug": "household-energy-scenario-generation",
+        "merge_kind": "single",
+        "output_id": "household-energy-scenario-generation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_wattcouncil_context_aware_household_energy_scenario_generation_with_governed_llms_cq",
+      "score": 0.904867
+    },
+    {
+      "left": {
+        "canonical_slug": "denoising-vs-lm-objective-alignment",
+        "merge_kind": "single",
+        "output_id": "denoising-vs-lm-objective-alignment"
+      },
+      "right": {
+        "canonical_slug": "pretraining-objective-template-alignment",
+        "merge_kind": "single",
+        "output_id": "pretraining-objective-template-alignment"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_matching_tasks_to_objectives_fine_tuning_and_prompt_tuning_strategies_for_encoder_decoder_pre_trained_language_models_cq",
+      "score": 0.904678
+    },
+    {
+      "left": {
+        "canonical_slug": "pretraining-objective-mapping",
+        "merge_kind": "single",
+        "output_id": "pretraining-objective-mapping"
+      },
+      "right": {
+        "canonical_slug": "task-category-classification",
+        "merge_kind": "single",
+        "output_id": "task-category-classification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_matching_tasks_to_objectives_fine_tuning_and_prompt_tuning_strategies_for_encoder_decoder_pre_trained_language_models_cq",
+      "score": 0.904369
+    },
+    {
+      "left": {
+        "canonical_slug": "prefix-suffix-self-supervised-passage-prediction",
+        "merge_kind": "single",
+        "output_id": "prefix-suffix-self-supervised-passage-prediction"
+      },
+      "right": {
+        "canonical_slug": "suffix-prediction-self-supervised-training",
+        "merge_kind": "single",
+        "output_id": "suffix-prediction-self-supervised-training"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_predict_the_retrieval_test_time_adaptation_for_retrieval_augmented_generation_cq",
+      "score": 0.904345
+    },
+    {
+      "left": {
+        "canonical_slug": "pmi-based-topic-coherence-computation",
+        "merge_kind": "single",
+        "output_id": "pmi-based-topic-coherence-computation"
+      },
+      "right": {
+        "canonical_slug": "topic-coherence-diversity-evaluation",
+        "merge_kind": "single",
+        "output_id": "topic-coherence-diversity-evaluation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_maltopic_multi_agent_llm_topic_modeling_framework_cq",
+      "score": 0.904275
+    },
+    {
+      "left": {
+        "canonical_slug": "llm-inference-latency-profiling",
+        "merge_kind": "single",
+        "output_id": "llm-inference-latency-profiling"
+      },
+      "right": {
+        "canonical_slug": "test-time-adaptation-runtime-benchmarking",
+        "merge_kind": "single",
+        "output_id": "test-time-adaptation-runtime-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_predict_the_retrieval_test_time_adaptation_for_retrieval_augmented_generation_cq",
+      "score": 0.904123
+    },
+    {
+      "left": {
+        "canonical_slug": "reinforcement-learning-policy-shaping",
+        "merge_kind": "single",
+        "output_id": "reinforcement-learning-policy-shaping"
+      },
+      "right": {
+        "canonical_slug": "sparse-reward-policy-training",
+        "merge_kind": "single",
+        "output_id": "sparse-reward-policy-training"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_uncertainty_aware_llm_guided_policy_shaping_for_sparse_reward_reinforcement_learning_cq",
+      "score": 0.904108
+    },
+    {
+      "left": {
+        "canonical_slug": "llm-judge-answer-scoring",
+        "merge_kind": "single",
+        "output_id": "llm-judge-answer-scoring"
+      },
+      "right": {
+        "canonical_slug": "rag-benchmark-accuracy-comparison",
+        "merge_kind": "single",
+        "output_id": "rag-benchmark-accuracy-comparison"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_predict_the_retrieval_test_time_adaptation_for_retrieval_augmented_generation_cq",
+      "score": 0.904049
+    },
+    {
+      "left": {
+        "canonical_slug": "llm-test-time-parameter-adaptation",
+        "merge_kind": "single",
+        "output_id": "llm-test-time-parameter-adaptation"
+      },
+      "right": {
+        "canonical_slug": "test-time-adaptation-hyperparameter-sweep",
+        "merge_kind": "single",
+        "output_id": "test-time-adaptation-hyperparameter-sweep"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_predict_the_retrieval_test_time_adaptation_for_retrieval_augmented_generation_cq",
+      "score": 0.903914
+    },
+    {
+      "left": {
+        "canonical_slug": "throttle-action-label-vocabulary-mapping",
+        "merge_kind": "single",
+        "output_id": "throttle-action-label-vocabulary-mapping"
+      },
+      "right": {
+        "canonical_slug": "thrust-action-label-extraction",
+        "merge_kind": "single",
+        "output_id": "thrust-action-label-extraction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_large_language_models_as_autonomous_spacecraft_operators_in_kerbal_space_program_cq",
+      "score": 0.903837
+    },
+    {
+      "left": {
+        "canonical_slug": "test-time-adaptation-for-retrieval-augmented-generation",
+        "merge_kind": "single",
+        "output_id": "test-time-adaptation-for-retrieval-augmented-generation"
+      },
+      "right": {
+        "canonical_slug": "test-time-adaptation-runtime-benchmarking",
+        "merge_kind": "single",
+        "output_id": "test-time-adaptation-runtime-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_predict_the_retrieval_test_time_adaptation_for_retrieval_augmented_generation_cq",
+      "score": 0.90363
+    },
+    {
+      "left": {
+        "canonical_slug": "household-energy-consumption-profile-comparison",
+        "merge_kind": "single",
+        "output_id": "household-energy-consumption-profile-comparison"
+      },
+      "right": {
+        "canonical_slug": "household-energy-scenario-generation",
+        "merge_kind": "single",
+        "output_id": "household-energy-scenario-generation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_wattcouncil_context_aware_household_energy_scenario_generation_with_governed_llms_cq",
+      "score": 0.903597
+    },
+    {
+      "left": {
+        "canonical_slug": "exact-match-qa-scoring",
+        "merge_kind": "single",
+        "output_id": "exact-match-qa-scoring"
+      },
+      "right": {
+        "canonical_slug": "multi-benchmark-accuracy-precision-comparison",
+        "merge_kind": "single",
+        "output_id": "multi-benchmark-accuracy-precision-comparison"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_refactx_scalable_reasoning_with_reliable_facts_via_constrained_generation_cq",
+      "score": 0.903405
+    },
+    {
+      "left": {
+        "canonical_slug": "retrieval-augmented-prompting-baseline-configuration",
+        "merge_kind": "single",
+        "output_id": "retrieval-augmented-prompting-baseline-configuration"
+      },
+      "right": {
+        "canonical_slug": "sentence-reranking-top-k-context-selection",
+        "merge_kind": "single",
+        "output_id": "sentence-reranking-top-k-context-selection"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_predict_the_retrieval_test_time_adaptation_for_retrieval_augmented_generation_cq",
+      "score": 0.903332
+    },
+    {
+      "left": {
+        "canonical_slug": "calibrated-llm-guided-policy-training",
+        "merge_kind": "single",
+        "output_id": "calibrated-llm-guided-policy-training"
+      },
+      "right": {
+        "canonical_slug": "llm-guided-policy-shaping",
+        "merge_kind": "single",
+        "output_id": "llm-guided-policy-shaping"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_uncertainty_aware_llm_guided_policy_shaping_for_sparse_reward_reinforcement_learning_cq",
+      "score": 0.903262
+    },
+    {
+      "left": {
+        "canonical_slug": "exact-match-qa-scoring",
+        "merge_kind": "single",
+        "output_id": "exact-match-qa-scoring"
+      },
+      "right": {
+        "canonical_slug": "qa-benchmark-experiment-reproduction",
+        "merge_kind": "single",
+        "output_id": "qa-benchmark-experiment-reproduction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_refactx_scalable_reasoning_with_reliable_facts_via_constrained_generation_cq",
+      "score": 0.90308
+    },
+    {
+      "left": {
+        "canonical_slug": "task-category-classification",
+        "merge_kind": "single",
+        "output_id": "task-category-classification"
+      },
+      "right": {
+        "canonical_slug": "training-objective-label-classification",
+        "merge_kind": "single",
+        "output_id": "training-objective-label-classification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_matching_tasks_to_objectives_fine_tuning_and_prompt_tuning_strategies_for_encoder_decoder_pre_trained_language_models_cq",
+      "score": 0.902969
+    },
+    {
+      "left": {
+        "canonical_slug": "household-composition-generation",
+        "merge_kind": "single",
+        "output_id": "household-composition-generation"
+      },
+      "right": {
+        "canonical_slug": "llm-structured-generation",
+        "merge_kind": "single",
+        "output_id": "llm-structured-generation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_wattcouncil_context_aware_household_energy_scenario_generation_with_governed_llms_cq",
+      "score": 0.902784
+    },
+    {
+      "left": {
+        "canonical_slug": "inter-layer-steering-vector-distillation",
+        "merge_kind": "single",
+        "output_id": "inter-layer-steering-vector-distillation"
+      },
+      "right": {
+        "canonical_slug": "multimodal-distillation-model-training",
+        "merge_kind": "single",
+        "output_id": "multimodal-distillation-model-training"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_visual_saliency_steering_distillation_for_multimodal_chain_of_thought_reasoning_cq",
+      "score": 0.901847
+    },
+    {
+      "left": {
+        "canonical_slug": "llm-prompt-optimization",
+        "merge_kind": "single",
+        "output_id": "llm-prompt-optimization"
+      },
+      "right": {
+        "canonical_slug": "prompt-optimization-refinement",
+        "merge_kind": "single",
+        "output_id": "prompt-optimization-refinement"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_autovqa_g_self_improving_agentic_framework_for_automated_visual_question_answering_and_grounding_annotation_cq",
+      "score": 0.901478
+    },
+    {
+      "left": {
+        "canonical_slug": "llm-api-parameter-tuning",
+        "merge_kind": "single",
+        "output_id": "llm-api-parameter-tuning"
+      },
+      "right": {
+        "canonical_slug": "llm-chain-of-thought-prompting",
+        "merge_kind": "single",
+        "output_id": "llm-chain-of-thought-prompting"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_prophetfuzz_fully_automated_prediction_and_fuzzing_of_high_risk_option_combinations_with_only_documentation_via_large_language_model_cq",
+      "score": 0.901334
+    },
+    {
+      "left": {
+        "canonical_slug": "confidence-interval-estimation",
+        "merge_kind": "single",
+        "output_id": "confidence-interval-estimation"
+      },
+      "right": {
+        "canonical_slug": "extraction-accuracy-sample-validation",
+        "merge_kind": "single",
+        "output_id": "extraction-accuracy-sample-validation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vision_language_and_large_language_model_performance_in_gastroenterology_gpt_claude_llama_phi_mistral_gemma_and_quantized_models_cq",
+      "score": 0.901061
+    },
+    {
+      "left": {
+        "canonical_slug": "privacy-leak-detection-benchmarking",
+        "merge_kind": "single",
+        "output_id": "privacy-leak-detection-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "privacy-leakage-channel-aggregation",
+        "merge_kind": "single",
+        "output_id": "privacy-leakage-channel-aggregation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_agentleak_a_benchmark_for_internal_channel_privacy_leakage_in_multi_agent_llm_systems_cq",
+      "score": 0.900951
+    },
+    {
+      "left": {
+        "canonical_slug": "llm-response-option-extraction",
+        "merge_kind": "single",
+        "output_id": "llm-response-option-extraction"
+      },
+      "right": {
+        "canonical_slug": "mcq-accuracy-scoring",
+        "merge_kind": "single",
+        "output_id": "mcq-accuracy-scoring"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vision_language_and_large_language_model_performance_in_gastroenterology_gpt_claude_llama_phi_mistral_gemma_and_quantized_models_cq",
+      "score": 0.900245
+    },
+    {
+      "left": {
+        "canonical_slug": "objective-aligned-adaptation-pretraining",
+        "merge_kind": "single",
+        "output_id": "objective-aligned-adaptation-pretraining"
+      },
+      "right": {
+        "canonical_slug": "objective-aligned-prompt-template-design",
+        "merge_kind": "single",
+        "output_id": "objective-aligned-prompt-template-design"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_matching_tasks_to_objectives_fine_tuning_and_prompt_tuning_strategies_for_encoder_decoder_pre_trained_language_models_cq",
+      "score": 0.900219
+    }
+  ],
+  "pairs_ge_0_95": [
+    {
+      "left": {
+        "canonical_slug": "automatic-speech-transcription",
+        "merge_kind": "single",
+        "output_id": "automatic-speech-transcription"
+      },
+      "right": {
+        "canonical_slug": "speech-emotion-recognition",
+        "merge_kind": "single",
+        "output_id": "speech-emotion-recognition"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_audiofab_building_a_general_and_intelligent_audio_factory_through_tool_learning_cq",
+      "score": 0.966556
+    },
+    {
+      "left": {
+        "canonical_slug": "bert-action-predictor-fine-tuning",
+        "merge_kind": "single",
+        "output_id": "bert-action-predictor-fine-tuning"
+      },
+      "right": {
+        "canonical_slug": "bert-fine-tuning-next-action-prediction",
+        "merge_kind": "single",
+        "output_id": "bert-fine-tuning-next-action-prediction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_uncertainty_aware_llm_guided_policy_shaping_for_sparse_reward_reinforcement_learning_cq",
+      "score": 0.963347
+    },
+    {
+      "left": {
+        "canonical_slug": "fine-tuning-template-alignment",
+        "merge_kind": "single",
+        "output_id": "fine-tuning-template-alignment"
+      },
+      "right": {
+        "canonical_slug": "pretraining-objective-template-alignment",
+        "merge_kind": "single",
+        "output_id": "pretraining-objective-template-alignment"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_matching_tasks_to_objectives_fine_tuning_and_prompt_tuning_strategies_for_encoder_decoder_pre_trained_language_models_cq",
+      "score": 0.962586
+    }
+  ],
+  "runs": 29,
+  "skills": 668,
+  "surplus_leaves": {
+    "ge_0_90": 88,
+    "ge_0_95": 3
+  },
+  "thresholds": {
+    "auto_merge": 0.95,
+    "embed_view": "name_tools",
+    "pair_scope": "same_run_full_pairwise",
+    "suggest": 0.9
+  },
+  "view": "/Users/nothiasl/git/asb-wt-filtered-view/outputs/asbb_classA_papers_2026-09-17_filtered/agentic-ai/corpus"
+}

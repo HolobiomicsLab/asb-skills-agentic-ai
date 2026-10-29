@@ -1,0 +1,16 @@
+name: supersuit
+slug: supersuit
+version_used: 3.7.0
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1007/s10458-025-09695-8
+  title: Low variance trust region optimization with independent actors and sequential updates in cooperative multi-agent reinforcement learning
+source_repos:
+- https://github.com/giangbang/Low-Variance-Trust-Region-MARL
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/giangbang/Low-Variance-Trust-Region-MARL

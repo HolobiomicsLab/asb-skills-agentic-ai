@@ -1,0 +1,20 @@
+name: openai
+slug: openai
+version_used: 1.42.0
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1109/aiiot65859.2025.11105319
+  title: 'MALTopic: Multi-Agent LLM Topic Modeling Framework'
+- doi: 10.1109/embc58623.2025.11253879
+  title: 'NutriGen: Personalized Meal Plan Generator Leveraging Large Language Models to Enhance Dietary and Nutritional Adherence'
+source_repos:
+- https://github.com/openai/openai-python
+- https://github.com/yash91sharma/MALTopic
+- https://github.com/SamanKhamesian/NutriGen
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/openai/openai-python

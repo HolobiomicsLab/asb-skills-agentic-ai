@@ -1,0 +1,20 @@
+name: Llama-3.1-8B-Instruct
+slug: llama-3-1-8b-instruct
+version_used: '3.1'
+edam_topics: []
+evidence_spans:
+- Llama-3.1-8B-Instruct
+derived_from:
+- doi: 10.1109/bigdata66926.2025.11401449
+  title: Benchmarking LLMs for Pairwise Causal Discovery in Biomedical and Multi-Domain Contexts
+- doi: 10.1109/icassp55912.2026.11464478
+  title: Predict the Retrieval! Test Time Adaptation for Retrieval Augmented Generation
+source_repos:
+- https://github.com/sydneyanuyah/CausalDiscovery
+- https://github.com/sunxin000/TTARAG
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sydneyanuyah/CausalDiscovery

@@ -1,0 +1,19 @@
+name: GPT-4
+slug: gpt-4
+version_used: null
+edam_topics: []
+evidence_spans:
+- The proposed EVL-MCoT is evaluated with the setting n=3, m=3 using GPT-4 as the MLLM.
+- The proposed EVL-MCoT is evaluated with the setting n=3, m=3 using GPT-4 as the MLLM
+- using GPT-4 as the MLLM
+derived_from:
+- doi: 10.1007/978-981-95-3349-7_31
+  title: 'EVL-MCoT: Enhanced Vision-Language Multi-CoT for Harmful Meme Detection'
+source_repos:
+- https://github.com/BGWH123/EVL-MCoT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BGWH123/EVL-MCoT

@@ -1,0 +1,17 @@
+name: MiniGPT4-13B
+slug: minigpt4-13b
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- **MiniGPT4-13B**: Compact multimodal model'
+derived_from:
+- doi: 10.1145/3746027.3754561
+  title: 'JPS: Jailbreak Multimodal Large Language Models with Collaborative Visual Perturbation and Textual Steering'
+source_repos:
+- https://github.com/thu-coai/JPS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/thu-coai/JPS

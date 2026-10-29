@@ -1,0 +1,20 @@
+name: meta-llama/Llama-4-Maverick-17B
+slug: meta-llama-llama-4-maverick-17b
+version_used: '5.8'
+edam_topics: []
+evidence_spans:
+- Cultural Auditor   meta-llama/Llama-4-Maverick-17B-... 5      5.8        19,526       140          0.0030
+- meta-llama/Llama-4-Maverick-17B-...
+- Cultural Auditor   meta-llama/Llama-4-Maverick-17B-...
+- meta-llama/Llama-4-Maverick-17B
+derived_from:
+- doi: 10.1145/3744256.3812595
+  title: 'WattCouncil: Context-Aware Household Energy Scenario Generation With Governed LLMs'
+source_repos:
+- https://github.com/Singularity-AI-Lab/wattcouncil
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Singularity-AI-Lab/wattcouncil

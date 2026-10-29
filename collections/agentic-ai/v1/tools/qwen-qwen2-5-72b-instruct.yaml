@@ -1,0 +1,19 @@
+name: Qwen/Qwen2.5-72B-Instruct
+slug: qwen-qwen2-5-72b-instruct
+version_used: '12.4'
+edam_topics: []
+evidence_spans:
+- Ceo                Qwen/Qwen2.5-72B-Instruct           5      12.4       23,147       262          0.0239
+- Qwen/Qwen2.5-72B-Instruct
+- Ceo                Qwen/Qwen2.5-72B-Instruct
+derived_from:
+- doi: 10.1145/3744256.3812595
+  title: 'WattCouncil: Context-Aware Household Energy Scenario Generation With Governed LLMs'
+source_repos:
+- https://github.com/Singularity-AI-Lab/wattcouncil
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Singularity-AI-Lab/wattcouncil
