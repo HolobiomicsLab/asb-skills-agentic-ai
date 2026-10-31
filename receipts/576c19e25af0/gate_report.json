@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-10-30T13:47:41.842707+00:00",
+  "generated_at": "2026-10-31T16:35:00.142424+00:00",
   "collection_dir": "collections/agentic-ai/v1",
   "corpus_path": "collections/agentic-ai/v1/corpus.yaml",
   "mode": "strict",
@@ -8,7 +8,7 @@
   "promote_logic_source": "vendored-fallback",
   "evidence_parser_source": "scripts.release_gate (gate-owned)",
   "policy": {
-    "version": "asbb-content-gate/1.3",
+    "version": "asbb-content-gate/1.4",
     "oa_tiers": [
       "diamond",
       "gold-oa",
@@ -36,12 +36,19 @@
       "SKILL.md",
       "skill_kb.json"
     ],
-    "config_sha256": "0ab02d80bbcee4c5789e4206b5c86e99a28751d17f7f4afa382760b72448b0a4",
-    "implementation_sha256": "cf56d2b6d649a779a9233920d3474f9f41351b49e2d2a63a1610008fccfeff8d"
+    "not_peer_reviewed_doi_prefixes": [
+      "10.1101/",
+      "10.48550/",
+      "10.26434/",
+      "10.5281/"
+    ],
+    "max_leaves_per_evidence_span": 10,
+    "config_sha256": "ae01e4e04fdb86270787e6803fd494e49f49ad0be8324986434b66cf5e7cd7aa",
+    "implementation_sha256": "e92c291297ed60dc568d1dc5f94a10dee43946f027713002a648e4f807c7206f"
   },
   "binding": {
     "payload": {
-      "sha256": "c651834e90d08bde061957dbfb8d52b2eb7af933a02e0c4e863e444fd78f3c5e",
+      "sha256": "b926ace10ef0d6ba3a509b3a9f0c123860a4a3d0095b784a77c12bf0f3a196eb",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -50,7 +57,7 @@
         {
           "path": ".claude-plugin/plugin.json",
           "bytes": 515,
-          "sha256": "77a3c84e71af154566715f2de4f07bc9a517884b2f52259b6b02dc3f9a37d1d1"
+          "sha256": "3b1512906f4b931b041b9d6ec60bfa447acdeaef485a02dcb5182a98bec33c1f"
         },
         {
           "path": ".zenodo.json",
@@ -60,7 +67,7 @@
         {
           "path": "CITATION.cff",
           "bytes": 688,
-          "sha256": "1422aba7277aac2cc50e6314fc96a5a006bc536a12e62d4509f5b9138025aa31"
+          "sha256": "18b45c850b39b7170d7d3635ea82f8bacbdbcf5ce107773d9db42012f9794c9c"
         },
         {
           "path": "bin",
@@ -74,7 +81,7 @@
         {
           "path": "collection.yaml",
           "bytes": 34157,
-          "sha256": "d8da9df3291bcdc41eaa9aedb5e5fb9536380377da66dd52334dec9719690efb"
+          "sha256": "b94f43ea9b47c0b0dbaf904696bae00737bac05f749a9d8cc1dd89f705020d77"
         },
         {
           "path": "corpus.yaml",
@@ -6117,8 +6124,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 2249,
-          "sha256": "d0f91cd935e5fb199641be8c0c6d5c58a586d16fa0798de30388921d2437e300"
+          "bytes": 2248,
+          "sha256": "1d9ed6ee80c806c6b2c9b4d177333f1ba400075038749212cd21879b8d67f367"
         },
         {
           "path": "skills_index.json",
@@ -7300,7 +7307,7 @@
   "blocking": false,
   "exit_code": 0,
   "summary_counts": {
-    "pass": 12,
+    "pass": 15,
     "warn": 0,
     "fail": 0,
     "uncheckable": 0,
@@ -7455,6 +7462,26 @@
       "coverage": {}
     },
     {
+      "name": "skill_frontmatter",
+      "status": "pass",
+      "gates": [
+        10
+      ],
+      "hard_gate": true,
+      "summary": "Every SKILL.md, routing scaffolds included, has YAML frontmatter that parses to a mapping.",
+      "n_findings": 0,
+      "details": [],
+      "scope": "SKILL.md files",
+      "required": false,
+      "counts": {
+        "checked": 669,
+        "skipped": 0,
+        "missing": 0,
+        "failed": 0
+      },
+      "coverage": {}
+    },
+    {
       "name": "unit_closure",
       "status": "pass",
       "gates": [
@@ -7473,6 +7500,48 @@
         "failed": 0
       },
       "coverage": {}
+    },
+    {
+      "name": "peer_review_claim",
+      "status": "pass",
+      "gates": [],
+      "hard_gate": false,
+      "summary": "No advertised file says peer-reviewed when the corpus holds preprint or deposit DOIs (10.1101, 10.48550, 10.26434, 10.5281).",
+      "n_findings": 0,
+      "details": [],
+      "scope": "advertised text files",
+      "required": false,
+      "counts": {
+        "checked": 5,
+        "skipped": 0,
+        "missing": 0,
+        "failed": 0
+      },
+      "coverage": {
+        "not_peer_reviewed_dois": 4
+      }
+    },
+    {
+      "name": "leaf_text_floor",
+      "status": "pass",
+      "gates": [],
+      "hard_gate": false,
+      "summary": "No leaf description reads 'Use when when'; no frontmatter evidence span is shared by more than 10 leaves.  (668 of 668 leaves, 100.0 %, carry no frontmatter evidence span; 433, 64.8 %, carry no evidence of either kind)",
+      "n_findings": 0,
+      "details": [],
+      "scope": "leaf skills",
+      "required": false,
+      "counts": {
+        "checked": 668,
+        "skipped": 0,
+        "missing": 0,
+        "failed": 0
+      },
+      "coverage": {
+        "leaves": 668,
+        "leaves_without_evidence_spans": 668,
+        "leaves_without_any_evidence": 433
+      }
     },
     {
       "name": "gate_input_files",
@@ -7590,5 +7659,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "874f431be297d726dfc40c17dbd534b0716ef463d0aae1cf0408cf66ebb6ed4c"
+  "receipt_sha256": "32ff6ff1632eb788b0d23530746480afca59fad770877b8daed29a98e5def0c4"
 }

@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: If you use this collection, please cite it as below.
-title: ASB Agentic Ai Skill Collection v1
-abstract: 'ASB Agentic Ai: 668 evidence-grounded skills collected from a consolidated literature cut with local retrieval.'
+title: ASB Agentic AI Skill Collection v1
+abstract: 'ASB Agentic AI: 668 evidence-grounded skills collected from a consolidated literature cut with local retrieval.'
 version: '1'
 license: CC-BY-4.0
 url: https://github.com/HolobiomicsLab/asb-skills-agentic-ai
