@@ -1,8 +1,8 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-10-29T19:19:50.283360+00:00",
-  "collection_dir": "/private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/mission-017/land/agentic-ai/candidate",
-  "corpus_path": "/private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/mission-017/land/agentic-ai/candidate/corpus.yaml",
+  "generated_at": "2026-10-30T13:47:41.842707+00:00",
+  "collection_dir": "collections/agentic-ai/v1",
+  "corpus_path": "collections/agentic-ai/v1/corpus.yaml",
   "mode": "strict",
   "strict": true,
   "promote_logic_source": "vendored-fallback",
@@ -41,7 +41,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "787ebc95e17749168c688d3797f2e9e7f53989d38e17168755509a2d20c01199",
+      "sha256": "c651834e90d08bde061957dbfb8d52b2eb7af933a02e0c4e863e444fd78f3c5e",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -54,8 +54,8 @@
         },
         {
           "path": ".zenodo.json",
-          "bytes": 2803,
-          "sha256": "0bbb32b863efd1d6f9d2245c6107d2b58937ddab1af1ac0bd42977c7b8259112"
+          "bytes": 2569,
+          "sha256": "1279569e0c907e82d749188c92ccda8d407c5236f3e10efcbcce67eb25349ea2"
         },
         {
           "path": "CITATION.cff",
@@ -7590,5 +7590,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "f69bab868fe49004da8186eb162d6b4994982b741bfeddd33646c5df37bfe1b0"
+  "receipt_sha256": "874f431be297d726dfc40c17dbd534b0716ef463d0aae1cf0408cf66ebb6ed4c"
 }
