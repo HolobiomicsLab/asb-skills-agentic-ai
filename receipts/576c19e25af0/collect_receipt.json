@@ -1,5 +1,5 @@
 {
-  "builds_root": "/private/tmp/claude-502/-Users-nothiasl-git/83350350-bc62-468b-8787-faed753a4c46/scratchpad/cand/builds/agentic-ai",
+  "builds_root": "agentic-ai",
   "counts": {
     "builds": 29,
     "input_files": 2094,
@@ -2106,7 +2106,7 @@
     "corpus/skills/zero-shot-empathy-score-prediction/tools.json": "c29fc9a34ac02f14b6e8ec5b6d35806a4f58ee482cb456a65f07db7f8710e38e",
     "release_creators.yaml": "7ff7405a2af4aadf66a609161f381c90e236961a3a268e83a168b615f1009cb8"
   },
-  "output_tree_sha256": "3fe1bc434966454af6f30cb5095cbfa328c6442b47d220b30b37c3437771632f",
+  "output_tree_sha256": "be7a72752ad4cdcd78dfcbf9788d1c512d17ac90446878fc80942c8e3b662006",
   "router_index": "provisional skills_index.json derived from leaf frontmatter before router_shape.shape",
   "status": "collected",
   "version": "v1"
