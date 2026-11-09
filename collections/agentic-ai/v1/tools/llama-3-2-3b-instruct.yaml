@@ -1,0 +1,17 @@
+name: Llama-3.2-3B-Instruct
+slug: llama-3-2-3b-instruct
+version_used: '3.2'
+edam_topics: []
+evidence_spans:
+- Llama-3.2-3B-Instruct
+derived_from:
+- doi: 10.1109/bigdata66926.2025.11401449
+  title: Benchmarking LLMs for Pairwise Causal Discovery in Biomedical and Multi-Domain Contexts
+source_repos:
+- https://github.com/sydneyanuyah/CausalDiscovery
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sydneyanuyah/CausalDiscovery

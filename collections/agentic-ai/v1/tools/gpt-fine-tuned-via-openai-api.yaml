@@ -1,0 +1,18 @@
+name: GPT (fine-tuned via OpenAI API)
+slug: gpt-fine-tuned-via-openai-api
+version_used: null
+edam_topics: []
+evidence_spans:
+- Our GPT fine-tuning approach involved small datasets and a few runs due to the limitations that the API offers given its proprietary nature.
+- fine-tuning significantly decreases GPT-3.5 response latency, as demonstrated in Table 4.
+derived_from:
+- doi: 10.1016/j.asr.2025.06.034
+  title: Large language models as autonomous spacecraft operators in kerbal space program
+source_repos:
+- https://github.com/ARCLab-MIT/kspdg
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ARCLab-MIT/kspdg

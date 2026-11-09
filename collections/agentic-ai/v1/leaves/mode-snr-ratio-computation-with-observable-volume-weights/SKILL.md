@@ -1,0 +1,125 @@
+---
+name: mode-snr-ratio-computation-with-observable-volume-weights
+description: Use when building template banks for a mode-by-mode GW search that must
+  trigger only on physically allowed combinations of per-mode SNR time series from
+  the (2,2), (3,3), (4,4) harmonics.
+when_to_use_negative:
+- You are running a quadrupole-only (2,2)-mode search and do not need higher-harmonic
+  SNR ratios or mode combination statistics.
+- You need arbitrary (ℓ,m) modes beyond the three hard-coded ones — the current pipeline
+  hard-codes (22, 33, 44) in a few places and does not yet support ℓ≠m modes.
+- You need to detect or rank candidates from real strain data; this skill only builds
+  the template/ratio inputs used downstream by the triggering and coincidence modules.
+edam_operation: http://edamontology.org/operation_0334
+edam_topics:
+- http://edamontology.org/topic_3318
+tools:
+- name: lalsimulation
+  role: Generates the IMRPhenomXHM frequency-domain waveforms for the (2,2), (3,3),
+    and (4,4) harmonics at each subbank parameter point
+- name: cogwheel
+  role: Waveform infrastructure through which the per-mode IMRPhenomXHM templates
+    are generated and normalized
+  repo: https://github.com/jroulet/cogwheel
+- name: numpy
+  role: Numerical computation of per-mode inner products, whitening/normalization,
+    and R_ℓm ratio tables
+- name: numba
+  role: Listed pipeline dependency supporting the matched-filter/inner-product computations
+- name: astropy
+  role: Listed pipeline dependency used in the waveform/astrophysical computations
+    (e.g. cosmological volume weighting context)
+provenance:
+  source_task_ids:
+  - task_001
+  source_papers:
+  - doi: 10.1103/physrevd.110.044063
+    title: New search pipeline for gravitational waves with higher-order modes using
+      mode-by-mode filtering
+  source_content_hash: sha256:354efcd3c89ad63da9aeb2215ed1b78381bf476b623a7374b0b580849b75e462
+schema_version: 0.2.0
+metadata:
+  license_tier: unknown
+  repo_url: https://github.com/jroulet/cogwheel
+  tools:
+  - astropy
+  - cogwheel
+  - lalsimulation
+  - numba
+  - numpy
+  edam_operation: http://edamontology.org/operation_0334
+  edam_topics:
+  - http://edamontology.org/topic_3318
+  provenance_tier: literature
+license: CC-BY-4.0
+evidence_trimmed: true
+triage_status: critique
+yes_rate: 0.5833333333333334
+n_claims: 12
+---
+
+# mode-snr-ratio-computation-with-observable-volume-weights
+
+## Summary
+
+Compute per-harmonic matched-filter SNR ratios R_ℓm (e.g. R33, R44 relative to the (2,2) mode) from IMRPhenomXHM waveforms at fixed inclination ι = π/2, weighted by observable-volume priors, so that a physical waveform can be reconstructed as a linear combination of separately normalized h22, h33, h44 templates in the IAS-HM mode-by-mode search.
+
+## When to use
+
+Use when building template banks for a mode-by-mode GW search that must trigger only on physically allowed combinations of per-mode SNR time series from the (2,2), (3,3), (4,4) harmonics.
+
+## When NOT to use
+
+- You are running a quadrupole-only (2,2)-mode search and do not need higher-harmonic SNR ratios or mode combination statistics.
+- You need arbitrary (ℓ,m) modes beyond the three hard-coded ones — the current pipeline hard-codes (22, 33, 44) in a few places and does not yet support ℓ≠m modes.
+- You need to detect or rank candidates from real strain data; this skill only builds the template/ratio inputs used downstream by the triggering and coincidence modules.
+
+## Inputs
+
+- Template bank file with subbank parameter points (masses, spins, orientation) from Template_banks.ipynb
+- IMRPhenomXHM frequency-domain waveforms for modes (2,2), (3,3), (4,4) generated via lalsimulation/cogwheel
+- Detector noise PSD for whitening and unit-normalization of per-mode templates
+- Astrophysical prior / observable-volume weights for templates and HM mode amplitude ratios from normalizing flows (Astrophysical_prior.ipynb)
+
+## Outputs
+
+- Stored samples of physically possible fractional SNR ratios R33 and R44 (relative to the (2,2) mode), with observable-volume weights
+- Unit-normalized per-harmonic (h22, h33, h44) templates in templates_subbank.h5
+- Per-mode templates enabling waveform reconstruction as a linear combination of normalized harmonics
+
+## How to apply
+
+Load subbank parameter points (masses, spins, orientation) from the template bank file produced by Template_banks.ipynb, and generate the (2,2), (3,3), and (4,4) frequency-domain waveforms with IMRPhenomXHM via lalsimulation through the cogwheel waveform infrastructure. Whiten and normalize each harmonic template against the detector noise PSD so each per-mode matched-filter SNR is unity for unit signal amplitude, then evaluate the inner product of each higher mode relative to the (2,2) mode at inclination ι = π/2 to obtain the fractional SNR ratios R33 and R44. Weight these mode amplitude ratios with the astrophysical prior (observable-volume weights) generated by the Astrophysical_prior.ipynb normalizing-flow module, and store the normalized per-mode templates together with the R33/R44 ratio table in templates_subbank.h5. The stored R_ℓm samples are what allow a physical waveform to be written as a linear combination of the three normalized harmonic templates, and they constrain the trigger-ranking statistics to physically allowed SNR combinations.
+
+## Related tools
+
+- **lalsimulation** (Generates the IMRPhenomXHM frequency-domain waveforms for the (2,2), (3,3), and (4,4) harmonics at each subbank parameter point)
+- **cogwheel** (Waveform infrastructure through which the per-mode IMRPhenomXHM templates are generated and normalized) — https://github.com/jroulet/cogwheel
+- **numpy** (Numerical computation of per-mode inner products, whitening/normalization, and R_ℓm ratio tables)
+- **numba** (Listed pipeline dependency supporting the matched-filter/inner-product computations)
+- **astropy** (Listed pipeline dependency used in the waveform/astrophysical computations (e.g. cosmological volume weighting context))
+
+## Examples
+
+```
+import lalsimulation; from cogwheel import wavemakers; h22, h33, h44 = [wavemakers.IMRPhenomXHM.gen_h_lm(2, m)(**par) for m in (2, 3, 4)]; R33 = inner(h33, h33)/inner(h22, h22)
+```
+
+## Evaluation signals
+
+- templates_subbank.h5 exists and contains exactly the three hard-coded modes (22, 33, 44) for every subbank parameter point.
+- Each stored harmonic template is unit-normalized: per-mode matched-filter SNR equals unity for unit signal amplitude after whitening against the detector PSD.
+- Stored R33/R44 values fall within physically allowed ranges, verified against the IMRPhenomXHM samples computed at inclination ι = π/2.
+- R_ℓm samples carry observable-volume weights from the normalizing-flow astrophysical prior.
+- Mode-by-mode design keeps per-subbank waveform count at 3x a quadrupole-only bank, matching the reported factor-of-3 matched-filtering cost increase.
+
+## Limitations
+
+- Only the three modes (22, 33, 44) are supported; they are hard-coded in a few places and arbitrary ℓ=m or ℓ≠m modes are not yet supported.
+- The R_ℓm samples are computed at a single inclination, ι = π/2, and rely on IMRPhenomXHM as the waveform approximant.
+- Only Hanford and Livingston detectors are currently hardcoded in the pipeline that consumes these templates.
+
+## Evidence
+
+- [methods] R_l_m computed at edge-on inclination: [evidence span withheld — anchor status: not_found]
+- [abstract] mode-by-mode filtering of three harmonics: [evidence span withheld — anchor status: not_found]

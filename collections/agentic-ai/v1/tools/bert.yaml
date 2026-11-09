@@ -1,0 +1,16 @@
+name: BERT
+slug: bert
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1109/cai68641.2026.11536354
+  title: Uncertainty-Aware LLM-Guided Policy Shaping for Sparse-Reward Reinforcement Learning
+source_repos:
+- https://github.com/USD-AI-ResearchLab/uncertainty-aware-llm-rl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/USD-AI-ResearchLab/uncertainty-aware-llm-rl

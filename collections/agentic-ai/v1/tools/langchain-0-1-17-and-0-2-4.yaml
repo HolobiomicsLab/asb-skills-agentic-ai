@@ -1,0 +1,16 @@
+name: LangChain (0.1.17 and 0.2.4)
+slug: langchain-0-1-17-and-0-2-4
+version_used: 0.1.17
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1038/s41746-025-02174-0
+  title: Benchmarking proprietary and open-source language and vision-language models for gastroenterology clinical reasoning
+source_repos:
+- https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology

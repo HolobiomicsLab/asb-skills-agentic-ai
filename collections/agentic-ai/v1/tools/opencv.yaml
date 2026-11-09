@@ -1,0 +1,19 @@
+name: OpenCV
+slug: opencv
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1145/3746027.3758311
+  title: 'StreamingCoT: A Dataset for Temporal Dynamics and Multimodal Chain-of-Thought Reasoning in Streaming VideoQA'
+- doi: 10.1038/s41598-026-49319-z
+  title: Visual information extraction from documents via classification-guided large vision-language models
+source_repos:
+- https://github.com/Fleeting-hyh/StreamingCoT
+- https://github.com/FairmeHIT/Multi-VIE
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Fleeting-hyh/StreamingCoT

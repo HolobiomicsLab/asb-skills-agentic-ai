@@ -1,0 +1,19 @@
+name: google/gemini-2.5-flash
+slug: google-gemini-2-5-flash
+version_used: '2.5'
+edam_topics: []
+evidence_spans:
+- Generator          google/gemini-2.5-flash             5      186.8      10,991       17,739       0.0476
+- google/gemini-2.5-flash
+- Generator          google/gemini-2.5-flash
+derived_from:
+- doi: 10.1145/3744256.3812595
+  title: 'WattCouncil: Context-Aware Household Energy Scenario Generation With Governed LLMs'
+source_repos:
+- https://github.com/Singularity-AI-Lab/wattcouncil
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Singularity-AI-Lab/wattcouncil

@@ -1,0 +1,16 @@
+name: Qwen2.5-VL-72B-Instruct
+slug: qwen2-5-vl-72b-instruct
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1109/icassp55912.2026.11462754
+  title: 'AutoVQA-G: Self-Improving Agentic Framework for Automated Visual Question Answering and Grounding Annotation'
+source_repos:
+- https://github.com/rohnson1999/AutoVQA-G
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/rohnson1999/AutoVQA-G

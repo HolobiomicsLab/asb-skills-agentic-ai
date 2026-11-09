@@ -1,0 +1,20 @@
+name: Claude 3.5 Sonnet
+slug: claude-3-5-sonnet
+version_used: '3.5'
+edam_topics: []
+evidence_spans:
+- five production LLMs (GPT-4o, GPT-4o-mini, Claude 3.5 Sonnet, Mistral Large, and Llama 3.3 70B)
+derived_from:
+- doi: 10.1109/access.2026.3704541
+  title: 'AgentLeak: A Benchmark for Internal-Channel Privacy Leakage in Multi-Agent LLM Systems'
+- doi: 10.1038/s41746-025-02174-0
+  title: Benchmarking proprietary and open-source language and vision-language models for gastroenterology clinical reasoning
+source_repos:
+- https://github.com/Privatris/AgentLeak
+- https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Privatris/AgentLeak

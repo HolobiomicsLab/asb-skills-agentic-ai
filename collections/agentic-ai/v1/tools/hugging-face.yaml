@@ -1,0 +1,19 @@
+name: Hugging Face
+slug: hugging-face
+version_used: null
+edam_topics: []
+evidence_spans:
+- Appendix B. Detailed Hugging Face Models
+- 'LLaMA 50 files: – Link: LLaMA 50 files'
+- the trained models and datasets are available on Hugging Face
+derived_from:
+- doi: 10.1016/j.asr.2025.06.034
+  title: Large language models as autonomous spacecraft operators in kerbal space program
+source_repos:
+- https://github.com/ARCLab-MIT/kspdg
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ARCLab-MIT/kspdg

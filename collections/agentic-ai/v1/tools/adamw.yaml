@@ -1,0 +1,18 @@
+name: AdamW
+slug: adamw
+version_used: null
+edam_topics: []
+evidence_spans:
+- The optimizer is set to AdamW [13], with a learning rate of 5e-5, a weight decay of 0.01, and a cosine learning rate scheduler
+- The optimizer is set to AdamW [13], with a learning rate of 5e-5, a weight decay of 0.01, and a cosine learning rate scheduler.
+derived_from:
+- doi: 10.1007/978-981-95-3349-7_31
+  title: 'EVL-MCoT: Enhanced Vision-Language Multi-CoT for Harmful Meme Detection'
+source_repos:
+- https://github.com/BGWH123/EVL-MCoT
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BGWH123/EVL-MCoT

@@ -1,0 +1,17 @@
+name: VSSD code repository (github.com/BGWH123/VSSD)
+slug: vssd-code-repository-github-com-bgwh123-vssd
+version_used: null
+edam_topics: []
+evidence_spans:
+- https://raw.githubusercontent.com/BGWH123/VSSD/main/image/all_vs_alpha.png
+derived_from:
+- doi: 10.1109/icassp55912.2026.11463006
+  title: Visual Saliency Steering Distillation for Multimodal Chain-of-Thought Reasoning
+source_repos:
+- https://github.com/BGWH123/VSSD
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/BGWH123/VSSD

@@ -1,0 +1,16 @@
+name: T5-v1
+slug: t5-v1
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1007/s10489-024-05660-2
+  title: 'Matching tasks to objectives: Fine-tuning and prompt-tuning strategies for encoder-decoder pre-trained language models'
+source_repos:
+- https://github.com/puraminy/MTO
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/puraminy/MTO

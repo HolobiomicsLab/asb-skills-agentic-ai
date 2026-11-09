@@ -1,0 +1,19 @@
+name: Gemini 2.5 Flash
+slug: gemini-2-5-flash
+version_used: '2.5'
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1007/978-3-032-21324-2_37
+  title: 'AgriIR: A Scalable Framework for Domain-Specific Knowledge Retrieval'
+- doi: 10.1109/icassp55912.2026.11462754
+  title: 'AutoVQA-G: Self-Improving Agentic Framework for Automated Visual Question Answering and Grounding Annotation'
+source_repos:
+- https://github.com/Shuvam-Banerji-Seal/AgriIR
+- https://github.com/rohnson1999/AutoVQA-G
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Shuvam-Banerji-Seal/AgriIR

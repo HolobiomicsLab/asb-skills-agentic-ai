@@ -1,0 +1,203 @@
+schema_version: 0.3.0
+workflow_id: objective_aligned_t5_few_shot
+kind: composite-workflow
+techniques: []
+steps:
+- id: prepare_adaptation_data
+  goal: turn commonsense text into objective-labeled unsupervised adaptation samples
+  edam_operation: http://edamontology.org/operation_0282
+  skills:
+  - omcs-sentence-splitting-adaptation-data-preparation
+  - seq2seq-sentence-splitter-training
+  - sentence-splitter-training-on-knowledge-graph-tuples
+  tools:
+  - Ada Factor optimizer
+  - T5
+  - T5-base
+  - T5-large
+  - T5-lm
+  - T5-v1
+  inputs:
+  - type: tsv
+    flavour: atomic2020-training-tuples
+  - type: text
+    flavour: omcs-top-8000-ranked-sentences
+  - type: yaml
+    flavour: adaptation-data-policy
+  outputs:
+  - type: jsonl
+    flavour: objective-labeled-adaptation-samples
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1007-s10489-024-05660-2
+    dois:
+    - 10.1007/s10489-024-05660-2
+  after: []
+  candidate_tools:
+  - ATOMIC2020
+  - Match Task to Objective (MTO) framework
+  - Open Mind Common Sense (OMCS) corpus
+  - Sentence Splitter
+- id: format_few_shot_examples
+  goal: format knowledge-graph tuples as aligned few-shot input-target examples
+  edam_operation: http://edamontology.org/operation_0306
+  skills:
+  - atomic2020-knowledge-completion-data-formatting
+  - task-category-classification
+  - head-tail-pair-classifier-training
+  tools:
+  - Ada Factor optimizer
+  - Match Task to Objective (MTO) framework
+  - Sentence Splitter
+  - T5
+  - T5-base
+  - T5-large
+  - T5-lm
+  - T5-v1
+  inputs:
+  - type: tsv
+    flavour: atomic2020-few-shot-training-tuples
+  - type: yaml
+    flavour: relation-template-definitions
+  - type: yaml
+    flavour: few-shot-sampling-policy
+  outputs:
+  - type: jsonl
+    flavour: few-shot-kb-completion-examples
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1007-s10489-024-05660-2
+    dois:
+    - 10.1007/s10489-024-05660-2
+  after: []
+  candidate_tools:
+  - ATOMIC2020
+- id: adapt_checkpoint
+  goal: continue pre-training a T5 checkpoint with a task-aligned denoising objective
+  edam_operation: http://edamontology.org/operation_3095
+  skills:
+  - denoising-objective-adaptation-training
+  - unsupervised-adaptation-data-preparation
+  - objective-aligned-adaptation-pretraining
+  - denoising-vs-lm-objective-alignment
+  tools:
+  - Ada Factor optimizer
+  - Match Task to Objective (MTO) framework
+  - T5
+  - T5-base
+  - T5-lm
+  - T5-v1
+  inputs:
+  - type: jsonl
+    flavour: objective-labeled-adaptation-samples
+  - type: model
+    flavour: t5-base-checkpoint
+  - type: yaml
+    flavour: adaptation-training-configuration
+  outputs:
+  - type: model
+    flavour: denoising-adapted-t5
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1007-s10489-024-05660-2
+    dois:
+    - 10.1007/s10489-024-05660-2
+  after:
+  - prepare_adaptation_data
+  candidate_tools:
+  - T5-large
+  inputs_from:
+    prepare_adaptation_data:
+    - jsonl:objective-labeled-adaptation-samples
+- id: finetune_kb_completion
+  goal: fine-tune the adapted checkpoint on masked few-shot knowledge completion
+  edam_operation: http://edamontology.org/operation_3093
+  skills:
+  - t5-encoder-decoder-fine-tuning
+  - pretraining-objective-template-alignment
+  - few-shot-qa-fine-tuning
+  - fine-tuning-template-alignment
+  tools:
+  - Ada Factor optimizer
+  - T5
+  - T5-base
+  - T5-large
+  - T5-lm
+  - T5-v1
+  inputs:
+  - type: model
+    flavour: denoising-adapted-t5
+  - type: jsonl
+    flavour: few-shot-kb-completion-examples
+  - type: yaml
+    flavour: fine-tuning-configuration
+  outputs:
+  - type: model
+    flavour: few-shot-kb-completion-t5
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1007-s10489-024-05660-2
+    dois:
+    - 10.1007/s10489-024-05660-2
+  after:
+  - format_few_shot_examples
+  - adapt_checkpoint
+  candidate_tools:
+  - Match Task to Objective (MTO) framework
+  inputs_from:
+    format_few_shot_examples:
+    - jsonl:few-shot-kb-completion-examples
+    adapt_checkpoint:
+    - model:denoising-adapted-t5
+- id: evaluate_few_shot_strategy
+  goal: compare the aligned checkpoint with a supervised few-shot baseline
+  edam_operation: http://edamontology.org/operation_2428
+  skills:
+  - few-shot-evaluation-of-language-models
+  - rouge-bertscore-generation-evaluation
+  - commonsense-knowledge-completion-evaluation
+  - rouge-generation-metric-computation
+  - generation-plausibility-metric-scoring
+  tools:
+  - Ada Factor optimizer
+  - T5
+  - T5-base
+  - T5-lm
+  - T5-v1
+  inputs:
+  - type: model
+    flavour: few-shot-kb-completion-t5
+  - type: model
+    flavour: supervised-mapping-baseline-t5
+  - type: jsonl
+    flavour: atomic2020-heldout-100-heads-multireference
+  - type: yaml
+    flavour: evaluation-configuration
+  outputs:
+  - type: csv
+    flavour: few-shot-kb-completion-metrics
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1007-s10489-024-05660-2
+    dois:
+    - 10.1007/s10489-024-05660-2
+  after:
+  - finetune_kb_completion
+  candidate_tools:
+  - T5-large
+  - Match Task to Objective (MTO) framework
+  inputs_from:
+    finetune_kb_completion:
+    - model:few-shot-kb-completion-t5
+verification:
+  final_outputs:
+  - path: adapted_t5_checkpoint
+    type: directory
+  - path: few_shot_kb_completion_checkpoint
+    type: directory
+  - path: mto_fewshot_rouge_results.csv
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

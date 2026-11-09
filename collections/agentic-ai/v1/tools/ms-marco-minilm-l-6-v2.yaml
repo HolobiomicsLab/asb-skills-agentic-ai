@@ -1,0 +1,16 @@
+name: ms-marco-MiniLM-L-6-v2
+slug: ms-marco-minilm-l-6-v2
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1109/icassp55912.2026.11464478
+  title: Predict the Retrieval! Test Time Adaptation for Retrieval Augmented Generation
+source_repos:
+- https://github.com/sunxin000/TTARAG
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sunxin000/TTARAG

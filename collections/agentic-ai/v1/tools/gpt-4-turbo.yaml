@@ -1,0 +1,16 @@
+name: GPT-4 Turbo
+slug: gpt-4-turbo
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1145/3658644.3690231
+  title: 'ProphetFuzz: Fully Automated Prediction and Fuzzing of High-Risk Option Combinations with Only Documentation via Large Language Model'
+source_repos:
+- https://github.com/nasp-thu/prophetfuzz
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nasp-thu/prophetfuzz

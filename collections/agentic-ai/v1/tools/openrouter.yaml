@@ -1,0 +1,18 @@
+name: OpenRouter
+slug: openrouter
+version_used: null
+edam_topics: []
+evidence_spans:
+- OPENROUTER_API_KEY=your_openrouter_key_here
+- '# Optional: OpenRouter as fallback'
+derived_from:
+- doi: 10.1145/3744256.3812595
+  title: 'WattCouncil: Context-Aware Household Energy Scenario Generation With Governed LLMs'
+source_repos:
+- https://github.com/Singularity-AI-Lab/wattcouncil
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Singularity-AI-Lab/wattcouncil

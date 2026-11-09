@@ -1,0 +1,27 @@
+name: Conda
+slug: conda
+version_used: '3.11'
+edam_topics: []
+evidence_spans:
+- we recommend using the conda environment defined in `environment.yml`. To create and activate this environment
+- conda create -n llm_council python=3.11 -y
+- '# Create conda environment
+
+  conda create -n llm_council python=3.11 -y'
+derived_from:
+- doi: 10.1145/3746027.3756869
+  title: 'AudioFab: Building A General and Intelligent Audio Factory through Tool Learning'
+- doi: 10.1016/j.asr.2025.06.034
+  title: Large language models as autonomous spacecraft operators in kerbal space program
+- doi: 10.1145/3744256.3812595
+  title: 'WattCouncil: Context-Aware Household Energy Scenario Generation With Governed LLMs'
+source_repos:
+- https://github.com/SmileHnu/AudioFab
+- https://github.com/ARCLab-MIT/kspdg
+- https://github.com/Singularity-AI-Lab/wattcouncil
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SmileHnu/AudioFab

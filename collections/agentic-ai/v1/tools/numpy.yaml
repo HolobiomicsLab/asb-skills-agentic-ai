@@ -1,0 +1,26 @@
+name: NumPy
+slug: numpy
+version_used: 2.2.2
+edam_topics: []
+evidence_spans:
+- singular value decomposition (SVD) is applied to extract the dominant steering vector from this difference
+derived_from:
+- doi: 10.48550/arxiv.2504.12501
+  title: ''
+- doi: 10.1103/physrevd.110.044063
+  title: New search pipeline for gravitational waves with higher-order modes using mode-by-mode filtering
+- doi: 10.1109/embc58623.2025.11253879
+  title: 'NutriGen: Personalized Meal Plan Generator Leveraging Large Language Models to Enhance Dietary and Nutritional Adherence'
+- doi: 10.1109/icassp55912.2026.11463006
+  title: Visual Saliency Steering Distillation for Multimodal Chain-of-Thought Reasoning
+source_repos:
+- https://github.com/natolambert/rlhf-book
+- https://github.com/JayWadekar/gwIAS-HM
+- https://github.com/SamanKhamesian/NutriGen
+- https://github.com/BGWH123/VSSD
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/natolambert/rlhf-book

@@ -1,0 +1,18 @@
+name: anthropic/claude-4-sonnet
+slug: anthropic-claude-4-sonnet
+version_used: '10.3'
+edam_topics: []
+evidence_spans:
+- Physical Auditor   anthropic/claude-4-sonnet           5      10.3       22,118       180          0.0760
+- anthropic/claude-4-sonnet
+derived_from:
+- doi: 10.1145/3744256.3812595
+  title: 'WattCouncil: Context-Aware Household Energy Scenario Generation With Governed LLMs'
+source_repos:
+- https://github.com/Singularity-AI-Lab/wattcouncil
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Singularity-AI-Lab/wattcouncil
