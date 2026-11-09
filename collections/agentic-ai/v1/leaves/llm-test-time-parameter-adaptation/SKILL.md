@@ -11,7 +11,7 @@ when_to_use_negative:
   leaving too little context for meaningful adaptation
 - When new labeled data and full model retraining are available/acceptable, since
   this skill is designed for inference-time adaptation without labels
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_0218
@@ -50,7 +50,7 @@ metadata:
   - Pyserini
   - Qwen2.5-72B-Instruct
   - TTARAG
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_0218

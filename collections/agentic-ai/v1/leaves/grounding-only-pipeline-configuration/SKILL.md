@@ -10,7 +10,7 @@ when_to_use_negative:
   quality cannot be judged
 - Your objects are out-of-distribution for GroundingDINO text queries or you lack
   a reachable GroundingDINO HTTP endpoint
-edam_operation: http://edamontology.org/operation_3774
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3372
 tools:
@@ -54,7 +54,7 @@ metadata:
   - MiniCPM-o 2.6
   - Python
   - Qwen2.5-VL-72B-Instruct
-  edam_operation: http://edamontology.org/operation_3774
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3372
   provenance_tier: literature

@@ -9,7 +9,7 @@ when_to_use_negative:
 - Running an evaluation that requires comparing a single-query baseline, since the
   paper's four-subquery workload is specific to Stage-3 latency and multi-source retrieval
   experiments
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3489
 - http://edamontology.org/topic_3372
@@ -45,7 +45,7 @@ metadata:
   - FAISS
   - Llama3.2:3B
   - ollama
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3489
   - http://edamontology.org/topic_3372

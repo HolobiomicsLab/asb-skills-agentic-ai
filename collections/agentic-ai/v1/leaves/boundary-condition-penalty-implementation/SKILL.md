@@ -13,8 +13,7 @@ when_to_use_negative:
   this skill concerns the neural (PINN) loss path of the physics-based-to-physics-informed
   transition.
 edam_operation: http://edamontology.org/operation_3799
-edam_topics:
-- http://edamontology.org/topic_3896
+edam_topics: []
 tools:
 - name: PyTorch
   role: Framework used to implement L_boundary (and the paired L_data, L_physics terms),
@@ -32,8 +31,7 @@ metadata:
   tools:
   - PyTorch
   edam_operation: http://edamontology.org/operation_3799
-  edam_topics:
-  - http://edamontology.org/topic_3896
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

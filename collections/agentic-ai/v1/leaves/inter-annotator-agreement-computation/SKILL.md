@@ -11,8 +11,7 @@ when_to_use_negative:
   instead
 - Only a single annotation pass exists (no second annotator), so a 2x2 annotator-vs-annotator
   confusion matrix cannot be built
-edam_topics:
-- http://edamontology.org/topic_0266
+edam_topics: []
 tools:
 - name: Python
   role: Used with pandas to load the double-annotated detection CSV, build 2x2 confusion
@@ -37,8 +36,7 @@ metadata:
   - Python
   - github.com/sydneyanuyah/CausalDiscovery
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0266
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

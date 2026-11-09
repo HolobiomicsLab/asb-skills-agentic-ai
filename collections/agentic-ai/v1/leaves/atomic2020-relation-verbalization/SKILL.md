@@ -10,7 +10,7 @@ when_to_use_negative:
   ATOMIC2020 relation tuple exists to verbalize
 - A downstream template requires raw symbolic tuples (e.g. Mapping of un verbalized
   entities) rather than natural-language prompt sentences
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 tools:
 - name: Match Task to Objective (MTO) framework
   role: Framework within which the relation-to-natural-language template formatting
@@ -41,7 +41,7 @@ metadata:
   tools:
   - Match Task to Objective (MTO) framework
   - T5
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

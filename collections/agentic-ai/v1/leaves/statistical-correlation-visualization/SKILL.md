@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3465
 edam_topics:
 - http://edamontology.org/topic_0092
-- http://edamontology.org/topic_0004
 tools:
 - name: T5
   role: Backbone of the MTO experiments; its generated ATOMIC20 20 tails are the outputs
@@ -65,7 +64,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3465
   edam_topics:
   - http://edamontology.org/topic_0092
-  - http://edamontology.org/topic_0004
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

@@ -10,9 +10,8 @@ when_to_use_negative:
   correct/incorrect MCQ scoring loses this information
 - A single model's general clinical reasoning is being tested rather than a controlled
   comparison of image-input modalities
-edam_operation: http://edamontology.org/operation_3083
-edam_topics:
-- http://edamontology.org/topic_3956
+edam_operation: null
+edam_topics: []
 tools:
 - name: Claude 3.5 Sonnet
   role: Proprietary VLM evaluated across the four image-input scenarios; showed a
@@ -52,9 +51,8 @@ metadata:
   - Python
   - Streamlit (1.33)
   - o1-preview
-  edam_operation: http://edamontology.org/operation_3083
-  edam_topics:
-  - http://edamontology.org/topic_3956
+  edam_operation: null
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

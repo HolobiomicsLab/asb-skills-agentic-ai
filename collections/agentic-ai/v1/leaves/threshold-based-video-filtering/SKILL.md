@@ -13,8 +13,7 @@ when_to_use_negative:
   or motion dynamics analysis) rather than aesthetic-appeal scoring — those are separate
   filter steps in the StreamingCoT pipeline.
 edam_operation: http://edamontology.org/operation_3926
-edam_topics:
-- http://edamontology.org/topic_3866
+edam_topics: []
 tools:
 - name: CLIP
   role: Backbone of the CLIP+MLP Aesthetic Score Predictor (as in Open-Sora) that
@@ -37,8 +36,7 @@ metadata:
   - CLIP
   - OpenCV
   edam_operation: http://edamontology.org/operation_3926
-  edam_topics:
-  - http://edamontology.org/topic_3866
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

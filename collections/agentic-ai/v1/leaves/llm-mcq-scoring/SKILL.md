@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2428
 edam_topics:
 - http://edamontology.org/topic_3379
-- http://edamontology.org/topic_3433
 tools:
 - name: Python 3.11
   role: Used for API interactions and pandas-based scoring of run outputs against
@@ -56,7 +55,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2428
   edam_topics:
   - http://edamontology.org/topic_3379
-  - http://edamontology.org/topic_3433
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

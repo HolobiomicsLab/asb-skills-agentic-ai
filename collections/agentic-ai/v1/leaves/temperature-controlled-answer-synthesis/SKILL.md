@@ -12,8 +12,7 @@ when_to_use_negative:
 - A high-temperature, creative generation task is needed — the 0.2 temperature setting
   is designed for faithful, evidence-grounded answers, not divergence
 edam_operation: http://edamontology.org/operation_3778
-edam_topics:
-- http://edamontology.org/topic_3482
+edam_topics: []
 tools:
 - name: AgriIR
   role: Configurable 6-stage RAG framework that hosts this Stage-5 synthesis step;
@@ -53,8 +52,7 @@ metadata:
   - Llama3.2:3B
   - Ollama
   edam_operation: http://edamontology.org/operation_3778
-  edam_topics:
-  - http://edamontology.org/topic_3482
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

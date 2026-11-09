@@ -13,7 +13,7 @@ when_to_use_negative:
 - Datasets outside the benchmark's 12 families (CausalNet, CausalProbe, SemEval2010Task8,
   MedCaus, CauseNet, FinCausal, CausalBench, CRASS, Coling22, ECI-B, PubMed, COPA)
   without comparable gold span annotations
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3376
 tools:
@@ -47,7 +47,7 @@ metadata:
   - Python
   - Qwen2.5-7B-Instruct
   - Qwen2.5-Coder-32B-Instruct
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3376
   provenance_tier: literature

@@ -10,7 +10,7 @@ when_to_use_negative:
   than a lightweight inference-time update
 - You need a static evaluation pipeline with fixed parameters — TTARAG resets parameters
   per query, so it is unsuitable when per-query parameter mutation is undesirable
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 tools:
@@ -39,7 +39,7 @@ metadata:
   - Llama-3.1-8B-Instruct
   - TTARAG
   - ms-marco-MiniLM-L-6-v2
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   provenance_tier: literature

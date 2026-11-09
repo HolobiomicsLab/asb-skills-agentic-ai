@@ -11,7 +11,7 @@ when_to_use_negative:
   as in LDA or BERTopic) rather than a hard, non-overlapping partition
 - The corpus exceeds the model's input token limit and cannot be split into compliant
   batches
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 tools:
 - name: MALTopic
   role: Multi-agent framework whose topic modeling agent (Agent 2) defines the batch
@@ -36,7 +36,7 @@ metadata:
   tools:
   - MALTopic
   - openai-python
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

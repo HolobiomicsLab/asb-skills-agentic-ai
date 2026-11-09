@@ -11,8 +11,7 @@ when_to_use_negative:
 - Document-type classification or dynamic prompt assembly is the target step — this
   skill begins only from the generated structured prediction
 edam_operation: http://edamontology.org/operation_0252
-edam_topics:
-- http://edamontology.org/topic_0045
+edam_topics: []
 tools:
 - name: Qwen2.5-VL-7B
   role: Zero-shot LVLM whose raw generated JSON prediction is the object of normalization;
@@ -36,8 +35,7 @@ metadata:
   tools:
   - Qwen2.5-VL-7B
   edam_operation: http://edamontology.org/operation_0252
-  edam_topics:
-  - http://edamontology.org/topic_0045
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

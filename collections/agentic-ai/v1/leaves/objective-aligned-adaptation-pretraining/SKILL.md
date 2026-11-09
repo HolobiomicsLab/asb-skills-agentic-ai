@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0334
 edam_topics:
 - http://edamontology.org/topic_3473
-- http://edamontology.org/topic_3462
 tools:
 - name: Match Task to Objective (MTO) framework
   role: Governs which unsupervised objective to use for the adaptation stage, given
@@ -64,7 +63,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0334
   edam_topics:
   - http://edamontology.org/topic_3473
-  - http://edamontology.org/topic_3462
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

@@ -9,9 +9,8 @@ when_to_use_negative:
   building rather than modeling the physical twin).
 - The physical system is handled by a traditional numerical solver, neural operator,
   or foundation model rather than a PINN trained with a PDE-residual loss term.
-edam_operation: http://edamontology.org/operation_3332
-edam_topics:
-- http://edamontology.org/topic_3869
+edam_operation: null
+edam_topics: []
 tools:
 - name: PyTorch
   role: Framework in which L_data, L_physics (via autograd derivatives of the network
@@ -33,9 +32,8 @@ metadata:
   tools:
   - Awesome-Digital-Twin-AI
   - PyTorch
-  edam_operation: http://edamontology.org/operation_3332
-  edam_topics:
-  - http://edamontology.org/topic_3869
+  edam_operation: null
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

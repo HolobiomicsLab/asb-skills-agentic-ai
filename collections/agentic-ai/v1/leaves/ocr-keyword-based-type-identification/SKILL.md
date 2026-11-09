@@ -12,7 +12,7 @@ when_to_use_negative:
   adds no value
 - When OCR text quality is too poor (seals, watermarks, low contrast) for distinctive
   keywords to be reliably detected; consider the fine-tuned LVLM variant instead
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 tools:
 - name: PaddleOCR
   role: Extracts OCR text from the document image that the keyword-based classifier
@@ -45,7 +45,7 @@ metadata:
   - PaddleOCR
   - Pillow
   - Qwen2.5-VL-7B
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
