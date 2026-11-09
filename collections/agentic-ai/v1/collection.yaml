@@ -921,11 +921,6 @@ tools:
 - youtube-api
 edam_topics:
 - http://edamontology.org/topic_0003
-- http://edamontology.org/topic_0004
-- http://edamontology.org/topic_0006
-- http://edamontology.org/topic_0008
-- http://edamontology.org/topic_0030
-- http://edamontology.org/topic_0045
 - http://edamontology.org/topic_0089
 - http://edamontology.org/topic_0091
 - http://edamontology.org/topic_0092
@@ -936,9 +931,6 @@ edam_topics:
 - http://edamontology.org/topic_0203
 - http://edamontology.org/topic_0218
 - http://edamontology.org/topic_0219
-- http://edamontology.org/topic_0266
-- http://edamontology.org/topic_0306
-- http://edamontology.org/topic_0526
 - http://edamontology.org/topic_0593
 - http://edamontology.org/topic_0605
 - http://edamontology.org/topic_2269
@@ -973,24 +965,15 @@ edam_topics:
 - http://edamontology.org/topic_3399
 - http://edamontology.org/topic_3417
 - http://edamontology.org/topic_3418
-- http://edamontology.org/topic_3433
 - http://edamontology.org/topic_3444
-- http://edamontology.org/topic_3462
 - http://edamontology.org/topic_3473
 - http://edamontology.org/topic_3474
-- http://edamontology.org/topic_3482
 - http://edamontology.org/topic_3489
 - http://edamontology.org/topic_3577
 - http://edamontology.org/topic_3697
 - http://edamontology.org/topic_3810
-- http://edamontology.org/topic_3813
 - http://edamontology.org/topic_3855
-- http://edamontology.org/topic_3866
-- http://edamontology.org/topic_3869
 - http://edamontology.org/topic_3892
-- http://edamontology.org/topic_3896
-- http://edamontology.org/topic_3956
-- http://edamontology.org/topic_4015
 domain_topics: []
 source_collections:
 - 10.1007/978-3-032-06004-4_4

@@ -10,8 +10,7 @@ when_to_use_negative:
   that the enrichment agent can exploit
 - A single LLM call can handle the whole corpus without batching — the multi-agent
   split adds orchestration overhead without benefit
-edam_topics:
-- http://edamontology.org/topic_0306
+edam_topics: []
 tools:
 - name: MALTopic
   role: Framework whose three-agent pipeline (enrichment → topic modeling → deduplication)
@@ -36,8 +35,7 @@ metadata:
   - MALTopic
   - openai-python
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0306
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

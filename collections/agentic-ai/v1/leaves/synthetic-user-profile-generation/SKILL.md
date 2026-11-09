@@ -10,7 +10,7 @@ when_to_use_negative:
   range (e.g., clinical or pediatric targets below 1500 or above 3500 kcal)
 - The evaluation metric depends on user behavior or adherence dynamics rather than
   static intake targets and meal compositions
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 tools:
 - name: Python 3.10
   role: Implementation language for the profile-simulation and evaluation pipeline
@@ -43,7 +43,7 @@ metadata:
   - Python
   - Python 3.10
   - pandas
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

@@ -10,7 +10,7 @@ when_to_use_negative:
   on classification was not investigated
 - Scaling studies over model parameters or varying adaptation-data amounts — this
   was explicitly left uninvestigated
-edam_operation: http://edamontology.org/operation_3093
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 tools:
@@ -58,7 +58,7 @@ metadata:
   - T5-large
   - T5-lm
   - T5-v1
-  edam_operation: http://edamontology.org/operation_3093
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   provenance_tier: literature

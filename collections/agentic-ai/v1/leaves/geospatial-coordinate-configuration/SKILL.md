@@ -11,8 +11,7 @@ when_to_use_negative:
 - You only need TMY real meteorological data without location-specific tuning — although
   coordinates are still required, the LLM-based seasonal generation settings are irrelevant
 edam_operation: http://edamontology.org/operation_2409
-edam_topics:
-- http://edamontology.org/topic_3813
+edam_topics: []
 tools:
 - name: WattCouncil
   role: Framework whose Stage 2 Weather Generation consumes the geospatial configuration
@@ -52,8 +51,7 @@ metadata:
   - meta-llama/Llama-4-Maverick-17B
   - pip
   edam_operation: http://edamontology.org/operation_2409
-  edam_topics:
-  - http://edamontology.org/topic_3813
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

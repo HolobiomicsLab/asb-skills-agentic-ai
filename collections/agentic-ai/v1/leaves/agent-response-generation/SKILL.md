@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0306
 edam_topics:
 - http://edamontology.org/topic_3071
-- http://edamontology.org/topic_0030
 tools:
 - name: AudioFab
   role: Open-source agent framework whose fixed control loop contains the Response
@@ -57,7 +56,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0306
   edam_topics:
   - http://edamontology.org/topic_3071
-  - http://edamontology.org/topic_0030
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -13,7 +13,6 @@ when_to_use_negative:
   the contrastive margin loss cannot be formed.
 edam_operation: http://edamontology.org/operation_3946
 edam_topics:
-- http://edamontology.org/topic_0526
 - http://edamontology.org/topic_3473
 tools:
 - name: rlhf-book codebase
@@ -47,7 +46,6 @@ metadata:
   - rlhf-book codebase
   edam_operation: http://edamontology.org/operation_3946
   edam_topics:
-  - http://edamontology.org/topic_0526
   - http://edamontology.org/topic_3473
   provenance_tier: literature
 license: CC-BY-4.0

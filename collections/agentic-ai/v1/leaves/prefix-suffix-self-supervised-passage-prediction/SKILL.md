@@ -11,7 +11,7 @@ when_to_use_negative:
   (below the configured minimum length threshold they are filtered out)
 - When the naive-RAG baseline already matches the target domain distribution and shows
   no suboptimal generalization from distribution shift
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 tools:
@@ -50,7 +50,7 @@ metadata:
   - Qwen2.5-72B-Instruct
   - TTARAG
   - ms-marco-MiniLM-L-6-v2
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   provenance_tier: literature

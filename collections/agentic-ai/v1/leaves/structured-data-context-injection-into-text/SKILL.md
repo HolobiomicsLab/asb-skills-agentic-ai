@@ -11,8 +11,7 @@ when_to_use_negative:
 - The text units are not one-per-respondent records, so row-per-response alignment
   with structured fields cannot be maintained
 edam_operation: http://edamontology.org/operation_0306
-edam_topics:
-- http://edamontology.org/topic_0008
+edam_topics: []
 tools:
 - name: openai-python
   role: SDK used to issue one single-shot GPT-4o-mini chat completion per survey response
@@ -41,8 +40,7 @@ metadata:
   - MALTopic
   - openai-python
   edam_operation: http://edamontology.org/operation_0306
-  edam_topics:
-  - http://edamontology.org/topic_0008
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

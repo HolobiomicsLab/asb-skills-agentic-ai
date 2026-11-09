@@ -9,7 +9,7 @@ when_to_use_negative:
 - You lack multi-CoT text inputs (hateful and benign reasoning chains); the decoder
   is designed to align those CoT embeddings with visual prototypes, not raw captions
   alone
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0091
 tools:
@@ -40,7 +40,7 @@ metadata:
   - GPT-4
   - LLaVA-1.5-7B
   - Long-CLIP
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0091
   provenance_tier: literature

@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2945
 edam_topics:
 - http://edamontology.org/topic_3379
-- http://edamontology.org/topic_4015
 tools:
 - name: git
   role: clone the deposited companion repository to obtain companion/catalog. and
@@ -48,7 +47,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2945
   edam_topics:
   - http://edamontology.org/topic_3379
-  - http://edamontology.org/topic_4015
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

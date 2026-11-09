@@ -12,7 +12,7 @@ when_to_use_negative:
 - You need runnable training code with hyperparameters; the book does not release
   full RL training configs (e.g. no training details for the instruction-tuning stage
   of rejection sampling)
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 tools:
@@ -40,7 +40,7 @@ metadata:
   - PyTorch
   - Python
   - TRL
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   provenance_tier: literature

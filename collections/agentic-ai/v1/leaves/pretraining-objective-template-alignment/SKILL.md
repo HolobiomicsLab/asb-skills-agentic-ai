@@ -11,7 +11,7 @@ when_to_use_negative:
   are specific to encoder-decoder pre-trained language models
 - You need scaling analysis across model sizes or varying adaptation-phase data amounts
   — the article explicitly leaves this uninvestigated
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3376
 tools:
@@ -63,7 +63,7 @@ metadata:
   - T5-large
   - T5-lm
   - T5-v1
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3376
   provenance_tier: literature

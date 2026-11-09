@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_1777
 edam_topics:
 - http://edamontology.org/topic_3474
-- http://edamontology.org/topic_0006
 tools:
 - name: Match Task to Objective (MTO) framework
   role: Overall framework that uses a classifier to determine the suitable objective
@@ -51,7 +50,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_1777
   edam_topics:
   - http://edamontology.org/topic_3474
-  - http://edamontology.org/topic_0006
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

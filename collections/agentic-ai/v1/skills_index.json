@@ -291,10 +291,7 @@
   "name": "agent-response-generation",
   "description": "Use when implementing or auditing an LLM agent control loop where a final user-facing answer must be generated conditionally, i.e. gated on successful completion of all planned subtasks and tool execution results rather than emitted speculatively.",
   "edam_operation": "http://edamontology.org/operation_0306",
-  "edam_topics": [
-   "http://edamontology.org/topic_3071",
-   "http://edamontology.org/topic_0030"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3071"],
   "tools": [
    "AudioFab",
    "LLM Planner",
@@ -381,7 +378,7 @@
   "slug": "agricultural-query-decomposition-into-subqueries",
   "name": "agricultural-query-decomposition-into-subqueries",
   "description": "Use when a complex agricultural policy query is too broad for a single retrieval pass and downstream Stage-3 retrieval must be fanned out across local FAISS search and web retrieval per sub-query.",
-  "edam_operation": "http://edamontology.org/operation_3281",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3489",
    "http://edamontology.org/topic_3372"
@@ -445,7 +442,7 @@
   "slug": "ai-methodology-stage-mapping",
   "name": "ai-methodology-stage-mapping",
   "description": "Use when a survey or framework paper decomposes a system lifecycle into canonical stages and you need to extract and validate the stage-to-method assignments into a structured table (e.g. CSV keyed by stage name).",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [],
   "tools": [
    "rongzhou7/Awesome-Digital-Twin-AI"
@@ -631,7 +628,7 @@
   "slug": "atomic2020-relation-verbalization",
   "name": "atomic2020-relation-verbalization",
   "description": "Use when converting ATOMIC2020 relation tuples into sentence-form inputs for fine-tuning or prompt-tuning a T5 model, e.g. to produce 'if PersonX cooks, he intends to satisfy hunger' style templates.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [],
   "tools": [
    "Match Task to Objective (MTO) framework",
@@ -1626,9 +1623,7 @@
   "name": "boundary-condition-penalty-implementation",
   "description": "Use when training a physics-informed neural network for digital twin physical-twin modeling and the composite loss must enforce known boundary conditions (e.g., Dirichlet/Neumann constraints) at boundary collocation points alongside the PDE-residual term.",
   "edam_operation": "http://edamontology.org/operation_3799",
-  "edam_topics": [
-   "http://edamontology.org/topic_3896"
-  ],
+  "edam_topics": [],
   "tools": [
    "PyTorch"
   ],
@@ -1680,10 +1675,7 @@
   "name": "bradley-terry-contrastive-loss-optimization",
   "description": "Use when you have (prompt, chosen completion, rejected completion) preference pairs and need to train or reproduce a Bradley-Terry reward model, verifying the reward margin between chosen and rejected responses separates over training.",
   "edam_operation": "http://edamontology.org/operation_3946",
-  "edam_topics": [
-   "http://edamontology.org/topic_0526",
-   "http://edamontology.org/topic_3473"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3473"],
   "tools": [
    "PyTorch",
    "Python",
@@ -1927,10 +1919,7 @@
   "name": "catalog-record-count-verification",
   "description": "Use when a deposited companion repository claims a specific catalog composition (e.g. 206 records = 193 gated practices + 13 research leads) that must be independently reproduced from the catalog file before citing or extending it.",
   "edam_operation": "http://edamontology.org/operation_2945",
-  "edam_topics": [
-   "http://edamontology.org/topic_3379",
-   "http://edamontology.org/topic_4015"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3379"],
   "tools": [
    "Python",
    "Python 3",
@@ -4448,9 +4437,7 @@
   "name": "date-format-normalization",
   "description": "Use when raw LVLM (e.g., Qwen2.5-VL-7B) JSON predictions for document VIE must be standardized into entity-level field name/value pairs whose date values conform to the 'year-month' convention prior to benchmark scoring or validation.",
   "edam_operation": "http://edamontology.org/operation_0252",
-  "edam_topics": [
-   "http://edamontology.org/topic_0045"
-  ],
+  "edam_topics": [],
   "tools": [
    "Qwen2.5-VL-7B"
   ],
@@ -5455,7 +5442,7 @@
   "slug": "exact-match-and-similarity-scoring-for-span-extraction",
   "name": "exact-match-and-similarity-scoring-for-span-extraction",
   "description": "Use when evaluating free-text span extraction outputs (e.g., cause-effect phrase pairs) against gold annotations and you need both strict exact-match rates and softer similarity-based credit per model, dataset, and prompting strategy.",
-  "edam_operation": "http://edamontology.org/operation_3281",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3376"
   ],
@@ -6242,7 +6229,7 @@
   "slug": "flash-attention-training-config",
   "name": "flash-attention-training-config",
   "description": "Use when fine-tuning a LLaMA model as a KSPDG spacecraft-control agent and you need the paper's exact PEFT setup — LoRA r=16/alpha=8/dropout=0.05 with DoRA, Flash Attention 2, lr 1e-4, 3 epochs — serialized into a training YAML.",
-  "edam_operation": "http://edamontology.org/operation_3714",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3377"
   ],
@@ -6500,9 +6487,7 @@
   "name": "geospatial-coordinate-configuration",
   "description": "Use when running WattCouncil's Stage 2 Weather Generation for a target country and you must supply capital coordinates (e.g. 24.4539/54.3773 for the UAE) and hemisphere classification to drive seasonal weather profiles.",
   "edam_operation": "http://edamontology.org/operation_2409",
-  "edam_topics": [
-   "http://edamontology.org/topic_3813"
-  ],
+  "edam_topics": [],
   "tools": [
    "DeepInfra API",
    "Python",
@@ -6926,7 +6911,7 @@
   "slug": "grounding-only-pipeline-configuration",
   "name": "grounding-only-pipeline-configuration",
   "description": "Use when you need standalone visual-grounding annotations (object mention + bbox) from a generate-evaluate-refine framework and want to benchmark box quality (mIoU, Acc@0.5IoU) without the VQA branch.",
-  "edam_operation": "http://edamontology.org/operation_3774",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3372"
   ],
@@ -7935,9 +7920,7 @@
   "name": "inter-annotator-agreement-computation",
   "description": "Use when you must validate the reliability of double-annotated binary causal/non-causal labels (e.g., replicating the paper's Table XV kappa values or auditing the gold detection data before model comparison).",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0266"
-  ],
+  "edam_topics": [],
   "tools": [
    "Python",
    "github.com/sydneyanuyah/CausalDiscovery"
@@ -8306,9 +8289,7 @@
   "name": "language-model-training-data-pipeline",
   "description": "Use when raw agent or bot trajectory logs from the KSPDG environment (10/25/50-file variants) must be converted into LLM fine-tuning datasets and a LLaMA-3-8B agent must be trained via PEFT rather than prompted.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0526"
-  ],
+  "edam_topics": [],
   "tools": [
    "Hugging Face",
    "KSPDG",
@@ -9326,10 +9307,7 @@
   "name": "llm-mcq-scoring",
   "description": "Use when raw free-text LLM responses to an MCQ exam (e.g., ACG-SA with a known answer key) must be converted into per-question correct/incorrect labels and per-run accuracies, and consistency across repeated runs must be quantified.",
   "edam_operation": "http://edamontology.org/operation_2428",
-  "edam_topics": [
-   "http://edamontology.org/topic_3379",
-   "http://edamontology.org/topic_3433"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3379"],
   "tools": [
    "GPT-3.5",
    "LangChain (0.1.17 and 0.2.4)",
@@ -10153,7 +10131,7 @@
   "slug": "llm-test-time-parameter-adaptation",
   "name": "llm-test-time-parameter-adaptation",
   "description": "Use when a RAG pipeline underperforms on a specialized domain due to distribution shifts and you need parameter-level adaptation at inference time using only retrieved passages as self-supervised signal.",
-  "edam_operation": "http://edamontology.org/operation_3281",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3474",
    "http://edamontology.org/topic_0218"
@@ -11336,7 +11314,7 @@
   "slug": "meme-image-text-alignment-classification",
   "name": "meme-image-text-alignment-classification",
   "description": "Use when classifying memes as hateful/non-hateful (or offensive/non-offensive) and you need fine-grained visual-textual fusion beyond shallow cross-modal alignment, with multi-CoT text available.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0091"
   ],
@@ -11820,9 +11798,7 @@
   "name": "multi-agent-pipeline-orchestration",
   "description": "Use when a survey-text topic modeling task needs to be decomposed into sequential cooperating LLM agents — enrichment, theme extraction, and deduplication — rather than a single-pass topic model like LDA or BERTopic.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0306"
-  ],
+  "edam_topics": [],
   "tools": [
    "MALTopic",
    "openai-python"
@@ -12677,10 +12653,7 @@
   "name": "objective-aligned-adaptation-pretraining",
   "description": "Use when adapting a T5 encoder-decoder PLM to a low-data task such as CommonsenseQA or Open BookQA and you need an unsupervised adaptation stage whose objective matches the downstream fine-tuning template.",
   "edam_operation": "http://edamontology.org/operation_0334",
-  "edam_topics": [
-   "http://edamontology.org/topic_3473",
-   "http://edamontology.org/topic_3462"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3473"],
   "tools": [
    "Ada Factor optimizer",
    "Match Task to Objective (MTO) framework",
@@ -12782,7 +12755,7 @@
   "slug": "ocr-keyword-based-type-identification",
   "name": "ocr-keyword-based-type-identification",
   "description": "Use when scanned certificate/bidding documents must be routed to one of a fixed set of document types (e.g., 16 certificate types) before type-conditional information extraction, and a training-free classifier on OCR text is preferred over a supervised model.",
-  "edam_operation": "http://edamontology.org/operation_3281",
+  "edam_operation": null,
   "edam_topics": [],
   "tools": [
    "Faiss",
@@ -12940,7 +12913,7 @@
   "slug": "open-vocabulary-object-mention-and-bbox-localization",
   "name": "open-vocabulary-object-mention-and-bbox-localization",
   "description": "Use when a VQA-G or visual grounding annotation pipeline must produce, per image, an open-vocabulary object description plus a four-coordinate bounding box without closed-set categories.",
-  "edam_operation": "http://edamontology.org/operation_3779",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3395"
   ],
@@ -13713,10 +13686,8 @@
   "slug": "pinn-composite-loss-formulation",
   "name": "pinn-composite-loss-formulation",
   "description": "Use when building a physics-informed neural network for digital twin modeling and you need to embed governing PDEs and boundary conditions into the loss alongside observed measurement data.",
-  "edam_operation": "http://edamontology.org/operation_3332",
-  "edam_topics": [
-   "http://edamontology.org/topic_3869"
-  ],
+  "edam_operation": null,
+  "edam_topics": [],
   "tools": [
    "Awesome-Digital-Twin-AI",
    "PyTorch"
@@ -13799,7 +13770,7 @@
   "slug": "policy-gradient-objective-reconstruction",
   "name": "policy-gradient-objective-reconstruction",
   "description": "Use when the task requires comparing or reconstructing policy-gradient / RLHF loss functions (REINFORCE, RLOO, PPO, GRPO, GSPO, CISPO, DPO) and their advantage estimators from source text into a written reference.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3474"
   ],
@@ -14065,7 +14036,7 @@
   "slug": "prefix-suffix-self-supervised-passage-prediction",
   "name": "prefix-suffix-self-supervised-passage-prediction",
   "description": "Use when a RAG system faces distribution shift in a specialized domain (e.g., BioASQ, PubMedQA) and must adapt during inference without new labeled data or model retraining.",
-  "edam_operation": "http://edamontology.org/operation_3281",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3474"
   ],
@@ -14287,7 +14258,7 @@
   "slug": "pretraining-objective-template-alignment",
   "name": "pretraining-objective-template-alignment",
   "description": "Use when fine-tuning T5 variants (T5-v1, T5-lm, T5-base, T5-large) few-shot (n=30, 3 epochs) on KB-completion tasks like ATOMIC Mask-Filling/Map-Phrasal and you must choose which adaptation objective and fine-tuning template to pair with each checkpoint.",
-  "edam_operation": "http://edamontology.org/operation_3281",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3376"
   ],
@@ -16489,7 +16460,7 @@
   "slug": "self-supervised-suffix-prediction-loss-construction",
   "name": "self-supervised-suffix-prediction-loss-construction",
   "description": "Use when adapting an RAG system at test time to a specialized domain without labeled data: retrieved passages must be converted into a self-supervised prefix-suffix prediction loss for parameter updates.",
-  "edam_operation": "http://edamontology.org/operation_3281",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3474"
   ],
@@ -17269,10 +17240,7 @@
   "name": "statistical-correlation-visualization",
   "description": "Use when multiple automated metrics (ROUGE, BLEURT, BERTScore) score the same generation outputs and you must justify collapsing to a single representative metric via a correlation matrix/heatmap.",
   "edam_operation": "http://edamontology.org/operation_3465",
-  "edam_topics": [
-   "http://edamontology.org/topic_0092",
-   "http://edamontology.org/topic_0004"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0092"],
   "tools": [
    "T5",
    "T5-base",
@@ -17332,9 +17300,7 @@
   "name": "structured-data-context-injection-into-text",
   "description": "Use when a corpus of free-text survey answers is paired with structured respondent fields (e.g. job title, work experience) and you need each answer independently enhanced with that context before topic modeling.",
   "edam_operation": "http://edamontology.org/operation_0306",
-  "edam_topics": [
-   "http://edamontology.org/topic_0008"
-  ],
+  "edam_topics": [],
   "tools": [
    "GPT-4o-mini",
    "MALTopic",
@@ -17528,7 +17494,7 @@
   "slug": "structured-topic-schema-generation",
   "name": "structured-topic-schema-generation",
   "description": "Use when enriched survey text responses must be partitioned into a fixed number M of exhaustive, non-overlapping topics, each yielding the four MALTopic fields (Topic Name, Description, Respondent Profile, Representative Words) for downstream deduplication.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [],
   "tools": [
    "MALTopic",
@@ -17943,7 +17909,7 @@
   "slug": "synthetic-user-profile-generation",
   "name": "synthetic-user-profile-generation",
   "description": "Use when evaluating a personalized-recommendation or meal-planning system but no human study data exist, and you need reproducible synthetic user profiles with randomized goals drawn from a plausible range (e.g., 1500-3500 kcal).",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [],
   "tools": [
    "NumPy",
@@ -17972,7 +17938,7 @@
   "slug": "t5-encoder-decoder-fine-tuning",
   "name": "t5-encoder-decoder-fine-tuning",
   "description": "Use when fine-tuning T5 encoder-decoder models on few-shot commonsense generation tasks (e.g., ATOMIC tail generation, n=30) and you must decide which adaptation objective and input template to pair with each checkpoint.",
-  "edam_operation": "http://edamontology.org/operation_3093",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3474"
   ],
@@ -18098,9 +18064,7 @@
   "name": "temperature-controlled-answer-synthesis",
   "description": "Use when a retrieval-augmented pipeline has already collected parallel evidence corpora (local vector search D and web results W) and needs a deterministic, low-temperature final answer synthesis step in a resource-constrained, domain-specific setting.",
   "edam_operation": "http://edamontology.org/operation_3778",
-  "edam_topics": [
-   "http://edamontology.org/topic_3482"
-  ],
+  "edam_topics": [],
   "tools": [
    "AgriIR",
    "DuckDuckGo",
@@ -18452,9 +18416,7 @@
   "name": "threshold-based-video-filtering",
   "description": "Use when building a curated video corpus for VideoQA/dataset construction and you need an objective quality gate to discard low-aesthetic-appeal videos before annotation or QA generation.",
   "edam_operation": "http://edamontology.org/operation_3926",
-  "edam_topics": [
-   "http://edamontology.org/topic_3866"
-  ],
+  "edam_topics": [],
   "tools": [
    "CLIP",
    "OpenCV"
@@ -19006,10 +18968,7 @@
   "name": "training-objective-label-classification",
   "description": "Use when generating task-related unsupervised adaptation data from natural sentences and each split sentence must be tagged as suited to the denoising objective (mask-token replacement) or the LM objective (no mask tokens).",
   "edam_operation": "http://edamontology.org/operation_1777",
-  "edam_topics": [
-   "http://edamontology.org/topic_3474",
-   "http://edamontology.org/topic_0006"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3474"],
   "tools": [
    "Ada Factor optimizer",
    "Match Task to Objective (MTO) framework",
@@ -19742,10 +19701,8 @@
   "slug": "vision-language-model-image-question-answering-benchmarking",
   "name": "vision-language-model-image-question-answering-benchmarking",
   "description": "Use when benchmarking VLMs on multiple-choice questions that contain clinical images, to quantify whether image content, captions, or text alone drive accuracy.",
-  "edam_operation": "http://edamontology.org/operation_3083",
-  "edam_topics": [
-   "http://edamontology.org/topic_3956"
-  ],
+  "edam_operation": null,
+  "edam_topics": [],
   "tools": [
    "Claude 3.5 Sonnet",
    "LangChain (0.1.17 and 0.2.4)",

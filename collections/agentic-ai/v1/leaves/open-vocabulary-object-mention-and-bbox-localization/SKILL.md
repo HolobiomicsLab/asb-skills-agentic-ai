@@ -10,7 +10,7 @@ when_to_use_negative:
   detector with calibrated scores is available and preferred
 - No GroundingDINO-compatible HTTP endpoint (POST with image/query/box_threshold/text_threshold
   returning a 'detections' list) can be deployed
-edam_operation: http://edamontology.org/operation_3779
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3395
 tools:
@@ -43,7 +43,7 @@ metadata:
   - MiniCPM-o
   - MiniCPM-o 2.6
   - Python
-  edam_operation: http://edamontology.org/operation_3779
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3395
   provenance_tier: literature

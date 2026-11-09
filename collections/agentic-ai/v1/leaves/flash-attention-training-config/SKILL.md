@@ -11,7 +11,7 @@ when_to_use_negative:
   is adjustable and LoRA/DoRA/Flash Attention 2 are not applicable
 - Prompt-engineering or few-shot prompting experiments, which require no PEFT or training
   configuration
-edam_operation: http://edamontology.org/operation_3714
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3377
 tools:
@@ -39,7 +39,7 @@ metadata:
   - Hugging Face
   - LLaMA
   - Weights & Biases
-  edam_operation: http://edamontology.org/operation_3714
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3377
   provenance_tier: literature

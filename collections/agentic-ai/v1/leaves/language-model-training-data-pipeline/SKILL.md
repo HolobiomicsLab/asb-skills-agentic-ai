@@ -11,8 +11,7 @@ when_to_use_negative:
   API (LRM adjustments) rather than fine-tuning open LLaMA weights locally
 - Training data was collected from human gameplay only (which the authors found degraded
   validation loss, 4.4e-1) rather than navball-bot trajectories
-edam_topics:
-- http://edamontology.org/topic_0526
+edam_topics: []
 tools:
 - name: LLaMA
   role: Base LLM fine-tuned as the spacecraft-control agent using the LoRA/DoRA configuration
@@ -49,8 +48,7 @@ metadata:
   - Weights & Biases
   - tiktoken
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0526
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

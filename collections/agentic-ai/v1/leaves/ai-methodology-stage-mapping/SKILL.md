@@ -13,7 +13,7 @@ when_to_use_negative:
 - The goal is a cross-domain analysis of application areas (eleven domains such as
   healthcare, aerospace, smart manufacturing) rather than the lifecycle stage-to-methodology
   mapping
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 tools:
 - name: rongzhou7/Awesome-Digital-Twin-AI
   role: Curated companion repository whose README restates the same four-stage framework
@@ -33,7 +33,7 @@ metadata:
   repo_url: https://github.com/rongzhou7/Awesome-Digital-Twin-AI
   tools:
   - rongzhou7/Awesome-Digital-Twin-AI
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
