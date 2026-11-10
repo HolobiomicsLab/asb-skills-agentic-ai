@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T13:32:52.368007+00:00",
+  "generated_at": "2026-11-10T15:45:48.282225+00:00",
   "collection_dir": "collections/agentic-ai/v1",
   "corpus_path": "collections/agentic-ai/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "6fa3e9ce6c68b59734dc1f1e380ce41c3e233c3d4990304ef92a2b8cf5c12f58",
+      "sha256": "1cf6480a35e76fbf68c83afc73af5a1a6d3ec5a1becf411e3e2474e17cc2d3eb",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -68,7 +68,7 @@
         {
           "path": ".zenodo.json",
           "bytes": 2553,
-          "sha256": "6588107bed6f0d6b9af6330a75f1e3299b318847745e943037c1a3d816a18ef7"
+          "sha256": "fa6da9b9d9eefd69215f0dacdf8015563e9b6f6d3ccc940777cb2ca9a4882ed0"
         },
         {
           "path": "CITATION.cff",
@@ -81,13 +81,13 @@
         },
         {
           "path": "bin/search_skills.py",
-          "bytes": 23077,
-          "sha256": "040142e31018bc9b6d5997a25a2b00d7efad11440cbdb726fd28c5fb23487f26"
+          "bytes": 25695,
+          "sha256": "63048acfbe6a5ef80cb881dbf53350e9d1125e3e0da8a39d87499eb0cf159661"
         },
         {
           "path": "collection.yaml",
-          "bytes": 33528,
-          "sha256": "4d7581049974f3ccd848b82db96080d2c64d72aa7026a8e17b5918752a29b3a4"
+          "bytes": 33527,
+          "sha256": "a01b7f17238d88a052b4b19ac98dd0eb37b16b46fc8168dff71f02eaeae89179"
         },
         {
           "path": "corpus.yaml",
@@ -6130,8 +6130,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 2248,
-          "sha256": "1d9ed6ee80c806c6b2c9b4d177333f1ba400075038749212cd21879b8d67f367"
+          "bytes": 3040,
+          "sha256": "9f18c296c77f72c75c45ea3e1675a0712596dc4bca604eb6ccb79af214b4fd81"
         },
         {
           "path": "skills_index.json",
@@ -7232,8 +7232,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 3078,
-          "sha256": "be1b693aceaeba8a91af06ec61ebbf605bade9e46390b346f992b539c22a07ea"
+          "bytes": 3484,
+          "sha256": "c788d399a5e37b0f92f495ac31bf8d10b2a3286f5c6b558728a72a74b22af56b"
         },
         {
           "path": "workflows/domain-rag-citation-evaluation",
@@ -7665,5 +7665,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "1134e8a1836bd98fcbfe8338d73514b258091691ec2d349e05428d1873463e73"
+  "receipt_sha256": "7fda46253b1512c2a16c720ec7577f5b606b77a30241db279fbf714508e92cd6"
 }
