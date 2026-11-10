@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T15:45:48.282225+00:00",
+  "generated_at": "2026-11-10T16:51:06.004393+00:00",
   "collection_dir": "collections/agentic-ai/v1",
   "corpus_path": "collections/agentic-ai/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "1cf6480a35e76fbf68c83afc73af5a1a6d3ec5a1becf411e3e2474e17cc2d3eb",
+      "sha256": "67934762dc430da2f3a576e117819c39275759303b38b03d44cb1e99e79c4664",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -81,8 +81,8 @@
         },
         {
           "path": "bin/search_skills.py",
-          "bytes": 25695,
-          "sha256": "63048acfbe6a5ef80cb881dbf53350e9d1125e3e0da8a39d87499eb0cf159661"
+          "bytes": 24610,
+          "sha256": "9d5c78655c4d447338d92380b3bc98c2b573da4d6bdff0b0f8c1928441f08367"
         },
         {
           "path": "collection.yaml",
@@ -7665,5 +7665,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "7fda46253b1512c2a16c720ec7577f5b606b77a30241db279fbf714508e92cd6"
+  "receipt_sha256": "235d8859b2a8698cf1ba541d48ffd06ee429801243ae6d12cdebd2369c89e076"
 }
