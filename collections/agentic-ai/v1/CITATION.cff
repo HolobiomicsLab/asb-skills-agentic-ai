@@ -3,6 +3,8 @@ message: If you use this collection, please cite it as below.
 title: ASB Agentic AI Skill Collection v1
 abstract: 'ASB Agentic AI: 668 evidence-grounded skills collected from a consolidated literature cut with local retrieval.'
 version: '1'
+doi: 10.5281/zenodo.24093110
+date-released: '2026-11-09'
 license: CC-BY-4.0
 url: https://github.com/HolobiomicsLab/asb-skills-agentic-ai
 type: dataset
@@ -15,3 +17,7 @@ authors:
 keywords:
 - agentic-ai
 - scientific skills
+identifiers:
+- type: doi
+  value: 10.5281/zenodo.24093110
+  description: Zenodo version DOI of v1 (2026-11-09)

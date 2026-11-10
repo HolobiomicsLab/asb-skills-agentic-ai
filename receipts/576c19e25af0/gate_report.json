@@ -1,11 +1,11 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-10-31T16:49:37.018131+00:00",
+  "generated_at": "2026-11-10T10:50:26.660487+00:00",
   "collection_dir": "collections/agentic-ai/v1",
   "corpus_path": "collections/agentic-ai/v1/corpus.yaml",
   "mode": "strict",
   "strict": true,
-  "promote_logic_source": "vendored-fallback",
+  "promote_logic_source": "agentic_science_builder.release.promote",
   "evidence_parser_source": "scripts.release_gate (gate-owned)",
   "policy": {
     "version": "asbb-content-gate/1.4",
@@ -43,12 +43,12 @@
       "10.5281/"
     ],
     "max_leaves_per_evidence_span": 10,
-    "config_sha256": "ae01e4e04fdb86270787e6803fd494e49f49ad0be8324986434b66cf5e7cd7aa",
-    "implementation_sha256": "e92c291297ed60dc568d1dc5f94a10dee43946f027713002a648e4f807c7206f"
+    "config_sha256": "b0119e2ec7c8a0fd33ce30eac249c4fb658b1fa34a5f866d5622f6bab698c190",
+    "implementation_sha256": "d0e6ced672181e093ee4f3002c7910a5a1bbb982d4e6cebea0150d37fd80562e"
   },
   "binding": {
     "payload": {
-      "sha256": "60e08750576f23670f09f7513151c6d57724909a1720be228722f3f65fcb36ea",
+      "sha256": "6fa3e9ce6c68b59734dc1f1e380ce41c3e233c3d4990304ef92a2b8cf5c12f58",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -57,7 +57,7 @@
         {
           "path": ".claude-plugin/plugin.json",
           "bytes": 515,
-          "sha256": "3b1512906f4b931b041b9d6ec60bfa447acdeaef485a02dcb5182a98bec33c1f"
+          "sha256": "9342fca9033faa1288247b00581eb72575c0e7a0b7c4265bcf14fb3f21d73137"
         },
         {
           "path": ".zenodo.json",
@@ -66,8 +66,8 @@
         },
         {
           "path": "CITATION.cff",
-          "bytes": 688,
-          "sha256": "18b45c850b39b7170d7d3635ea82f8bacbdbcf5ce107773d9db42012f9794c9c"
+          "bytes": 856,
+          "sha256": "49f91a038b8c41722943b03b8ce26e789fc9c3add3b2bc6cb7c8b2cc4d39f137"
         },
         {
           "path": "bin",
@@ -80,8 +80,8 @@
         },
         {
           "path": "collection.yaml",
-          "bytes": 34157,
-          "sha256": "b94f43ea9b47c0b0dbaf904696bae00737bac05f749a9d8cc1dd89f705020d77"
+          "bytes": 33528,
+          "sha256": "4d7581049974f3ccd848b82db96080d2c64d72aa7026a8e17b5918752a29b3a4"
         },
         {
           "path": "corpus.yaml",
@@ -184,8 +184,8 @@
         },
         {
           "path": "leaves/agent-response-generation/SKILL.md",
-          "bytes": 8246,
-          "sha256": "cd15297120ae3de1acc3e8076760f20182000d952c466d8c1909bf08df07d6b8"
+          "bytes": 8170,
+          "sha256": "9f65dbefbd1c77f8ecba7dc85eae39d61a452a9d605da967af5784e2f0bd6602"
         },
         {
           "path": "leaves/agent-role-vocabulary-substitution",
@@ -211,8 +211,8 @@
         },
         {
           "path": "leaves/agricultural-query-decomposition-into-subqueries/SKILL.md",
-          "bytes": 7166,
-          "sha256": "fa67efcaee5ee3f5374c38fe1b58548dfd8d2e176a557e20a38a36d6403205f1"
+          "bytes": 7098,
+          "sha256": "8174736644edd889bd5b66d17c0f3617524f9b3609f941c9ca811e6c381a6b69"
         },
         {
           "path": "leaves/agricultural-query-refinement-llm",
@@ -229,8 +229,8 @@
         },
         {
           "path": "leaves/ai-methodology-stage-mapping/SKILL.md",
-          "bytes": 7663,
-          "sha256": "c060d61f3b679e7b21ee1e6b87c106aafa4b5c2d50844ae26613c22e040188bc"
+          "bytes": 7595,
+          "sha256": "0619783368e714ccf1e1ee8ee008c2060b2b68627ad258ee11703a8784dd579b"
         },
         {
           "path": "leaves/algorithm-pseudocode-conformance-testing",
@@ -283,8 +283,8 @@
         },
         {
           "path": "leaves/atomic2020-relation-verbalization/SKILL.md",
-          "bytes": 7362,
-          "sha256": "b832b0925448d4fd90231e55c7592ff07a93e160ae7162013ccf354967d61f21"
+          "bytes": 7294,
+          "sha256": "34c13582facbe0d8a56cb993b04e462232bceebd9b1388c5a7f44652794a70c8"
         },
         {
           "path": "leaves/attention-guided-image-perturbation",
@@ -580,8 +580,8 @@
         },
         {
           "path": "leaves/boundary-condition-penalty-implementation/SKILL.md",
-          "bytes": 6185,
-          "sha256": "3be9f333ca4cddb0671fb582d2c9252384c86fb15efcafcfe2ee8fbec8d2640d"
+          "bytes": 6115,
+          "sha256": "98d85389494913a326e09c22d57190e2a2f565ad833890d875e83e8b70861578"
         },
         {
           "path": "leaves/bounding-box-accuracy-assessment",
@@ -598,8 +598,8 @@
         },
         {
           "path": "leaves/bradley-terry-contrastive-loss-optimization/SKILL.md",
-          "bytes": 7111,
-          "sha256": "5f3c8e4559dc952438fc01c3356cb59de64396629be7013e0e7c608888e76060"
+          "bytes": 7035,
+          "sha256": "a5e1bd051d76d5d85828c99aa8620379fd5b0bb9e76fe79e1d6a32af05e8d3a5"
         },
         {
           "path": "leaves/calibrated-llm-guided-policy-training",
@@ -661,8 +661,8 @@
         },
         {
           "path": "leaves/catalog-record-count-verification/SKILL.md",
-          "bytes": 7983,
-          "sha256": "bb73732422ab805f540f145c434ec18e382b64ba19a0ad965a95adca1e1ae997"
+          "bytes": 7907,
+          "sha256": "52a47f8dc463bc3709ac257d70cc1225f768af0a41b4850092bb0e2d0c790519"
         },
         {
           "path": "leaves/causal-detection-binary-classification-evaluation",
@@ -1426,8 +1426,8 @@
         },
         {
           "path": "leaves/date-format-normalization/SKILL.md",
-          "bytes": 6468,
-          "sha256": "ecd70495761db2112387fd9548bda41f67079a470a229f28b1677f7f915fd15a"
+          "bytes": 6398,
+          "sha256": "0cbedcef5dc07325061fa2e778dbea866a09e1cd05cca4dc5da82bdb86f02c2f"
         },
         {
           "path": "leaves/dblp-publication-adjudication-analysis",
@@ -1741,8 +1741,8 @@
         },
         {
           "path": "leaves/exact-match-and-similarity-scoring-for-span-extraction/SKILL.md",
-          "bytes": 8823,
-          "sha256": "8a86f2f0d00edb5de1448d2325dd38a7996e6eae580b02c5cabeb33695584e04"
+          "bytes": 8755,
+          "sha256": "d817da0bab27ec4c6ddb27a2c24fbf130f8efccad7ca3fbf2c36332c475c6d59"
         },
         {
           "path": "leaves/exact-match-metric-computation",
@@ -1966,8 +1966,8 @@
         },
         {
           "path": "leaves/flash-attention-training-config/SKILL.md",
-          "bytes": 6878,
-          "sha256": "ecf964bed92f362eb8947ff9092ef0120be1b1dedddd48db00a5a59cd517599d"
+          "bytes": 6810,
+          "sha256": "e1b7e377a0236d59ce0fd5228dbb1a4e4bb296ba7ad1cc46f590c1a9e77f065c"
         },
         {
           "path": "leaves/fleiss-kappa-multirater-agreement-computation",
@@ -2047,8 +2047,8 @@
         },
         {
           "path": "leaves/geospatial-coordinate-configuration/SKILL.md",
-          "bytes": 7314,
-          "sha256": "fe425e64e224cd574e7308e17e417edf84e3b36a7fa9728d884dc5cf1cd28bc1"
+          "bytes": 7244,
+          "sha256": "5146dbf829c2994b2c165f39df4aee6f0951143916bdb37d67459ddc5594f26f"
         },
         {
           "path": "leaves/gguf-quantized-model-local-inference",
@@ -2173,8 +2173,8 @@
         },
         {
           "path": "leaves/grounding-only-pipeline-configuration/SKILL.md",
-          "bytes": 7563,
-          "sha256": "c3ee87db4a3ae95fb3de786cec3a8b64dc58189ac83ee550b34028dad8b715b6"
+          "bytes": 7495,
+          "sha256": "ea07b643647359560c5d4af10adccba0f4a7c589c24f7489fed00f1def12787e"
         },
         {
           "path": "leaves/grouped-bar-chart-visualization-of-model-accuracy",
@@ -2470,8 +2470,8 @@
         },
         {
           "path": "leaves/inter-annotator-agreement-computation/SKILL.md",
-          "bytes": 6454,
-          "sha256": "6f5e5be59eae34b2a0b9da67e976738f063dac424d16c99f8a3c9d7fce28e93a"
+          "bytes": 6384,
+          "sha256": "47031ef341689ddaf26853b0d62d02872c784fd61f5abdd86fd36cf789208276"
         },
         {
           "path": "leaves/inter-layer-steering-vector-distillation",
@@ -2578,8 +2578,8 @@
         },
         {
           "path": "leaves/language-model-training-data-pipeline/SKILL.md",
-          "bytes": 7831,
-          "sha256": "a282ae5de367a2a539c5a28c174e9b6071cdf228f49a46c86c6fb55c5e283138"
+          "bytes": 7761,
+          "sha256": "364b7e9fb64e683b9810909573d2ae378882bf57ae68ab15c1e04af43b9383f2"
         },
         {
           "path": "leaves/latex-math-to-markdown-transcription",
@@ -2875,8 +2875,8 @@
         },
         {
           "path": "leaves/llm-mcq-scoring/SKILL.md",
-          "bytes": 7970,
-          "sha256": "ddd8573b826cba55e43803f5beb502829ab23d4174950b387f94af3ebfb4607b"
+          "bytes": 7894,
+          "sha256": "c14d65f2529dccf2b912dd1acd87c904fca08004da8b1a6483b694f8c6dc7e42"
         },
         {
           "path": "leaves/llm-meal-plan-generation",
@@ -3109,8 +3109,8 @@
         },
         {
           "path": "leaves/llm-test-time-parameter-adaptation/SKILL.md",
-          "bytes": 7662,
-          "sha256": "19e1d34defc40194431c129675c9b7d4b0e44fc34329f6d0755377f652583b98"
+          "bytes": 7594,
+          "sha256": "8f6deb9255c46c487a065ea769c6089c9e5060709cdc92c6bfe8a780612d0ec6"
         },
         {
           "path": "leaves/llm-trace-collection-and-replay",
@@ -3433,8 +3433,8 @@
         },
         {
           "path": "leaves/meme-image-text-alignment-classification/SKILL.md",
-          "bytes": 7124,
-          "sha256": "8862bb7a2b8db932718b0632ede92ae95307229b8290a05a51a9024cd90435af"
+          "bytes": 7056,
+          "sha256": "fa1376d38577cf17c6e5daad28f3cf5eee7d976287fe587dcbe89d26491dd0ec"
         },
         {
           "path": "leaves/memory-augmented-agent-implementation",
@@ -3568,8 +3568,8 @@
         },
         {
           "path": "leaves/multi-agent-pipeline-orchestration/SKILL.md",
-          "bytes": 5887,
-          "sha256": "3bda574dae487a9b0ba3dadb9ab6903906ca660863fe7fbd70ffba5ec352d582"
+          "bytes": 5817,
+          "sha256": "3572400a238d3533c3c8d0bc0ee8210a6a073c1b2f8a4b43aedcff9bc3f2c0d7"
         },
         {
           "path": "leaves/multi-agent-reinforcement-learning-training",
@@ -3811,8 +3811,8 @@
         },
         {
           "path": "leaves/objective-aligned-adaptation-pretraining/SKILL.md",
-          "bytes": 8417,
-          "sha256": "2b0e9b59dcb9acf500b5e4affcbfce3b9d4cf340c6589b9a4083d99da35aaec0"
+          "bytes": 8341,
+          "sha256": "cb98a97d24baff0e67c17532b70d5ffadf428b5796feeb9455e945962d241381"
         },
         {
           "path": "leaves/objective-aligned-prompt-template-design",
@@ -3838,8 +3838,8 @@
         },
         {
           "path": "leaves/ocr-keyword-based-type-identification/SKILL.md",
-          "bytes": 6659,
-          "sha256": "264e454e321e2bfe501222e12b5567904466085838f06ad0c17b0dd3101b6d58"
+          "bytes": 6591,
+          "sha256": "3cf6c941f21782150b764153d48ce14798b9b1cc80acf15f45d9dccb5a483ea9"
         },
         {
           "path": "leaves/ocr-text-extraction-from-certificate-images",
@@ -3883,8 +3883,8 @@
         },
         {
           "path": "leaves/open-vocabulary-object-mention-and-bbox-localization/SKILL.md",
-          "bytes": 6913,
-          "sha256": "a0e99677fc84be4c17c0e41431d1a1987da2313ab5a6c70cb499c3e51a2d69da"
+          "bytes": 6845,
+          "sha256": "f7642240d061a15b07d49e65f1d1456d6ea4d4da807b86bb3c32f3c2b519dd02"
         },
         {
           "path": "leaves/openai-api-single-shot-text-generation",
@@ -4117,8 +4117,8 @@
         },
         {
           "path": "leaves/pinn-composite-loss-formulation/SKILL.md",
-          "bytes": 6053,
-          "sha256": "72b20328ad8d2dc0fbc4c386c3d38edef120d390ac38b78e186a7efd6ce24dfd"
+          "bytes": 5915,
+          "sha256": "dd0743487d54617a8e9dbc1e1494c38b02868893888ac95cd21f2c5068888c5d"
         },
         {
           "path": "leaves/plan-act-observe-agent-orchestration",
@@ -4144,8 +4144,8 @@
         },
         {
           "path": "leaves/policy-gradient-objective-reconstruction/SKILL.md",
-          "bytes": 6728,
-          "sha256": "2184146be9c437ee8239ac8601d2b033beb4ebfde43aeec114fe71a4fd93c8d2"
+          "bytes": 6660,
+          "sha256": "e6222b8480e7dec06a22e76d7b074263aa49ccb59bb44bde3f96cc1e4e43d42a"
         },
         {
           "path": "leaves/portrait-image-preprocessing-for-video-generation",
@@ -4225,8 +4225,8 @@
         },
         {
           "path": "leaves/prefix-suffix-self-supervised-passage-prediction/SKILL.md",
-          "bytes": 7507,
-          "sha256": "9f3369fafc21dbe9b242b8e522928f2295c4eb838110820951c9cf867aa6311f"
+          "bytes": 7439,
+          "sha256": "dbc5bac42a2faa8f379f99f2e771317858e6f63bdbaf58afc26dbb1e69b654d7"
         },
         {
           "path": "leaves/prefix-tree-constrained-decoding",
@@ -4288,8 +4288,8 @@
         },
         {
           "path": "leaves/pretraining-objective-template-alignment/SKILL.md",
-          "bytes": 8798,
-          "sha256": "4e25fe1c84aa842e7118d739d86570be07deac2c3a6e901b76b9f12dc24453f9"
+          "bytes": 8730,
+          "sha256": "806bc6e022cb1679db569e3077f7aab14bbb7a41eabc07ecd019b9f4d4ba9800"
         },
         {
           "path": "leaves/pretraining-posttraining-compute-ratio-reconciliation",
@@ -4945,8 +4945,8 @@
         },
         {
           "path": "leaves/self-supervised-suffix-prediction-loss-construction/SKILL.md",
-          "bytes": 6992,
-          "sha256": "caaf7771187f4b3c5c4cf209611300b0d879d88bc4aa71c168552b104e416def"
+          "bytes": 6924,
+          "sha256": "62698a3cdcf630b03398abfe363c0279c64de42a4314cb0d5bd2833fb5add3bb"
         },
         {
           "path": "leaves/semantic-equivalence-judging",
@@ -5188,8 +5188,8 @@
         },
         {
           "path": "leaves/statistical-correlation-visualization/SKILL.md",
-          "bytes": 8342,
-          "sha256": "4d47df9b2819f059e46d6dc8f5a9de27c2c451681d895d46029dc4de7a56c475"
+          "bytes": 8266,
+          "sha256": "ddfadce7a8909bb256f85911ff27e5a7b3f792e710a5cdd4260714757606ab2c"
         },
         {
           "path": "leaves/statistical-result-verification-against-reported-values",
@@ -5206,8 +5206,8 @@
         },
         {
           "path": "leaves/structured-data-context-injection-into-text/SKILL.md",
-          "bytes": 5916,
-          "sha256": "61de1733ba365d905fab899f59367253280a63dce5751f59270ecfd19a949bea"
+          "bytes": 5846,
+          "sha256": "05763e5c66fbe90582403ae13967d5dc50e9132becc591ade29ad73c56939422"
         },
         {
           "path": "leaves/structured-output-constrained-generation",
@@ -5260,8 +5260,8 @@
         },
         {
           "path": "leaves/structured-topic-schema-generation/SKILL.md",
-          "bytes": 5743,
-          "sha256": "31273ef7f35604043943cdc8ad8912e62f04790a0f609d65503b876bf7a59b5f"
+          "bytes": 5675,
+          "sha256": "2a3bffd92bfc8a974a180974a573d02302a76a0ca1aab8d0e7d3e08e3823ad3a"
         },
         {
           "path": "leaves/style-conditioned-music-generation",
@@ -5396,7 +5396,7 @@
         {
           "path": "leaves/synthetic-user-profile-generation/SKILL.md",
           "bytes": 6447,
-          "sha256": "2c6633ba09a7c9558753a6aadf42233551c14b7a3dfbb64ba9b5eb5615aa2932"
+          "sha256": "d2d464467e6e44799798adde0e700d9d8efbcd76e097a75e959693b1bbefb732"
         },
         {
           "path": "leaves/t5-encoder-decoder-fine-tuning",
@@ -5404,8 +5404,8 @@
         },
         {
           "path": "leaves/t5-encoder-decoder-fine-tuning/SKILL.md",
-          "bytes": 7797,
-          "sha256": "75a9470fc9209a681e5963281d796f65cb48d0805f555c38fda017203357e763"
+          "bytes": 7729,
+          "sha256": "7e7adc6561eab3f6785b39f61151b0819ec880957ab954325baf9f7443b6f7b2"
         },
         {
           "path": "leaves/tabular-score-aggregation",
@@ -5440,8 +5440,8 @@
         },
         {
           "path": "leaves/temperature-controlled-answer-synthesis/SKILL.md",
-          "bytes": 7104,
-          "sha256": "60339ba1a9a2927b9e6721aca58a8edcae37316afd4c6ef7121e20479b04240e"
+          "bytes": 7034,
+          "sha256": "f36486e0f78e751beb87b5d1ca3591644d7400b12a6f81ed59d9ba908e57571f"
         },
         {
           "path": "leaves/template-bank-waveform-generation",
@@ -5548,8 +5548,8 @@
         },
         {
           "path": "leaves/threshold-based-video-filtering/SKILL.md",
-          "bytes": 5865,
-          "sha256": "b3c468e52d525952670b33be6d9dc312175e57a6cbc94df366cf399068b13367"
+          "bytes": 5795,
+          "sha256": "c050c01c130c54484bcc42974dba6c1a55ad58c16e3b9a5cb45c0ab85e181f01"
         },
         {
           "path": "leaves/throttle-action-label-vocabulary-mapping",
@@ -5719,8 +5719,8 @@
         },
         {
           "path": "leaves/training-objective-label-classification/SKILL.md",
-          "bytes": 6694,
-          "sha256": "886a78b8f89aa1d477e3ac1a11e12edf1da5134d634b5357a046f8f7ca5bf471"
+          "bytes": 6618,
+          "sha256": "49854ac16a3e28a8489db3fb735a07f33518216a67d009b5926db391b8af4f02"
         },
         {
           "path": "leaves/transformer-hidden-state-extraction",
@@ -5953,8 +5953,8 @@
         },
         {
           "path": "leaves/vision-language-model-image-question-answering-benchmarking/SKILL.md",
-          "bytes": 8098,
-          "sha256": "697a524c50d51e4e9174a29e2ac398156343f751633dccb891ce9fcf37b87450"
+          "bytes": 7960,
+          "sha256": "bcce9027ff92e8e003fb24c6d8508b01512d6a990907cedb1de9f76122d66562"
         },
         {
           "path": "leaves/visual-context-grounding-for-prompt-enhancement",
@@ -6129,8 +6129,8 @@
         },
         {
           "path": "skills_index.json",
-          "bytes": 578395,
-          "sha256": "04a135df18bbec8881ff073b85ec50f373509a8003e4cb00168af4d50e2b98ee"
+          "bytes": 576938,
+          "sha256": "cb9bf9329fe1953062d45ce71e2579144a976e75ae6f862f906c30d835d180cf"
         },
         {
           "path": "tools",
@@ -7659,5 +7659,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "f0be00db6c7ab78cbf28ade501f9c0da34896a71e42f5fd4a266910d37301d1e"
+  "receipt_sha256": "99c606e488b869e8bc959324cdc703889dae4d3faaa638565845b6c9932fdcd0"
 }
