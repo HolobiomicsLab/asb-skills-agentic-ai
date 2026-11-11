@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T16:51:06.004393+00:00",
+  "generated_at": "2026-11-11T00:29:49.342429+00:00",
   "collection_dir": "collections/agentic-ai/v1",
   "corpus_path": "collections/agentic-ai/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "67934762dc430da2f3a576e117819c39275759303b38b03d44cb1e99e79c4664",
+      "sha256": "1a959c32333c200b22c738a0655a4ea9a0a44abf880483d131cd898452fe4995",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -63,7 +63,7 @@
         {
           "path": ".claude-plugin/plugin.json",
           "bytes": 515,
-          "sha256": "9342fca9033faa1288247b00581eb72575c0e7a0b7c4265bcf14fb3f21d73137"
+          "sha256": "10bd0ee873b93afb7d1ec115ee1611e661f067c4e25edad170ee694d62b9598e"
         },
         {
           "path": ".zenodo.json",
@@ -72,8 +72,8 @@
         },
         {
           "path": "CITATION.cff",
-          "bytes": 856,
-          "sha256": "49f91a038b8c41722943b03b8ce26e789fc9c3add3b2bc6cb7c8b2cc4d39f137"
+          "bytes": 958,
+          "sha256": "dd7c8c763a867df2808f23446185713ce416ce24259077dabd09a757e840ec63"
         },
         {
           "path": "bin",
@@ -7665,5 +7665,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "235d8859b2a8698cf1ba541d48ffd06ee429801243ae6d12cdebd2369c89e076"
+  "receipt_sha256": "28fa819d48d5299aef7897cf2c9ac99acd4531574f5cd52a433ac6b187c05880"
 }
