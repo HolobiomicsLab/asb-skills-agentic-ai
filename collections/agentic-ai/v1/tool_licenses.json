@@ -1,0 +1,222 @@
+{
+  "conda": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/conda/conda/HEAD/LICENSE",
+    "repo_url": "https://github.com/conda/conda",
+    "route": "reviewed",
+    "matched": "conda",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "cuda": {
+    "license": null,
+    "license_tier": "restricted",
+    "license_raw": null,
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://docs.nvidia.com/cuda/eula/index.html",
+    "repo_url": null,
+    "route": "reviewed",
+    "matched": "CUDA Toolkit (NVIDIA)",
+    "entry_kind": "vendor_product",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "docker": {
+    "license": "Apache-2.0",
+    "license_tier": "open",
+    "license_raw": "Apache-2.0",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/moby/moby/HEAD/LICENSE",
+    "repo_url": "https://github.com/moby/moby",
+    "route": "reviewed",
+    "matched": "Docker Engine (moby)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "git": {
+    "license": "GPL-2.0-only",
+    "license_tier": "open",
+    "license_raw": "GPL-2.0-only",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/git/git/HEAD/COPYING",
+    "repo_url": "https://github.com/git/git",
+    "route": "reviewed",
+    "matched": "Git",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "langgraph": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT",
+    "license_detection": "pypi-package",
+    "license_evidence": "https://pypi.org/project/langgraph/",
+    "repo_url": "https://github.com/langchain-ai/langgraph",
+    "route": "registry:pypi",
+    "matched": "langgraph",
+    "identity": {
+      "rule": "corroborated",
+      "corroboration": [
+        {
+          "kind": "code",
+          "value": "from langgraph.graph import StateGraph from langgraph.graph import"
+        }
+      ]
+    },
+    "confirmation": {
+      "status": "confirmed",
+      "file": "https://raw.githubusercontent.com/langchain-ai/langgraph/HEAD/LICENSE",
+      "file_license": "MIT",
+      "readme": "https://raw.githubusercontent.com/langchain-ai/langgraph/HEAD/README.md"
+    }
+  },
+  "matplotlib": {
+    "license": "LicenseRef-Matplotlib",
+    "license_tier": "open",
+    "license_raw": "LicenseRef-Matplotlib",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/matplotlib/matplotlib/HEAD/LICENSE/LICENSE",
+    "repo_url": "https://github.com/matplotlib/matplotlib",
+    "route": "reviewed",
+    "matched": "matplotlib",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "numpy": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/numpy/numpy/HEAD/LICENSE.txt",
+    "repo_url": "https://github.com/numpy/numpy",
+    "route": "reviewed",
+    "matched": "NumPy",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "pandas": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/pandas-dev/pandas/HEAD/LICENSE",
+    "repo_url": "https://github.com/pandas-dev/pandas",
+    "route": "reviewed",
+    "matched": "pandas",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "pip": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/pypa/pip/HEAD/LICENSE.txt",
+    "repo_url": "https://github.com/pypa/pip",
+    "route": "reviewed",
+    "matched": "pip",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "postgresql": {
+    "license": "PostgreSQL",
+    "license_tier": "open",
+    "license_raw": "PostgreSQL",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://www.postgresql.org/about/licence/",
+    "repo_url": null,
+    "route": "reviewed",
+    "matched": "PostgreSQL",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "python": {
+    "license": "PSF-2.0",
+    "license_tier": "open",
+    "license_raw": "PSF-2.0",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/python/cpython/HEAD/LICENSE",
+    "repo_url": "https://github.com/python/cpython",
+    "route": "reviewed",
+    "matched": "Python (CPython reference implementation)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "pytorch": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/pytorch/pytorch/HEAD/LICENSE",
+    "repo_url": "https://github.com/pytorch/pytorch",
+    "route": "reviewed",
+    "matched": "PyTorch",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "scikit-learn": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/HEAD/COPYING",
+    "repo_url": "https://github.com/scikit-learn/scikit-learn",
+    "route": "reviewed",
+    "matched": "scikit-learn",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "scipy": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/scipy/scipy/HEAD/LICENSE.txt",
+    "repo_url": "https://github.com/scipy/scipy",
+    "route": "reviewed",
+    "matched": "SciPy",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  }
+}
