@@ -11,7 +11,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/puraminy/MTO",
+    "repo_url": null,
     "used_by_skills": [
       "atomic2020-knowledge-completion-data-formatting",
       "commonsense-corpus-sentence-splitting",
@@ -39,6 +39,11 @@
       "task-category-classification",
       "training-objective-label-classification",
       "unsupervised-adaptation-data-preparation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/puraminy/MTO"
     ]
   },
   {
@@ -53,7 +58,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/BGWH123/EVL-MCoT",
+    "repo_url": null,
     "used_by_skills": [
       "auroc-accuracy-benchmark-evaluation",
       "benchmark-results-table-compilation",
@@ -70,6 +75,11 @@
       "prototype-based-cross-modal-fusion-inference",
       "prototype-guided-visual-token-fusion",
       "vision-language-model-finetuning"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/BGWH123/EVL-MCoT"
     ]
   },
   {
@@ -84,11 +94,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/thu-coai/JPS",
+    "repo_url": null,
     "used_by_skills": [
       "adversarial-image-perturbation-optimization",
       "multimodal-llm-jailbreak-optimization",
       "perturbation-strategy-ablation-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/thu-coai/JPS"
     ]
   },
   {
@@ -103,11 +118,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/google/AFL",
+    "repo_url": null,
     "used_by_skills": [
       "afl-fuzz-command-configuration",
       "command-line-input-placeholder-identification",
       "option-value-assignment-from-synopsis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/google/AFL",
+      "https://github.com/nasp-thu/prophetfuzz"
     ]
   },
   {
@@ -122,7 +143,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Privatris/AgentLeak",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-metric-recomputation",
       "channel-level-leakage-rate-comparison",
@@ -138,6 +159,11 @@
       "privacy-leakage-channel-aggregation",
       "privacy-leakage-metric-analysis",
       "privacy-pathway-internal-external-labeling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Privatris/AgentLeak"
     ]
   },
   {
@@ -152,7 +178,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Privatris/AgentLeak",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-metric-recomputation",
       "channel-level-leakage-rate-comparison",
@@ -165,6 +191,11 @@
       "privacy-leak-detection-benchmarking",
       "privacy-leakage-channel-aggregation",
       "privacy-pathway-internal-external-labeling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Privatris/AgentLeak"
     ]
   },
   {
@@ -179,7 +210,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Shuvam-Banerji-Seal/AgriIR",
+    "repo_url": null,
     "used_by_skills": [
       "agent-role-vocabulary-substitution",
       "agricultural-answer-citation-insertion",
@@ -212,6 +243,11 @@
       "web-retrieval-integration-with-vector-search",
       "web-search-domain-allowlist-configuration",
       "web-search-llm-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Shuvam-Banerji-Seal/AgriIR"
     ]
   },
   {
@@ -226,7 +262,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Singularity-AI-Lab/wattcouncil",
+    "repo_url": null,
     "used_by_skills": [
       "hourly-energy-consumption-profile-generation",
       "household-energy-scenario-generation",
@@ -235,6 +271,11 @@
       "physical-constraint-validation-of-load-profiles",
       "schema-constraint-validation",
       "weather-conditioned-household-scenario-modeling"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Singularity-AI-Lab/wattcouncil"
     ]
   },
   {
@@ -249,7 +290,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SamanKhamesian/NutriGen",
+    "repo_url": null,
     "used_by_skills": [
       "api-key-configured-llm-inference",
       "caloric-error-computation",
@@ -271,6 +312,11 @@
       "runtime-comparison-visualization-across-models",
       "structured-record-compilation",
       "usda-nutrition-reference-matching"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SamanKhamesian/NutriGen"
     ]
   },
   {
@@ -286,10 +332,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ARCLab-MIT/kspdg",
+    "repo_url": null,
     "used_by_skills": [
       "mode-snr-ratio-computation-with-observable-volume-weights",
       "template-bank-waveform-generation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ARCLab-MIT/kspdg",
+      "https://github.com/JayWadekar/gwIAS-HM"
     ]
   },
   {
@@ -304,9 +356,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SmileHnu/AudioFab",
+    "repo_url": null,
     "used_by_skills": [
       "audio-source-separation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SmileHnu/AudioFab"
     ]
   },
   {
@@ -321,7 +378,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SmileHnu/AudioFab",
+    "repo_url": null,
     "used_by_skills": [
       "agent-response-generation",
       "audio-agent-capability-matrix-reconstruction",
@@ -343,6 +400,11 @@
       "timbre-preserving-speech-resynthesis",
       "tool-hallucination-suppression",
       "tool-management-architecture-verification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SmileHnu/AudioFab"
     ]
   },
   {
@@ -357,12 +419,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SmileHnu/AudioFab",
+    "repo_url": null,
     "used_by_skills": [
       "audio-agent-capability-matrix-reconstruction",
       "mcp-service-coverage-mapping",
       "prior-system-feature-extraction",
       "tool-management-architecture-verification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SmileHnu/AudioFab"
     ]
   },
   {
@@ -377,7 +444,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/rohnson1999/AutoVQA-G",
+    "repo_url": null,
     "used_by_skills": [
       "ablation-study-benchmark-comparison",
       "annotation-operational-statistics-aggregation",
@@ -407,6 +474,11 @@
       "vqa-content-quality-scoring",
       "vqa-grounding-annotation-generation",
       "vqag-annotation-pipeline-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/rohnson1999/AutoVQA-G"
     ]
   },
   {
@@ -421,12 +493,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/JayWadekar/gwIAS-HM",
+    "repo_url": null,
     "used_by_skills": [
       "coincident-trigger-ranking-statistics",
       "gravitational-wave-matched-filtering",
       "gw-background-trigger-estimation",
       "time-frequency-noisy-band-excising"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/JayWadekar/gwIAS-HM"
     ]
   },
   {
@@ -441,7 +518,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/USD-AI-ResearchLab/uncertainty-aware-llm-rl",
+    "repo_url": null,
     "used_by_skills": [
       "astar-optimal-trajectory-synthesis",
       "auc-roc-discrimination-analysis",
@@ -463,6 +540,11 @@
       "sparse-reward-shaping-configuration",
       "symbolic-to-text-trajectory-prompting",
       "training-curve-and-radar-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/USD-AI-ResearchLab/uncertainty-aware-llm-rl"
     ]
   },
   {
@@ -477,8 +559,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/USD-AI-ResearchLab/uncertainty-aware-llm-rl",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/USD-AI-ResearchLab/uncertainty-aware-llm-rl"
+    ]
   },
   {
     "slug": "bertopic",
@@ -492,7 +579,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/yash91sharma/MALTopic",
+    "repo_url": null,
     "used_by_skills": [
       "baseline-topic-list-comparison",
       "bertopic-topic-extraction",
@@ -514,6 +601,11 @@
       "topic-modeling-baseline-reproduction",
       "topic-overlap-merge",
       "topic-word-diversity-measurement"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/yash91sharma/MALTopic"
     ]
   },
   {
@@ -528,7 +620,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/MiRL-IITM/medpao-agent",
+    "repo_url": null,
     "used_by_skills": [
       "abcdef-protocol-concept-categorization",
       "chest-xray-report-domain-knowledge",
@@ -539,6 +631,11 @@
       "primary-secondary-ontology-segregation",
       "radiology-report-structuring",
       "structured-report-generation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/MiRL-IITM/medpao-agent"
     ]
   },
   {
@@ -553,7 +650,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sunxin000/TTARAG",
+    "repo_url": null,
     "used_by_skills": [
       "crag-benchmark-evaluation-protocol",
       "crag-benchmark-query-processing",
@@ -562,6 +659,11 @@
       "retrieval-augmented-prompting-baseline-configuration",
       "sentence-reranking-top-k-context-selection",
       "test-time-adaptation-of-language-models"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sunxin000/TTARAG"
     ]
   },
   {
@@ -576,10 +678,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/nasp-thu/prophetfuzz",
+    "repo_url": null,
     "used_by_skills": [
       "afl-fuzz-command-configuration",
       "command-line-input-placeholder-identification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/nasp-thu/prophetfuzz"
     ]
   },
   {
@@ -594,13 +701,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sunxin000/TTARAG",
+    "repo_url": null,
     "used_by_skills": [
       "biomedical-qa-bm25-retrieval",
       "llm-judge-semantic-equivalence-scoring",
       "llm-test-time-parameter-adaptation",
       "medical-domain-accuracy-benchmark-evaluation",
       "prefix-suffix-self-supervised-passage-prediction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sunxin000/TTARAG"
     ]
   },
   {
@@ -615,13 +727,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Shuvam-Banerji-Seal/AgriIR",
+    "repo_url": null,
     "used_by_skills": [
       "citation-quality-scoring",
       "composite-score-compilation-across-model-conditions",
       "llm-response-quality-annotation-aggregation",
       "rag-pipeline-benchmark-execution",
       "vector-database-construction-for-domain-retrieval"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Shuvam-Banerji-Seal/AgriIR"
     ]
   },
   {
@@ -636,7 +753,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SamanKhamesian/NutriGen",
+    "repo_url": null,
     "used_by_skills": [
       "disclaimer-presence-verification",
       "fixed-output-count-benchmark-protocol",
@@ -646,6 +763,11 @@
       "meal-plan-qualitative-inspection",
       "runtime-comparison-visualization-across-models",
       "structured-record-compilation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SamanKhamesian/NutriGen"
     ]
   },
   {
@@ -661,7 +783,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Privatris/AgentLeak",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-stratified-performance-analysis",
       "caption-conditioned-response-evaluation",
@@ -681,6 +803,12 @@
       "privacy-leak-detection-benchmarking",
       "prompt-setting-transfer-across-llms",
       "vision-language-model-image-question-answering-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Privatris/AgentLeak",
+      "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology"
     ]
   },
   {
@@ -695,10 +823,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Fleeting-hyh/StreamingCoT",
+    "repo_url": null,
     "used_by_skills": [
       "clip-based-aesthetic-quality-scoring",
       "tabular-score-aggregation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Fleeting-hyh/StreamingCoT"
     ]
   },
   {
@@ -713,7 +846,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/giangbang/Low-Variance-Trust-Region-MARL",
+    "repo_url": null,
     "used_by_skills": [
       "advantage-variance-estimation",
       "importance-ratio-clipping",
@@ -736,6 +869,11 @@
       "trust-region-surrogate-loss-implementation",
       "variance-curve-visualization",
       "win-rate-learning-curve-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/giangbang/Low-Variance-Trust-Region-MARL"
     ]
   },
   {
@@ -750,7 +888,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/giangbang/Low-Variance-Trust-Region-MARL",
+    "repo_url": null,
     "used_by_skills": [
       "importance-ratio-clipping",
       "marl-policy-gradient-code-modification",
@@ -767,6 +905,11 @@
       "training-instability-diagnosis",
       "trust-region-surrogate-loss-implementation",
       "win-rate-learning-curve-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/giangbang/Low-Variance-Trust-Region-MARL"
     ]
   },
   {
@@ -782,7 +925,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/BGWH123/EVL-MCoT",
+    "repo_url": null,
     "used_by_skills": [
       "auroc-accuracy-benchmark-evaluation",
       "clip-based-aesthetic-quality-scoring",
@@ -820,6 +963,12 @@
       "umap-out-of-sample-embedding-transform",
       "vision-language-model-finetuning",
       "visual-context-grounding-for-prompt-enhancement"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/BGWH123/EVL-MCoT",
+      "https://github.com/giannhskp/InfoCIR"
     ]
   },
   {
@@ -834,12 +983,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/jroulet/cogwheel",
+    "repo_url": null,
     "used_by_skills": [
       "gram-schmidt-mode-orthogonalization",
       "higher-mode-amplitude-ratio-marginalization",
       "mode-snr-ratio-computation-with-observable-volume-weights",
       "template-bank-waveform-generation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/JayWadekar/gwIAS-HM",
+      "https://github.com/jroulet/cogwheel"
     ]
   },
   {
@@ -852,16 +1007,23 @@
       "10.1145/3744256.3812595"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/SmileHnu/AudioFab",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/conda/conda",
     "used_by_skills": [
       "llm-task-decomposition-and-tool-selection",
       "mcp-tool-orchestration",
       "portrait-image-preprocessing-for-video-generation",
       "service-registration-configuration"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/conda/conda/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/ARCLab-MIT/kspdg",
+      "https://github.com/Singularity-AI-Lab/wattcouncil",
+      "https://github.com/SmileHnu/AudioFab"
     ]
   },
   {
@@ -876,12 +1038,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SmileHnu/AudioFab",
+    "repo_url": null,
     "used_by_skills": [
       "audio-toolchain-orchestration",
       "automatic-speech-transcription",
       "speech-emotion-recognition",
       "timbre-preserving-speech-resynthesis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SmileHnu/AudioFab"
     ]
   },
   {
@@ -896,7 +1063,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Privatris/AgentLeak",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-metric-recomputation",
       "internal-vs-output-channel-audit-analysis",
@@ -904,6 +1071,11 @@
       "multi-agent-coordination-attack-simulation",
       "multi-agent-coordinator-worker-configuration",
       "privacy-leakage-channel-aggregation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Privatris/AgentLeak"
     ]
   },
   {
@@ -914,11 +1086,11 @@
       "10.1145/3746027.3754561"
     ],
     "techniques": [],
-    "license_tier": "unknown",
+    "license_tier": "restricted",
     "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/thu-coai/JPS",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "adversarial-image-perturbation-optimization",
       "cross-benchmark-transfer-evaluation",
@@ -929,6 +1101,11 @@
       "multimodal-llm-jailbreak-optimization",
       "perturbation-strategy-ablation-analysis",
       "response-quality-mifr-scoring"
+    ],
+    "entry_kind": "vendor_product",
+    "license_evidence": "https://docs.nvidia.com/cuda/eula/index.html",
+    "source_paper_repos": [
+      "https://github.com/thu-coai/JPS"
     ]
   },
   {
@@ -943,13 +1120,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hasan-rakibul/LLMPathy",
+    "repo_url": null,
     "used_by_skills": [
       "correlation-agreement-metric-evaluation",
       "llm-label-training-data-augmentation",
       "multi-run-median-peak-score-aggregation",
       "noisy-label-correction-alpha-sweep",
       "pcc-ccc-rmse-test-split-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hasan-rakibul/LLMPathy"
     ]
   },
   {
@@ -964,7 +1146,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Singularity-AI-Lab/wattcouncil",
+    "repo_url": null,
     "used_by_skills": [
       "geospatial-coordinate-configuration",
       "hourly-energy-consumption-profile-generation",
@@ -976,6 +1158,11 @@
       "physical-constraint-validation-of-load-profiles",
       "schema-constraint-validation",
       "weather-conditioned-household-scenario-modeling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Singularity-AI-Lab/wattcouncil"
     ]
   },
   {
@@ -990,13 +1177,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sydneyanuyah/CausalDiscovery",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-results-tabulation-across-models",
       "causal-detection-binary-classification-evaluation",
       "exact-match-metric-computation",
       "llm-batch-inference-execution-huggingface",
       "prompt-strategy-configuration-zero-shot-ficl-cot"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sydneyanuyah/CausalDiscovery"
     ]
   },
   {
@@ -1011,7 +1203,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/MiRL-IITM/medpao-agent",
+    "repo_url": null,
     "used_by_skills": [
       "abcdef-protocol-concept-categorization",
       "chest-xray-report-domain-knowledge",
@@ -1027,6 +1219,11 @@
       "primary-secondary-ontology-segregation",
       "radiology-report-structuring",
       "structured-report-generation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/MiRL-IITM/medpao-agent"
     ]
   },
   {
@@ -1041,7 +1238,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sydneyanuyah/CausalDiscovery",
+    "repo_url": null,
     "used_by_skills": [
       "agent-inference-latency-analysis",
       "benchmark-results-tabulation-across-models",
@@ -1059,6 +1256,11 @@
       "results-table-compilation-multi-model",
       "statistical-result-verification-against-reported-values",
       "structured-report-generation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sydneyanuyah/CausalDiscovery"
     ]
   },
   {
@@ -1073,13 +1275,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sydneyanuyah/CausalDiscovery",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-results-tabulation-across-models",
       "causal-detection-binary-classification-evaluation",
       "exact-match-metric-computation",
       "llm-batch-inference-execution-huggingface",
       "prompt-strategy-configuration-zero-shot-ficl-cot"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sydneyanuyah/CausalDiscovery"
     ]
   },
   {
@@ -1094,7 +1301,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SamanKhamesian/NutriGen",
+    "repo_url": null,
     "used_by_skills": [
       "ablation-study-benchmark-comparison",
       "annotation-operational-statistics-aggregation",
@@ -1136,6 +1343,11 @@
       "visual-question-answering-annotation-generation",
       "vqa-grounding-annotation-generation",
       "vqag-annotation-pipeline-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SamanKhamesian/NutriGen"
     ]
   },
   {
@@ -1150,7 +1362,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/rohnson1999/AutoVQA-G",
+    "repo_url": null,
     "used_by_skills": [
       "ablation-study-benchmark-comparison",
       "annotation-operational-statistics-aggregation",
@@ -1173,6 +1385,11 @@
       "visual-question-answering-annotation-generation",
       "vqa-grounding-annotation-generation",
       "vqag-annotation-pipeline-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/rohnson1999/AutoVQA-G"
     ]
   },
   {
@@ -1187,12 +1404,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/FairmeHIT/Multi-VIE",
+    "repo_url": null,
     "used_by_skills": [
       "document-image-preprocessing",
       "few-shot-uie-model-training-per-document-type",
       "keyword-based-document-type-classification",
       "ocr-detection-recognition-fine-tuning"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/FairmeHIT/Multi-VIE"
     ]
   },
   {
@@ -1204,17 +1426,23 @@
       "10.1145/3658644.3690231"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/SmileHnu/AudioFab",
+    "license_tier": "open",
+    "license": "Apache-2.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/moby/moby",
     "used_by_skills": [
       "command-placeholder-resolution",
       "file-placeholder-matching",
       "llm-generated-code-validation",
       "prefix-matching-file-correction",
       "sandboxed-python-script-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/moby/moby/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/SmileHnu/AudioFab",
+      "https://github.com/nasp-thu/prophetfuzz"
     ]
   },
   {
@@ -1229,7 +1457,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Shuvam-Banerji-Seal/AgriIR",
+    "repo_url": null,
     "used_by_skills": [
       "agricultural-query-refinement-llm",
       "domain-agent-keyword-enhancement",
@@ -1237,6 +1465,11 @@
       "subquery-decomposition-prompting",
       "temperature-controlled-answer-synthesis",
       "web-search-llm-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Shuvam-Banerji-Seal/AgriIR"
     ]
   },
   {
@@ -1251,12 +1484,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SmileHnu/AudioFab",
+    "repo_url": null,
     "used_by_skills": [
       "audio-toolchain-orchestration",
       "automatic-speech-transcription",
       "speech-emotion-recognition",
       "timbre-preserving-speech-resynthesis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SmileHnu/AudioFab"
     ]
   },
   {
@@ -1271,11 +1509,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SmileHnu/AudioFab",
+    "repo_url": null,
     "used_by_skills": [
       "automatic-speech-transcription",
       "speech-emotion-recognition",
       "timbre-preserving-speech-resynthesis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SmileHnu/AudioFab"
     ]
   },
   {
@@ -1291,7 +1534,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/facebookresearch/faiss",
+    "repo_url": null,
     "used_by_skills": [
       "agent-role-vocabulary-substitution",
       "agricultural-answer-citation-insertion",
@@ -1316,6 +1559,13 @@
       "web-retrieval-integration-with-vector-search",
       "web-search-domain-allowlist-configuration",
       "web-search-llm-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/FairmeHIT/Multi-VIE",
+      "https://github.com/Shuvam-Banerji-Seal/AgriIR",
+      "https://github.com/facebookresearch/faiss"
     ]
   },
   {
@@ -1330,7 +1580,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Fleeting-hyh/StreamingCoT",
+    "repo_url": null,
     "used_by_skills": [
       "caption-timeline-alignment",
       "hd-threshold-filtering-of-video-corpus",
@@ -1343,6 +1593,11 @@
       "video-quality-filter-rule-application",
       "video-quality-screening-pipeline",
       "video-resolution-metadata-probing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Fleeting-hyh/StreamingCoT"
     ]
   },
   {
@@ -1357,7 +1612,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/natolambert/rlhf-book",
+    "repo_url": null,
     "used_by_skills": [
       "chat-template-data-formatting",
       "instruction-tuning-sft-stage",
@@ -1366,6 +1621,11 @@
       "ppo-clip-objective-implementation",
       "ppo-clipped-surrogate-objective-notation",
       "preference-pair-reward-model-training"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/natolambert/rlhf-book"
     ]
   },
   {
@@ -1380,7 +1640,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SmileHnu/AudioFab",
+    "repo_url": null,
     "used_by_skills": [
       "audio-source-separation",
       "audio-toolchain-orchestration",
@@ -1388,6 +1648,11 @@
       "mcp-tool-orchestration",
       "music-style-description",
       "style-conditioned-music-generation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SmileHnu/AudioFab"
     ]
   },
   {
@@ -1402,12 +1667,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SamanKhamesian/NutriGen",
+    "repo_url": null,
     "used_by_skills": [
       "fixed-output-count-benchmark-protocol",
       "llm-inference-latency-benchmarking",
       "meal-plan-generation-prompt-execution",
       "runtime-comparison-visualization-across-models"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SamanKhamesian/NutriGen"
     ]
   },
   {
@@ -1423,13 +1693,19 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Shuvam-Banerji-Seal/AgriIR",
+    "repo_url": null,
     "used_by_skills": [
       "citation-quality-scoring",
       "composite-score-compilation-across-model-conditions",
       "llm-response-quality-annotation-aggregation",
       "rag-pipeline-benchmark-execution",
       "vector-database-construction-for-domain-retrieval"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Shuvam-Banerji-Seal/AgriIR",
+      "https://github.com/rohnson1999/AutoVQA-G"
     ]
   },
   {
@@ -1444,7 +1720,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/rohnson1999/AutoVQA-G",
+    "repo_url": null,
     "used_by_skills": [
       "bbox-grounding-accuracy-scoring",
       "chain-of-thought-consistency-verification",
@@ -1452,6 +1728,11 @@
       "multimodal-llm-baseline-benchmarking",
       "visual-grounding-miou-evaluation",
       "vqag-annotation-pipeline-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/rohnson1999/AutoVQA-G"
     ]
   },
   {
@@ -1466,7 +1747,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Shuvam-Banerji-Seal/AgriIR",
+    "repo_url": null,
     "used_by_skills": [
       "agent-role-vocabulary-substitution",
       "agricultural-query-refinement-llm",
@@ -1490,6 +1771,12 @@
       "vector-database-construction-for-domain-retrieval",
       "web-search-domain-allowlist-configuration",
       "web-search-llm-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Shuvam-Banerji-Seal/AgriIR",
+      "https://github.com/ollama/ollama"
     ]
   },
   {
@@ -1504,7 +1791,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Shuvam-Banerji-Seal/AgriIR",
+    "repo_url": null,
     "used_by_skills": [
       "agent-role-vocabulary-substitution",
       "agricultural-query-refinement-llm",
@@ -1528,6 +1815,11 @@
       "vector-database-construction-for-domain-retrieval",
       "web-search-domain-allowlist-configuration",
       "web-search-llm-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Shuvam-Banerji-Seal/AgriIR"
     ]
   },
   {
@@ -1538,11 +1830,11 @@
       "10.48550/arxiv.2608.13867"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/sjarmak/engineering-reliable-coding-agents",
+    "license_tier": "open",
+    "license": "GPL-2.0-only",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/git/git",
     "used_by_skills": [
       "catalog-record-count-verification",
       "claim-to-source-ledger-joining",
@@ -1557,6 +1849,12 @@
       "screening-decision-reconciliation",
       "spearman-rank-correlation-computation",
       "typed-event-stream-modeling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/git/git/HEAD/COPYING",
+    "source_paper_repos": [
+      "https://github.com/sjarmak/engineering-reliable-coding-agents",
+      "https://github.com/sjarmak/engineering-reliable-coding-agents.git"
     ]
   },
   {
@@ -1571,9 +1869,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ARCLab-MIT/kspdg",
+    "repo_url": null,
     "used_by_skills": [
       "kspdg-observation-processing"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ARCLab-MIT/kspdg"
     ]
   },
   {
@@ -1588,13 +1891,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sydneyanuyah/CausalDiscovery",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-agreement-table-verification",
       "causal-detection-label-confusion-matrix-analysis",
       "cohens-kappa-statistics-estimation",
       "double-annotation-gold-data-processing",
       "inter-annotator-agreement-computation"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sydneyanuyah/CausalDiscovery"
     ]
   },
   {
@@ -1609,7 +1917,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Singularity-AI-Lab/wattcouncil",
+    "repo_url": null,
     "used_by_skills": [
       "geospatial-coordinate-configuration",
       "hourly-energy-consumption-profile-generation",
@@ -1621,6 +1929,11 @@
       "physical-constraint-validation-of-load-profiles",
       "schema-constraint-validation",
       "weather-conditioned-household-scenario-modeling"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Singularity-AI-Lab/wattcouncil"
     ]
   },
   {
@@ -1635,7 +1948,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SamanKhamesian/NutriGen",
+    "repo_url": null,
     "used_by_skills": [
       "api-key-configured-llm-inference",
       "caloric-error-computation",
@@ -1657,6 +1970,11 @@
       "runtime-comparison-visualization-across-models",
       "structured-record-compilation",
       "usda-nutrition-reference-matching"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SamanKhamesian/NutriGen"
     ]
   },
   {
@@ -1671,7 +1989,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SamanKhamesian/NutriGen",
+    "repo_url": null,
     "used_by_skills": [
       "api-key-configured-llm-inference",
       "caloric-error-computation",
@@ -1695,6 +2013,11 @@
       "runtime-comparison-visualization-across-models",
       "structured-record-compilation",
       "usda-nutrition-reference-matching"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SamanKhamesian/NutriGen"
     ]
   },
   {
@@ -1710,7 +2033,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ARCLab-MIT/kspdg",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-metric-extraction-from-papers",
       "benchmark-result-visualization",
@@ -1743,6 +2066,12 @@
       "spacecraft-telemetry-prompt-encoding",
       "structured-output-constrained-generation",
       "vessel-reference-frame-convention"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ARCLab-MIT/kspdg",
+      "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology"
     ]
   },
   {
@@ -1757,7 +2086,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/nasp-thu/prophetfuzz",
+    "repo_url": null,
     "used_by_skills": [
       "bidirectional-reasoning-self-check-verification",
       "command-semantic-alignment-assembly",
@@ -1779,6 +2108,11 @@
       "option-value-assignment-from-synopsis",
       "qualitative-knowledge-ranking-synthesis",
       "security-testing-knowledge-distillation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/nasp-thu/prophetfuzz"
     ]
   },
   {
@@ -1793,7 +2127,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/BGWH123/EVL-MCoT",
+    "repo_url": null,
     "used_by_skills": [
       "ablation-bar-plot-visualization",
       "auroc-accuracy-benchmark-evaluation",
@@ -1815,6 +2149,11 @@
       "structured-reasoning-chain-serialization",
       "vision-language-model-finetuning",
       "zero-shot-empathy-score-prediction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/BGWH123/EVL-MCoT"
     ]
   },
   {
@@ -1829,7 +2168,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/thu-coai/JPS",
+    "repo_url": null,
     "used_by_skills": [
       "adversarial-image-perturbation-optimization",
       "cross-benchmark-transfer-evaluation",
@@ -1839,6 +2178,11 @@
       "multimodal-llm-jailbreak-optimization",
       "perturbation-strategy-ablation-analysis",
       "response-quality-mifr-scoring"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/thu-coai/JPS"
     ]
   },
   {
@@ -1854,7 +2198,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Privatris/AgentLeak",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-metric-recomputation",
       "channel-level-leakage-rate-comparison",
@@ -1869,6 +2213,12 @@
       "privacy-leak-detection-benchmarking",
       "privacy-leakage-channel-aggregation",
       "structured-data-context-injection-into-text"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Privatris/AgentLeak",
+      "https://github.com/yash91sharma/MALTopic"
     ]
   },
   {
@@ -1884,7 +2234,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Privatris/AgentLeak",
+    "repo_url": null,
     "used_by_skills": [
       "bbox-grounding-accuracy-scoring",
       "benchmark-metric-recomputation",
@@ -1907,6 +2257,12 @@
       "privacy-leakage-metric-analysis",
       "visual-grounding-miou-evaluation",
       "vqag-annotation-pipeline-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Privatris/AgentLeak",
+      "https://github.com/rohnson1999/AutoVQA-G"
     ]
   },
   {
@@ -1921,8 +2277,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ARCLab-MIT/kspdg",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ARCLab-MIT/kspdg"
+    ]
   },
   {
     "slug": "gpt-oss-120b",
@@ -1936,13 +2297,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Shuvam-Banerji-Seal/AgriIR",
+    "repo_url": null,
     "used_by_skills": [
       "citation-quality-scoring",
       "composite-score-compilation-across-model-conditions",
       "llm-response-quality-annotation-aggregation",
       "rag-pipeline-benchmark-execution",
       "vector-database-construction-for-domain-retrieval"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Shuvam-Banerji-Seal/AgriIR"
     ]
   },
   {
@@ -1957,13 +2323,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/rpo19/ReFactX",
+    "repo_url": null,
     "used_by_skills": [
       "cross-method-metric-normalization",
       "llm-as-a-judge-metric-tabulation",
       "multi-hop-qa-results-extraction",
       "per-question-type-accuracy-reporting",
       "qa-benchmark-baseline-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/rpo19/ReFactX"
     ]
   },
   {
@@ -1978,13 +2349,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/rpo19/ReFactX",
+    "repo_url": null,
     "used_by_skills": [
       "cross-method-metric-normalization",
       "llm-as-a-judge-metric-tabulation",
       "multi-hop-qa-results-extraction",
       "per-question-type-accuracy-reporting",
       "qa-benchmark-baseline-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/rpo19/ReFactX"
     ]
   },
   {
@@ -1999,13 +2375,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/rpo19/ReFactX",
+    "repo_url": null,
     "used_by_skills": [
       "cross-method-metric-normalization",
       "llm-as-a-judge-metric-tabulation",
       "multi-hop-qa-results-extraction",
       "per-question-type-accuracy-reporting",
       "qa-benchmark-baseline-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/rpo19/ReFactX"
     ]
   },
   {
@@ -2020,12 +2401,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/giannhskp/InfoCIR",
+    "repo_url": null,
     "used_by_skills": [
       "clip-multimodal-embedding-similarity-computation",
       "gradient-based-image-saliency-attribution",
       "pytorch-backpropagation-through-vision-transformer",
       "saliency-heatmap-overlay-generation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/giannhskp/InfoCIR"
     ]
   },
   {
@@ -2040,7 +2426,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/rohnson1999/AutoVQA-G",
+    "repo_url": null,
     "used_by_skills": [
       "ablation-study-benchmark-comparison",
       "annotation-operational-statistics-aggregation",
@@ -2064,6 +2450,11 @@
       "visual-question-answering-annotation-generation",
       "vqa-grounding-annotation-generation",
       "vqag-annotation-pipeline-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/rohnson1999/AutoVQA-G"
     ]
   },
   {
@@ -2078,10 +2469,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SmileHnu/AudioFab",
+    "repo_url": null,
     "used_by_skills": [
       "mcp-tool-orchestration",
       "portrait-image-preprocessing-for-video-generation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SmileHnu/AudioFab"
     ]
   },
   {
@@ -2096,7 +2492,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/giangbang/Low-Variance-Trust-Region-MARL",
+    "repo_url": null,
     "used_by_skills": [
       "advantage-variance-estimation",
       "importance-ratio-clipping",
@@ -2120,6 +2516,11 @@
       "trust-region-surrogate-loss-implementation",
       "variance-curve-visualization",
       "win-rate-learning-curve-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/giangbang/Low-Variance-Trust-Region-MARL"
     ]
   },
   {
@@ -2134,7 +2535,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/centerforaisafety/HarmBench",
+    "repo_url": null,
     "used_by_skills": [
       "cross-benchmark-transfer-evaluation",
       "feedback-driven-steering-prompt-optimization",
@@ -2142,6 +2543,12 @@
       "multimodal-llm-jailbreak-optimization",
       "perturbation-strategy-ablation-analysis",
       "response-quality-mifr-scoring"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/centerforaisafety/HarmBench",
+      "https://github.com/thu-coai/JPS"
     ]
   },
   {
@@ -2156,7 +2563,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/giangbang/Low-Variance-Trust-Region-MARL",
+    "repo_url": null,
     "used_by_skills": [
       "importance-ratio-clipping",
       "marl-policy-gradient-code-modification",
@@ -2173,6 +2580,11 @@
       "training-instability-diagnosis",
       "trust-region-surrogate-loss-implementation",
       "win-rate-learning-curve-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/giangbang/Low-Variance-Trust-Region-MARL"
     ]
   },
   {
@@ -2187,11 +2599,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ARCLab-MIT/kspdg",
+    "repo_url": null,
     "used_by_skills": [
       "llm-agent-state-management",
       "sliding-window-prompt-construction",
       "spacecraft-agent-prompt-formatting"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ARCLab-MIT/kspdg"
     ]
   },
   {
@@ -2207,7 +2624,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sydneyanuyah/CausalDiscovery",
+    "repo_url": null,
     "used_by_skills": [
       "attention-guided-image-perturbation",
       "causal-extraction-prompt-strategy-configuration",
@@ -2217,6 +2634,12 @@
       "per-model-benchmark-metric-aggregation",
       "results-table-compilation-multi-model",
       "rougel-rationale-scoring"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/BGWH123/VSSD",
+      "https://github.com/sydneyanuyah/CausalDiscovery"
     ]
   },
   {
@@ -2231,7 +2654,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ARCLab-MIT/kspdg",
+    "repo_url": null,
     "used_by_skills": [
       "chat-format-dataset-serialization",
       "closest-approach-distance-tabulation",
@@ -2252,6 +2675,11 @@
       "telemetry-to-prompt-rendering",
       "throttle-action-label-vocabulary-mapping",
       "thrust-action-label-extraction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ARCLab-MIT/kspdg"
     ]
   },
   {
@@ -2266,12 +2694,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/JayWadekar/gwIAS-HM",
+    "repo_url": null,
     "used_by_skills": [
       "coincident-trigger-ranking-statistics",
       "gravitational-wave-matched-filtering",
       "gw-background-trigger-estimation",
       "time-frequency-noisy-band-excising"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/JayWadekar/gwIAS-HM"
     ]
   },
   {
@@ -2286,7 +2719,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/giannhskp/InfoCIR",
+    "repo_url": null,
     "used_by_skills": [
       "clip-composed-query-similarity-scoring",
       "clip-joint-embedding-composition",
@@ -2307,6 +2740,11 @@
       "semantic-vs-style-signal-disentanglement",
       "stylistic-vs-semantic-feature-separation",
       "token-influence-score-aggregation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/giannhskp/InfoCIR"
     ]
   },
   {
@@ -2321,7 +2759,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/thu-coai/JPS",
+    "repo_url": null,
     "used_by_skills": [
       "adversarial-image-perturbation-optimization",
       "cross-benchmark-transfer-evaluation",
@@ -2329,6 +2767,11 @@
       "multi-agent-steering-prompt-revision",
       "multimodal-llm-jailbreak-optimization",
       "response-quality-mifr-scoring"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/thu-coai/JPS"
     ]
   },
   {
@@ -2343,7 +2786,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ARCLab-MIT/kspdg",
+    "repo_url": null,
     "used_by_skills": [
       "chain-of-thought-prompt-design",
       "function-call-action-format-specification",
@@ -2352,6 +2795,11 @@
       "spacecraft-telemetry-prompt-encoding",
       "telemetry-to-prompt-rendering",
       "vessel-reference-frame-convention"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ARCLab-MIT/kspdg"
     ]
   },
   {
@@ -2366,9 +2814,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ARCLab-MIT/kspdg",
+    "repo_url": null,
     "used_by_skills": [
       "vessel-frame-coordinate-transformation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ARCLab-MIT/kspdg"
     ]
   },
   {
@@ -2383,7 +2836,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ARCLab-MIT/kspdg",
+    "repo_url": null,
     "used_by_skills": [
       "chain-of-thought-prompt-design",
       "chat-format-dataset-serialization",
@@ -2408,6 +2861,12 @@
       "thrust-action-label-extraction",
       "vessel-frame-coordinate-transformation",
       "vessel-reference-frame-convention"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ARCLab-MIT/kspdg",
+      "https://github.com/mit-ll/spacegym-kspdg"
     ]
   },
   {
@@ -2422,7 +2881,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/JayWadekar/gwIAS-HM",
+    "repo_url": null,
     "used_by_skills": [
       "coincident-trigger-ranking-statistics",
       "gram-schmidt-mode-orthogonalization",
@@ -2430,6 +2889,11 @@
       "gw-background-trigger-estimation",
       "higher-mode-amplitude-ratio-marginalization",
       "time-frequency-noisy-band-excising"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/JayWadekar/gwIAS-HM"
     ]
   },
   {
@@ -2444,11 +2908,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/JayWadekar/gwIAS-HM",
+    "repo_url": null,
     "used_by_skills": [
       "gram-schmidt-mode-orthogonalization",
       "mode-snr-ratio-computation-with-observable-volume-weights",
       "template-bank-waveform-generation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/JayWadekar/gwIAS-HM"
     ]
   },
   {
@@ -2463,7 +2932,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology",
+    "repo_url": null,
     "used_by_skills": [
       "accuracy-aggregation-across-exam-editions",
       "benchmark-result-visualization",
@@ -2488,6 +2957,11 @@
       "run-to-run-accuracy-variance-quantification",
       "structured-output-constrained-generation",
       "vision-language-model-image-question-answering-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology"
     ]
   },
   {
@@ -2502,7 +2976,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-result-visualization",
       "confidence-interval-estimation",
@@ -2519,6 +2993,11 @@
       "prompt-setting-transfer-across-llms",
       "structured-output-constrained-generation",
       "tool-hallucination-suppression"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology"
     ]
   },
   {
@@ -2529,11 +3008,11 @@
       "10.1109/access.2026.3704541"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/Privatris/AgentLeak",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "pypi-package",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/langchain-ai/langgraph",
     "used_by_skills": [
       "benchmark-metric-recomputation",
       "internal-vs-output-channel-audit-analysis",
@@ -2541,6 +3020,11 @@
       "multi-agent-coordination-attack-simulation",
       "multi-agent-coordinator-worker-configuration",
       "privacy-leakage-channel-aggregation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://pypi.org/project/langgraph/",
+    "source_paper_repos": [
+      "https://github.com/Privatris/AgentLeak"
     ]
   },
   {
@@ -2555,13 +3039,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sunxin000/TTARAG",
+    "repo_url": null,
     "used_by_skills": [
       "biomedical-qa-bm25-retrieval",
       "llm-judge-semantic-equivalence-scoring",
       "llm-test-time-parameter-adaptation",
       "medical-domain-accuracy-benchmark-evaluation",
       "prefix-suffix-self-supervised-passage-prediction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sunxin000/TTARAG"
     ]
   },
   {
@@ -2577,7 +3066,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sydneyanuyah/CausalDiscovery",
+    "repo_url": null,
     "used_by_skills": [
       "adamw-optimizer-integration-for-llm-finetuning",
       "benchmark-results-tabulation-across-models",
@@ -2610,6 +3099,12 @@
       "test-time-adaptation-of-language-models",
       "test-time-adaptation-runtime-benchmarking",
       "wall-clock-timing-aggregation-across-configurations"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sunxin000/TTARAG",
+      "https://github.com/sydneyanuyah/CausalDiscovery"
     ]
   },
   {
@@ -2624,7 +3119,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SamanKhamesian/NutriGen",
+    "repo_url": null,
     "used_by_skills": [
       "api-key-configured-llm-inference",
       "caloric-error-computation",
@@ -2648,6 +3143,11 @@
       "runtime-comparison-visualization-across-models",
       "structured-record-compilation",
       "usda-nutrition-reference-matching"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SamanKhamesian/NutriGen"
     ]
   },
   {
@@ -2662,7 +3162,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology",
+    "repo_url": null,
     "used_by_skills": [
       "caption-conditioned-response-evaluation",
       "gguf-quantized-model-local-inference",
@@ -2672,6 +3172,11 @@
       "paired-accuracy-significance-testing",
       "quantization-accuracy-degradation-comparison",
       "vision-language-model-image-question-answering-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology"
     ]
   },
   {
@@ -2686,13 +3191,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sydneyanuyah/CausalDiscovery",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-results-tabulation-across-models",
       "causal-detection-binary-classification-evaluation",
       "exact-match-metric-computation",
       "llm-batch-inference-execution-huggingface",
       "prompt-strategy-configuration-zero-shot-ficl-cot"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sydneyanuyah/CausalDiscovery"
     ]
   },
   {
@@ -2707,13 +3217,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sydneyanuyah/CausalDiscovery",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-results-tabulation-across-models",
       "causal-detection-binary-classification-evaluation",
       "exact-match-metric-computation",
       "llm-batch-inference-execution-huggingface",
       "prompt-strategy-configuration-zero-shot-ficl-cot"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sydneyanuyah/CausalDiscovery"
     ]
   },
   {
@@ -2729,13 +3244,20 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Privatris/AgentLeak",
+    "repo_url": null,
     "used_by_skills": [
       "channel-level-leakage-rate-comparison",
       "cli-benchmark-harness-validation",
       "llm-trace-collection-and-replay",
       "multi-agent-coordinator-worker-configuration",
       "privacy-leak-detection-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Meta-llama/Llama-3.3-70B-Instruct",
+      "https://github.com/Privatris/AgentLeak",
+      "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology"
     ]
   },
   {
@@ -2750,13 +3272,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sydneyanuyah/CausalDiscovery",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-results-tabulation-across-models",
       "causal-detection-binary-classification-evaluation",
       "exact-match-metric-computation",
       "llm-batch-inference-execution-huggingface",
       "prompt-strategy-configuration-zero-shot-ficl-cot"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sydneyanuyah/CausalDiscovery"
     ]
   },
   {
@@ -2771,7 +3298,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ARCLab-MIT/kspdg",
+    "repo_url": null,
     "used_by_skills": [
       "dora-low-rank-adaptation-setup",
       "fine-tuning-data-format-validation",
@@ -2786,6 +3313,11 @@
       "sliding-window-prompt-construction",
       "spacecraft-agent-prompt-formatting",
       "throttle-action-label-vocabulary-mapping"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ARCLab-MIT/kspdg"
     ]
   },
   {
@@ -2800,7 +3332,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Shuvam-Banerji-Seal/AgriIR",
+    "repo_url": null,
     "used_by_skills": [
       "agent-role-vocabulary-substitution",
       "agricultural-query-decomposition-into-subqueries",
@@ -2825,6 +3357,12 @@
       "vector-database-construction-for-domain-retrieval",
       "web-search-domain-allowlist-configuration",
       "web-search-llm-filtering"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Shuvam-Banerji-Seal/AgriIR",
+      "https://github.com/ollama/ollama"
     ]
   },
   {
@@ -2839,7 +3377,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/rpo19/ReFactX",
+    "repo_url": null,
     "used_by_skills": [
       "constrained-generation-keqa-inference",
       "cross-method-metric-normalization",
@@ -2853,6 +3391,11 @@
       "prefix-tree-fact-retrieval",
       "qa-benchmark-baseline-comparison",
       "qa-benchmark-experiment-reproduction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/rpo19/ReFactX"
     ]
   },
   {
@@ -2867,7 +3410,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SamanKhamesian/NutriGen",
+    "repo_url": null,
     "used_by_skills": [
       "api-key-configured-llm-inference",
       "caloric-error-computation",
@@ -2884,6 +3427,11 @@
       "prompt-template-driven-generation",
       "structured-record-compilation",
       "usda-nutrition-reference-matching"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SamanKhamesian/NutriGen"
     ]
   },
   {
@@ -2898,12 +3446,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/thu-coai/JPS",
+    "repo_url": null,
     "used_by_skills": [
       "cross-benchmark-transfer-evaluation",
       "multimodal-jailbreak-response-quality-assessment",
       "multimodal-llm-jailbreak-optimization",
       "perturbation-strategy-ablation-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/thu-coai/JPS"
     ]
   },
   {
@@ -2918,7 +3471,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/BGWH123/EVL-MCoT",
+    "repo_url": null,
     "used_by_skills": [
       "ablation-bar-plot-visualization",
       "auroc-accuracy-benchmark-evaluation",
@@ -2939,6 +3492,11 @@
       "prototype-based-cross-modal-fusion-inference",
       "structured-reasoning-chain-serialization",
       "vision-language-model-finetuning"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/BGWH123/EVL-MCoT"
     ]
   },
   {
@@ -2953,7 +3511,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/BGWH123/EVL-MCoT",
+    "repo_url": null,
     "used_by_skills": [
       "ablation-bar-plot-visualization",
       "benign-hateful-perspective-pairing",
@@ -2965,6 +3523,11 @@
       "multimodal-ablation-study-design",
       "multimodal-chain-of-thought-prompting",
       "structured-reasoning-chain-serialization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/BGWH123/EVL-MCoT"
     ]
   },
   {
@@ -2979,7 +3542,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/BGWH123/EVL-MCoT",
+    "repo_url": null,
     "used_by_skills": [
       "ablation-bar-plot-visualization",
       "auroc-accuracy-benchmark-evaluation",
@@ -3000,6 +3563,11 @@
       "prototype-guided-visual-token-fusion",
       "structured-reasoning-chain-serialization",
       "vision-language-model-finetuning"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/BGWH123/EVL-MCoT"
     ]
   },
   {
@@ -3014,8 +3582,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/giangbang/Low-Variance-Trust-Region-MARL",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/giangbang/Low-Variance-Trust-Region-MARL"
+    ]
   },
   {
     "slug": "maltopic-github-repository",
@@ -3029,8 +3602,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/yash91sharma/MALTopic",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/yash91sharma/MALTopic"
+    ]
   },
   {
     "slug": "maltopic",
@@ -3044,7 +3622,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/yash91sharma/MALTopic",
+    "repo_url": null,
     "used_by_skills": [
       "baseline-topic-list-comparison",
       "bertopic-topic-extraction",
@@ -3077,6 +3655,11 @@
       "topic-modeling-baseline-reproduction",
       "topic-overlap-merge",
       "topic-word-diversity-measurement"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/yash91sharma/MALTopic"
     ]
   },
   {
@@ -3091,7 +3674,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/deepmind/mujoco",
+    "repo_url": null,
     "used_by_skills": [
       "advantage-variance-estimation",
       "log-scale-variance-growth-visualization",
@@ -3101,6 +3684,13 @@
       "training-curve-visualization",
       "trust-region-clipped-objective-implementation",
       "trust-region-sequential-update-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/deepmind/mujoco",
+      "https://github.com/giangbang/Low-Variance-Trust-Region-MARL",
+      "https://github.com/openai/mujoco-py"
     ]
   },
   {
@@ -3115,7 +3705,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/giangbang/Low-Variance-Trust-Region-MARL",
+    "repo_url": null,
     "used_by_skills": [
       "marl-trust-region-algorithm-training",
       "mpe-benchmark-environment-setup",
@@ -3128,6 +3718,11 @@
       "training-curve-visualization",
       "training-instability-diagnosis",
       "win-rate-learning-curve-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/giangbang/Low-Variance-Trust-Region-MARL"
     ]
   },
   {
@@ -3142,7 +3737,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/puraminy/MTO",
+    "repo_url": null,
     "used_by_skills": [
       "atomic2020-knowledge-completion-data-formatting",
       "atomic2020-relation-verbalization",
@@ -3170,6 +3765,11 @@
       "task-category-classification",
       "training-objective-label-classification",
       "unsupervised-adaptation-data-preparation"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/puraminy/MTO"
     ]
   },
   {
@@ -3181,11 +3781,11 @@
       "10.1109/icassp55912.2026.11463006"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/JayWadekar/gwIAS-HM",
+    "license_tier": "open",
+    "license": "LicenseRef-Matplotlib",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/matplotlib/matplotlib",
     "used_by_skills": [
       "coincident-trigger-ranking-statistics",
       "cross-dataset-performance-delta-tabulation",
@@ -3197,6 +3797,12 @@
       "scienceqa-accuracy-rougel-evaluation",
       "time-frequency-noisy-band-excising",
       "timeslide-trigger-statistics-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/matplotlib/matplotlib/HEAD/LICENSE/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/BGWH123/VSSD",
+      "https://github.com/JayWadekar/gwIAS-HM"
     ]
   },
   {
@@ -3211,7 +3817,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/MiRL-IITM/medpao-agent",
+    "repo_url": null,
     "used_by_skills": [
       "abcdef-protocol-concept-categorization",
       "chest-xray-report-domain-knowledge",
@@ -3227,6 +3833,11 @@
       "primary-secondary-ontology-segregation",
       "radiology-report-structuring",
       "structured-report-generation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/MiRL-IITM/medpao-agent"
     ]
   },
   {
@@ -3241,7 +3852,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/MiRL-IITM/medpao-agent",
+    "repo_url": null,
     "used_by_skills": [
       "abcdef-protocol-concept-categorization",
       "agent-inference-latency-analysis",
@@ -3255,6 +3866,11 @@
       "primary-secondary-ontology-segregation",
       "radiology-report-structuring",
       "structured-report-generation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/MiRL-IITM/medpao-agent"
     ]
   },
   {
@@ -3269,7 +3885,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/MiRL-IITM/medpao-agent",
+    "repo_url": null,
     "used_by_skills": [
       "abcdef-protocol-concept-categorization",
       "agent-inference-latency-analysis",
@@ -3292,6 +3908,11 @@
       "radiologist-assessment-data-reconstruction",
       "radiology-report-structuring",
       "structured-report-generation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/MiRL-IITM/medpao-agent"
     ]
   },
   {
@@ -3306,13 +3927,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sydneyanuyah/CausalDiscovery",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-results-tabulation-across-models",
       "causal-detection-binary-classification-evaluation",
       "exact-match-metric-computation",
       "llm-batch-inference-execution-huggingface",
       "prompt-strategy-configuration-zero-shot-ficl-cot"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sydneyanuyah/CausalDiscovery"
     ]
   },
   {
@@ -3327,13 +3953,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sydneyanuyah/CausalDiscovery",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-results-tabulation-across-models",
       "causal-detection-binary-classification-evaluation",
       "exact-match-metric-computation",
       "llm-batch-inference-execution-huggingface",
       "prompt-strategy-configuration-zero-shot-ficl-cot"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sydneyanuyah/CausalDiscovery"
     ]
   },
   {
@@ -3348,7 +3979,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Singularity-AI-Lab/wattcouncil",
+    "repo_url": null,
     "used_by_skills": [
       "hourly-energy-consumption-profile-generation",
       "household-energy-scenario-generation",
@@ -3357,6 +3988,11 @@
       "physical-constraint-validation-of-load-profiles",
       "schema-constraint-validation",
       "weather-conditioned-household-scenario-modeling"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Singularity-AI-Lab/wattcouncil"
     ]
   },
   {
@@ -3371,7 +4007,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Singularity-AI-Lab/wattcouncil",
+    "repo_url": null,
     "used_by_skills": [
       "geospatial-coordinate-configuration",
       "hourly-energy-consumption-profile-generation",
@@ -3383,6 +4019,11 @@
       "physical-constraint-validation-of-load-profiles",
       "schema-constraint-validation",
       "weather-conditioned-household-scenario-modeling"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Singularity-AI-Lab/wattcouncil"
     ]
   },
   {
@@ -3397,7 +4038,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/rohnson1999/AutoVQA-G",
+    "repo_url": null,
     "used_by_skills": [
       "ablation-study-benchmark-comparison",
       "annotation-operational-statistics-aggregation",
@@ -3420,6 +4061,11 @@
       "visual-question-answering-annotation-generation",
       "vqa-grounding-annotation-generation",
       "vqag-annotation-pipeline-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/rohnson1999/AutoVQA-G"
     ]
   },
   {
@@ -3434,7 +4080,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/thu-coai/JPS",
+    "repo_url": null,
     "used_by_skills": [
       "adversarial-image-perturbation-optimization",
       "cross-benchmark-transfer-evaluation",
@@ -3442,6 +4088,11 @@
       "multi-agent-steering-prompt-revision",
       "multimodal-llm-jailbreak-optimization",
       "response-quality-mifr-scoring"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/thu-coai/JPS"
     ]
   },
   {
@@ -3456,7 +4107,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/USD-AI-ResearchLab/uncertainty-aware-llm-rl",
+    "repo_url": null,
     "used_by_skills": [
       "astar-optimal-trajectory-synthesis",
       "auc-roc-discrimination-analysis",
@@ -3483,6 +4134,11 @@
       "sparse-reward-shaping-configuration",
       "symbolic-to-text-trajectory-prompting",
       "training-curve-and-radar-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/USD-AI-ResearchLab/uncertainty-aware-llm-rl"
     ]
   },
   {
@@ -3497,7 +4153,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sunxin000/TTARAG",
+    "repo_url": null,
     "used_by_skills": [
       "crag-benchmark-evaluation-protocol",
       "crag-benchmark-query-processing",
@@ -3515,6 +4171,11 @@
       "test-time-adaptation-of-language-models",
       "test-time-adaptation-runtime-benchmarking",
       "wall-clock-timing-aggregation-across-configurations"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sunxin000/TTARAG"
     ]
   },
   {
@@ -3529,13 +4190,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sydneyanuyah/CausalDiscovery",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-results-tabulation-across-models",
       "causal-detection-binary-classification-evaluation",
       "exact-match-metric-computation",
       "llm-batch-inference-execution-huggingface",
       "prompt-strategy-configuration-zero-shot-ficl-cot"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sydneyanuyah/CausalDiscovery"
     ]
   },
   {
@@ -3550,13 +4216,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Privatris/AgentLeak",
+    "repo_url": null,
     "used_by_skills": [
       "channel-level-leakage-rate-comparison",
       "cli-benchmark-harness-validation",
       "llm-trace-collection-and-replay",
       "multi-agent-coordinator-worker-configuration",
       "privacy-leak-detection-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Privatris/AgentLeak"
     ]
   },
   {
@@ -3571,13 +4242,19 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/giannhskp/InfoCIR",
+    "repo_url": null,
     "used_by_skills": [
       "clip-composed-query-similarity-scoring",
       "cold-start-ideal-image-anchoring",
       "counterfactual-prompt-conditioning",
       "llm-prompt-variant-generation",
       "visual-context-grounding-for-prompt-enhancement"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/giannhskp/InfoCIR",
+      "https://github.com/mistralai/Mistral-7B-Instruct-v0.2"
     ]
   },
   {
@@ -3592,10 +4269,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Singularity-AI-Lab/wattcouncil",
+    "repo_url": null,
     "used_by_skills": [
       "household-energy-scenario-generation",
       "llm-multi-agent-orchestration"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Singularity-AI-Lab/wattcouncil"
     ]
   },
   {
@@ -3610,13 +4292,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sydneyanuyah/CausalDiscovery",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-results-tabulation-across-models",
       "causal-detection-binary-classification-evaluation",
       "exact-match-metric-computation",
       "llm-batch-inference-execution-huggingface",
       "prompt-strategy-configuration-zero-shot-ficl-cot"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sydneyanuyah/CausalDiscovery"
     ]
   },
   {
@@ -3631,7 +4318,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sunxin000/TTARAG",
+    "repo_url": null,
     "used_by_skills": [
       "crag-benchmark-evaluation-protocol",
       "gpu-parallel-inference-configuration",
@@ -3647,6 +4334,11 @@
       "test-time-adaptation-for-retrieval-augmented-generation",
       "test-time-adaptation-hyperparameter-sweep",
       "test-time-adaptation-of-language-models"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sunxin000/TTARAG"
     ]
   },
   {
@@ -3661,12 +4353,19 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/deepmind/mujoco",
+    "repo_url": null,
     "used_by_skills": [
       "mujoco-environment-setup",
       "multi-agent-reinforcement-learning-training",
       "trust-region-clipped-objective-implementation",
       "trust-region-sequential-update-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/deepmind/mujoco",
+      "https://github.com/giangbang/Low-Variance-Trust-Region-MARL",
+      "https://github.com/google-deepmind/mujoco"
     ]
   },
   {
@@ -3681,10 +4380,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SmileHnu/AudioFab",
+    "repo_url": null,
     "used_by_skills": [
       "music-style-description",
       "style-conditioned-music-generation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SmileHnu/AudioFab"
     ]
   },
   {
@@ -3699,10 +4403,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sjarmak/engineering-reliable-coding-agents",
+    "repo_url": null,
     "used_by_skills": [
       "cohens-kappa-agreement-analysis",
       "fleiss-kappa-multirater-agreement-computation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sjarmak/engineering-reliable-coding-agents",
+      "https://github.com/sjarmak/engineering-reliable-coding-agents.git"
     ]
   },
   {
@@ -3717,10 +4427,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/JayWadekar/gwIAS-HM",
+    "repo_url": null,
     "used_by_skills": [
       "mode-snr-ratio-computation-with-observable-volume-weights",
       "template-bank-waveform-generation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/JayWadekar/gwIAS-HM"
     ]
   },
   {
@@ -3734,11 +4449,11 @@
       "10.1109/icassp55912.2026.11463006"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/natolambert/rlhf-book",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/numpy/numpy",
     "used_by_skills": [
       "compute-scaling-unit-normalization",
       "decoder-hidden-state-differencing",
@@ -3750,6 +4465,14 @@
       "percentage-claim-verification",
       "pretraining-posttraining-compute-ratio-reconciliation",
       "synthetic-user-profile-generation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/numpy/numpy/HEAD/LICENSE.txt",
+    "source_paper_repos": [
+      "https://github.com/BGWH123/VSSD",
+      "https://github.com/JayWadekar/gwIAS-HM",
+      "https://github.com/SamanKhamesian/NutriGen",
+      "https://github.com/natolambert/rlhf-book"
     ]
   },
   {
@@ -3764,7 +4487,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SamanKhamesian/NutriGen",
+    "repo_url": null,
     "used_by_skills": [
       "api-key-configured-llm-inference",
       "caloric-error-computation",
@@ -3790,6 +4513,11 @@
       "structured-record-compilation",
       "synthetic-user-profile-generation",
       "usda-nutrition-reference-matching"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SamanKhamesian/NutriGen"
     ]
   },
   {
@@ -3804,7 +4532,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sunxin000/TTARAG",
+    "repo_url": null,
     "used_by_skills": [
       "biomedical-qa-bm25-retrieval",
       "crag-benchmark-evaluation-protocol",
@@ -3830,6 +4558,11 @@
       "test-time-adaptation-of-language-models",
       "test-time-adaptation-runtime-benchmarking",
       "wall-clock-timing-aggregation-across-configurations"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sunxin000/TTARAG"
     ]
   },
   {
@@ -3844,7 +4577,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/rpo19/ReFactX",
+    "repo_url": null,
     "used_by_skills": [
       "constrained-decoding-latency-measurement",
       "constrained-generation-keqa-inference",
@@ -3856,6 +4589,11 @@
       "prefix-tree-fact-retrieval",
       "prefix-tree-index-latency-overhead-analysis",
       "qa-benchmark-experiment-reproduction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/rpo19/ReFactX"
     ]
   },
   {
@@ -3870,7 +4608,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-stratified-performance-analysis",
       "caption-conditioned-response-evaluation",
@@ -3885,6 +4623,11 @@
       "paired-accuracy-significance-testing",
       "prompt-setting-transfer-across-llms",
       "vision-language-model-image-question-answering-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology"
     ]
   },
   {
@@ -3901,7 +4644,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hasan-rakibul/LLMPathy",
+    "repo_url": null,
     "used_by_skills": [
       "bidirectional-reasoning-self-check-verification",
       "command-semantic-alignment-assembly",
@@ -3917,6 +4660,13 @@
       "manpage-synopsis-value-extraction",
       "option-constraint-precision-annotation",
       "option-value-assignment-from-synopsis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hasan-rakibul/LLMPathy",
+      "https://github.com/nasp-thu/prophetfuzz",
+      "https://github.com/yash91sharma/MALTopic"
     ]
   },
   {
@@ -3931,7 +4681,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology",
+    "repo_url": null,
     "used_by_skills": [
       "accuracy-aggregation-across-exam-editions",
       "benchmark-result-visualization",
@@ -3961,6 +4711,11 @@
       "run-to-run-accuracy-variance-quantification",
       "structured-output-constrained-generation",
       "vision-language-model-image-question-answering-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology"
     ]
   },
   {
@@ -3975,7 +4730,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/openai/openai-python",
+    "repo_url": null,
     "used_by_skills": [
       "baseline-topic-list-comparison",
       "comparative-topic-model-benchmarking",
@@ -3999,6 +4754,12 @@
       "topic-deduplication-refinement",
       "topic-overlap-merge",
       "topic-word-diversity-measurement"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/openai/openai-python",
+      "https://github.com/yash91sharma/MALTopic"
     ]
   },
   {
@@ -4014,7 +4775,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/openai/openai-python",
+    "repo_url": null,
     "used_by_skills": [
       "api-key-configured-llm-inference",
       "caloric-error-computation",
@@ -4034,6 +4795,13 @@
       "structured-record-compilation",
       "survey-free-text-theme-extraction",
       "usda-nutrition-reference-matching"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SamanKhamesian/NutriGen",
+      "https://github.com/openai/openai-python",
+      "https://github.com/yash91sharma/MALTopic"
     ]
   },
   {
@@ -4049,7 +4817,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Fleeting-hyh/StreamingCoT",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-result-reproduction",
       "caption-timeline-alignment",
@@ -4076,6 +4844,12 @@
       "video-quality-filter-rule-application",
       "video-quality-screening-pipeline",
       "weighted-f1-classification-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/FairmeHIT/Multi-VIE",
+      "https://github.com/Fleeting-hyh/StreamingCoT"
     ]
   },
   {
@@ -4090,7 +4864,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Singularity-AI-Lab/wattcouncil",
+    "repo_url": null,
     "used_by_skills": [
       "hourly-energy-consumption-profile-generation",
       "household-energy-scenario-generation",
@@ -4099,6 +4873,11 @@
       "physical-constraint-validation-of-load-profiles",
       "schema-constraint-validation",
       "weather-conditioned-household-scenario-modeling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Singularity-AI-Lab/wattcouncil"
     ]
   },
   {
@@ -4113,9 +4892,14 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Privatris/AgentLeak",
+    "repo_url": null,
     "used_by_skills": [
       "privacy-leak-detection-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Privatris/AgentLeak"
     ]
   },
   {
@@ -4130,12 +4914,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/FairmeHIT/Multi-VIE",
+    "repo_url": null,
     "used_by_skills": [
       "document-image-preprocessing",
       "few-shot-uie-model-training-per-document-type",
       "keyword-based-document-type-classification",
       "ocr-detection-recognition-fine-tuning"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/FairmeHIT/Multi-VIE"
     ]
   },
   {
@@ -4150,7 +4939,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/FairmeHIT/Multi-VIE",
+    "repo_url": null,
     "used_by_skills": [
       "certificate-image-degradation-grouping",
       "classification-conditioned-prompt-assembly",
@@ -4167,6 +4956,11 @@
       "ocr-keyword-based-type-identification",
       "ocr-text-extraction-from-certificate-images",
       "weighted-f1-classification-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/FairmeHIT/Multi-VIE"
     ]
   },
   {
@@ -4181,11 +4975,11 @@
       "10.1109/icassp55912.2026.11463006"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/rongzhou7/Awesome-Digital-Twin-AI",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/pandas-dev/pandas",
     "used_by_skills": [
       "api-key-configured-llm-inference",
       "attention-guided-image-perturbation",
@@ -4228,6 +5022,15 @@
       "usda-nutrition-reference-matching",
       "variational-assimilation-window-optimization-analysis",
       "videoqa-annotation-parsing"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/pandas-dev/pandas/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/BGWH123/VSSD",
+      "https://github.com/JayWadekar/gwIAS-HM",
+      "https://github.com/MiRL-IITM/medpao-agent",
+      "https://github.com/SamanKhamesian/NutriGen",
+      "https://github.com/rongzhou7/Awesome-Digital-Twin-AI"
     ]
   },
   {
@@ -4242,12 +5045,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/FairmeHIT/Multi-VIE",
+    "repo_url": null,
     "used_by_skills": [
       "document-image-preprocessing",
       "few-shot-uie-model-training-per-document-type",
       "keyword-based-document-type-classification",
       "ocr-detection-recognition-fine-tuning"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/FairmeHIT/Multi-VIE"
     ]
   },
   {
@@ -4262,12 +5070,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/giangbang/Low-Variance-Trust-Region-MARL",
+    "repo_url": null,
     "used_by_skills": [
       "mpe-benchmark-environment-setup",
       "multi-agent-reinforcement-learning-training",
       "sequential-update-advantage-clipping",
       "training-curve-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/giangbang/Low-Variance-Trust-Region-MARL"
     ]
   },
   {
@@ -4282,7 +5095,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/rpo19/ReFactX",
+    "repo_url": null,
     "used_by_skills": [
       "constrained-generation-keqa-inference",
       "exact-match-qa-scoring",
@@ -4290,6 +5103,11 @@
       "multi-benchmark-accuracy-precision-comparison",
       "prefix-tree-fact-retrieval",
       "qa-benchmark-experiment-reproduction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/rpo19/ReFactX"
     ]
   },
   {
@@ -4304,13 +5122,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology",
+    "repo_url": null,
     "used_by_skills": [
       "gguf-quantized-model-local-inference",
       "llm-response-option-extraction",
       "local-hardware-llm-deployment",
       "mcq-accuracy-scoring",
       "quantization-accuracy-degradation-comparison"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology"
     ]
   },
   {
@@ -4325,7 +5148,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/FairmeHIT/Multi-VIE",
+    "repo_url": null,
     "used_by_skills": [
       "document-image-preprocessing",
       "document-type-image-classification",
@@ -4335,6 +5158,11 @@
       "lvlm-visual-information-extraction",
       "ocr-detection-recognition-fine-tuning",
       "ocr-keyword-based-type-identification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/FairmeHIT/Multi-VIE"
     ]
   },
   {
@@ -4349,11 +5177,16 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/BGWH123/VSSD",
+    "repo_url": null,
     "used_by_skills": [
       "multimodal-chain-of-thought-distillation",
       "saliency-based-image-perturbation",
       "scienceqa-benchmark-evaluation"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/BGWH123/VSSD"
     ]
   },
   {
@@ -4367,11 +5200,11 @@
       "10.1145/3744256.3812595"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/hasan-rakibul/LLMPathy",
+    "license_tier": "open",
+    "license": "MIT",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/pypa/pip",
     "used_by_skills": [
       "advantage-variance-estimation",
       "baseline-reimplementation-comparison-giorgi-empathy",
@@ -4420,6 +5253,14 @@
       "variance-curve-visualization",
       "weather-conditioned-household-scenario-modeling",
       "win-rate-learning-curve-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/pypa/pip/HEAD/LICENSE.txt",
+    "source_paper_repos": [
+      "https://github.com/BGWH123/VSSD",
+      "https://github.com/Singularity-AI-Lab/wattcouncil",
+      "https://github.com/giangbang/Low-Variance-Trust-Region-MARL",
+      "https://github.com/hasan-rakibul/LLMPathy"
     ]
   },
   {
@@ -4434,7 +5275,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/giannhskp/InfoCIR",
+    "repo_url": null,
     "used_by_skills": [
       "clip-embedding-dimensionality-reduction",
       "composed-image-retrieval-inference",
@@ -4447,6 +5288,11 @@
       "rank-delta-computation",
       "style-debiased-embedding-projection",
       "umap-out-of-sample-embedding-transform"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/giannhskp/InfoCIR"
     ]
   },
   {
@@ -4457,11 +5303,11 @@
       "10.1007/978-3-032-09527-5_16"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/rpo19/ReFactX",
+    "license_tier": "open",
+    "license": "PostgreSQL",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": null,
     "used_by_skills": [
       "b-tree-prefix-lookup-tuning",
       "constrained-decoding-latency-measurement",
@@ -4485,6 +5331,11 @@
       "prefix-tree-token-path-traversal",
       "qa-benchmark-experiment-reproduction",
       "wikidata-triple-verbalization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://www.postgresql.org/about/licence/",
+    "source_paper_repos": [
+      "https://github.com/rpo19/ReFactX"
     ]
   },
   {
@@ -4499,13 +5350,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/USD-AI-ResearchLab/uncertainty-aware-llm-rl",
+    "repo_url": null,
     "used_by_skills": [
       "episode-metric-aggregation-and-auc-computation",
       "gridworld-benchmark-experimentation",
       "llm-guided-policy-shaping",
       "rl-baseline-training-comparison",
       "sparse-reward-policy-training"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/USD-AI-ResearchLab/uncertainty-aware-llm-rl"
     ]
   },
   {
@@ -4520,8 +5376,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/nasp-thu/prophetfuzz",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/nasp-thu/prophetfuzz"
+    ]
   },
   {
     "slug": "prophetfuzz",
@@ -4535,7 +5396,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/NASP-THU/ProphetFuzz",
+    "repo_url": null,
     "used_by_skills": [
       "afl-fuzz-command-configuration",
       "bidirectional-reasoning-self-check-verification",
@@ -4564,6 +5425,12 @@
       "qualitative-knowledge-ranking-synthesis",
       "sandboxed-python-script-execution",
       "security-testing-knowledge-distillation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/NASP-THU/ProphetFuzz",
+      "https://github.com/nasp-thu/prophetfuzz"
     ]
   },
   {
@@ -4578,7 +5445,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/USD-AI-ResearchLab/uncertainty-aware-llm-rl",
+    "repo_url": null,
     "used_by_skills": [
       "algorithm-pseudocode-conformance-testing",
       "auc-roc-discrimination-analysis",
@@ -4603,6 +5470,11 @@
       "sparse-reward-policy-training",
       "sparse-reward-shaping-configuration",
       "training-curve-and-radar-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/USD-AI-ResearchLab/uncertainty-aware-llm-rl"
     ]
   },
   {
@@ -4617,7 +5489,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/FairmeHIT/Multi-VIE",
+    "repo_url": null,
     "used_by_skills": [
       "classification-conditioned-prompt-assembly",
       "document-image-preprocessing",
@@ -4626,6 +5498,11 @@
       "keyword-based-document-type-classification",
       "lvlm-visual-information-extraction",
       "ocr-detection-recognition-fine-tuning"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/FairmeHIT/Multi-VIE"
     ]
   },
   {
@@ -4640,7 +5517,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sunxin000/TTARAG",
+    "repo_url": null,
     "used_by_skills": [
       "biomedical-qa-bm25-retrieval",
       "llm-judge-semantic-equivalence-scoring",
@@ -4649,6 +5526,11 @@
       "prefix-suffix-self-supervised-passage-prediction",
       "retrieval-augmented-prompting-baseline-configuration",
       "test-time-adaptation-for-retrieval-augmented-generation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sunxin000/TTARAG"
     ]
   },
   {
@@ -4663,12 +5545,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Privatris/AgentLeak",
+    "repo_url": null,
     "used_by_skills": [
       "cli-benchmark-harness-validation",
       "llm-benchmark-channel-instrumentation",
       "privacy-leakage-metric-analysis",
       "privacy-pathway-internal-external-labeling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Privatris/AgentLeak"
     ]
   },
   {
@@ -4693,11 +5580,11 @@
       "10.1145/3744256.3812595"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/rongzhou7/Awesome-Digital-Twin-AI",
+    "license_tier": "open",
+    "license": "PSF-2.0",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/python/cpython",
     "used_by_skills": [
       "abcdef-protocol-concept-categorization",
       "ablation-study-benchmark-comparison",
@@ -4956,6 +5843,26 @@
       "vqag-annotation-pipeline-execution",
       "weather-conditioned-household-scenario-modeling",
       "zero-shot-empathy-score-prediction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/python/cpython/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/BGWH123/VSSD",
+      "https://github.com/MiRL-IITM/medpao-agent",
+      "https://github.com/NASP-THU/ProphetFuzz",
+      "https://github.com/SamanKhamesian/NutriGen",
+      "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology",
+      "https://github.com/Singularity-AI-Lab/wattcouncil",
+      "https://github.com/SmileHnu/AudioFab",
+      "https://github.com/Zesearch/self-improvement-llm",
+      "https://github.com/hasan-rakibul/LLMPathy",
+      "https://github.com/nasp-thu/prophetfuzz",
+      "https://github.com/natolambert/rlhf-book",
+      "https://github.com/rohnson1999/AutoVQA-G",
+      "https://github.com/rongzhou7/Awesome-Digital-Twin-AI",
+      "https://github.com/sjarmak/engineering-reliable-coding-agents",
+      "https://github.com/sydneyanuyah/CausalDiscovery",
+      "https://github.com/thu-coai/JPS"
     ]
   },
   {
@@ -4970,8 +5877,13 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hasan-rakibul/LLMPathy",
-    "used_by_skills": []
+    "repo_url": null,
+    "used_by_skills": [],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hasan-rakibul/LLMPathy"
+    ]
   },
   {
     "slug": "pytorch",
@@ -4984,11 +5896,11 @@
       "10.1109/icassp55912.2026.11463006"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/natolambert/rlhf-book",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/pytorch/pytorch",
     "used_by_skills": [
       "attention-guided-image-perturbation",
       "audio-source-separation",
@@ -5042,6 +5954,14 @@
       "token-sequence-serialization",
       "transformer-hidden-state-extraction",
       "ultrafeedback-dataset-loading"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/pytorch/pytorch/HEAD/LICENSE",
+    "source_paper_repos": [
+      "https://github.com/BGWH123/VSSD",
+      "https://github.com/SmileHnu/AudioFab",
+      "https://github.com/giannhskp/InfoCIR",
+      "https://github.com/natolambert/rlhf-book"
     ]
   },
   {
@@ -5056,7 +5976,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-stratified-performance-analysis",
       "gastroenterology-board-question-difficulty-annotation",
@@ -5067,6 +5987,11 @@
       "mcq-option-extraction-from-llm-responses",
       "model-accuracy-computation-against-answer-key",
       "prompt-setting-transfer-across-llms"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology"
     ]
   },
   {
@@ -5081,7 +6006,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Singularity-AI-Lab/wattcouncil",
+    "repo_url": null,
     "used_by_skills": [
       "geospatial-coordinate-configuration",
       "hourly-energy-consumption-profile-generation",
@@ -5093,6 +6018,11 @@
       "physical-constraint-validation-of-load-profiles",
       "schema-constraint-validation",
       "weather-conditioned-household-scenario-modeling"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Singularity-AI-Lab/wattcouncil"
     ]
   },
   {
@@ -5107,7 +6037,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/rpo19/ReFactX",
+    "repo_url": null,
     "used_by_skills": [
       "constrained-decoding-latency-measurement",
       "constrained-decoding-logits-masking",
@@ -5130,6 +6060,11 @@
       "prefix-tree-index-latency-overhead-analysis",
       "prefix-tree-token-path-traversal",
       "qa-benchmark-experiment-reproduction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/rpo19/ReFactX"
     ]
   },
   {
@@ -5145,7 +6080,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/MiRL-IITM/medpao-agent",
+    "repo_url": null,
     "used_by_skills": [
       "abcdef-protocol-concept-categorization",
       "biomedical-qa-bm25-retrieval",
@@ -5173,6 +6108,12 @@
       "test-time-adaptation-for-retrieval-augmented-generation",
       "test-time-adaptation-hyperparameter-sweep",
       "test-time-adaptation-of-language-models"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/MiRL-IITM/medpao-agent",
+      "https://github.com/sunxin000/TTARAG"
     ]
   },
   {
@@ -5187,7 +6128,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/rpo19/ReFactX",
+    "repo_url": null,
     "used_by_skills": [
       "constrained-generation-keqa-inference",
       "cross-method-metric-normalization",
@@ -5201,6 +6142,11 @@
       "prefix-tree-fact-retrieval",
       "qa-benchmark-baseline-comparison",
       "qa-benchmark-experiment-reproduction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/rpo19/ReFactX"
     ]
   },
   {
@@ -5215,7 +6161,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sydneyanuyah/CausalDiscovery",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-results-tabulation-across-models",
       "causal-detection-binary-classification-evaluation",
@@ -5226,6 +6172,11 @@
       "per-model-benchmark-metric-aggregation",
       "prompt-strategy-configuration-zero-shot-ficl-cot",
       "results-table-compilation-multi-model"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sydneyanuyah/CausalDiscovery"
     ]
   },
   {
@@ -5240,7 +6191,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/rpo19/ReFactX",
+    "repo_url": null,
     "used_by_skills": [
       "constrained-generation-keqa-inference",
       "exact-match-qa-scoring",
@@ -5248,6 +6199,11 @@
       "multi-benchmark-accuracy-precision-comparison",
       "prefix-tree-fact-retrieval",
       "qa-benchmark-experiment-reproduction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/rpo19/ReFactX"
     ]
   },
   {
@@ -5262,7 +6218,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sydneyanuyah/CausalDiscovery",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-results-tabulation-across-models",
       "causal-detection-binary-classification-evaluation",
@@ -5284,6 +6240,11 @@
       "prompt-strategy-configuration-zero-shot-ficl-cot",
       "results-table-compilation-multi-model",
       "statistical-result-verification-against-reported-values"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sydneyanuyah/CausalDiscovery"
     ]
   },
   {
@@ -5298,7 +6259,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/rohnson1999/AutoVQA-G",
+    "repo_url": null,
     "used_by_skills": [
       "ablation-study-benchmark-comparison",
       "annotation-operational-statistics-aggregation",
@@ -5323,6 +6284,11 @@
       "vqa-content-quality-scoring",
       "vqa-grounding-annotation-generation",
       "vqag-annotation-pipeline-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/rohnson1999/AutoVQA-G"
     ]
   },
   {
@@ -5337,7 +6303,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/FairmeHIT/Multi-VIE",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-result-reproduction",
       "certificate-image-degradation-grouping",
@@ -5357,6 +6323,11 @@
       "lvlm-visual-information-extraction",
       "ocr-keyword-based-type-identification",
       "output-constraint-specification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/FairmeHIT/Multi-VIE"
     ]
   },
   {
@@ -5371,7 +6342,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/thu-coai/JPS",
+    "repo_url": null,
     "used_by_skills": [
       "adversarial-image-perturbation-optimization",
       "cross-benchmark-transfer-evaluation",
@@ -5382,6 +6353,11 @@
       "multimodal-llm-jailbreak-optimization",
       "perturbation-strategy-ablation-analysis",
       "response-quality-mifr-scoring"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/thu-coai/JPS"
     ]
   },
   {
@@ -5396,7 +6372,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/natolambert/rlhf-book",
+    "repo_url": null,
     "used_by_skills": [
       "chat-template-data-formatting",
       "instruction-tuning-sft-stage",
@@ -5404,6 +6380,11 @@
       "masked-token-loss-aggregation",
       "ppo-clip-objective-implementation",
       "preference-pair-reward-model-training"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/natolambert/rlhf-book"
     ]
   },
   {
@@ -5418,7 +6399,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/rpo19/ReFactX",
+    "repo_url": null,
     "used_by_skills": [
       "constrained-decoding-logits-masking",
       "fact-command-token-sequence-detection",
@@ -5427,6 +6408,11 @@
       "llm-qa-workflow-orchestration",
       "prefix-tree-constrained-decoding",
       "prefix-tree-token-path-traversal"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/rpo19/ReFactX"
     ]
   },
   {
@@ -5441,7 +6427,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hasan-rakibul/LLMPathy",
+    "repo_url": null,
     "used_by_skills": [
       "baseline-reimplementation-comparison-giorgi-empathy",
       "correlation-agreement-metric-evaluation",
@@ -5451,6 +6437,11 @@
       "multi-run-median-peak-score-aggregation",
       "noisy-label-correction-alpha-sweep",
       "pcc-ccc-rmse-test-split-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hasan-rakibul/LLMPathy"
     ]
   },
   {
@@ -5465,13 +6456,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hasan-rakibul/LLMPathy",
+    "repo_url": null,
     "used_by_skills": [
       "baseline-reimplementation-comparison-giorgi-empathy",
       "correlation-metric-evaluation-pcc-ccc-rmse",
       "cross-dataset-empathy-benchmark-combination",
       "noisy-label-correction-alpha-sweep",
       "pcc-ccc-rmse-test-split-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hasan-rakibul/LLMPathy"
     ]
   },
   {
@@ -5483,16 +6479,22 @@
       "10.1103/physrevd.110.044063"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/giannhskp/InfoCIR",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/scikit-learn/scikit-learn",
     "used_by_skills": [
       "high-dimensional-source-separation",
       "independent-component-analysis-decomposition",
       "semantic-vs-style-signal-disentanglement",
       "stylistic-vs-semantic-feature-separation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/HEAD/COPYING",
+    "source_paper_repos": [
+      "https://github.com/JayWadekar/gwIAS-HM",
+      "https://github.com/giannhskp/InfoCIR"
     ]
   },
   {
@@ -5503,11 +6505,11 @@
       "10.1103/physrevd.110.044063"
     ],
     "techniques": [],
-    "license_tier": "unknown",
-    "license": null,
-    "license_detection": null,
-    "license_subject": null,
-    "repo_url": "https://github.com/JayWadekar/gwIAS-HM",
+    "license_tier": "open",
+    "license": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_subject": "tool",
+    "repo_url": "https://github.com/scipy/scipy",
     "used_by_skills": [
       "coincident-trigger-ranking-statistics",
       "gram-schmidt-mode-orthogonalization",
@@ -5517,6 +6519,11 @@
       "non-gaussian-tail-characterization",
       "time-frequency-noisy-band-excising",
       "timeslide-trigger-statistics-analysis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": "https://raw.githubusercontent.com/scipy/scipy/HEAD/LICENSE.txt",
+    "source_paper_repos": [
+      "https://github.com/JayWadekar/gwIAS-HM"
     ]
   },
   {
@@ -5531,10 +6538,15 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Singularity-AI-Lab/wattcouncil",
+    "repo_url": null,
     "used_by_skills": [
       "household-energy-scenario-generation",
       "llm-multi-agent-orchestration"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Singularity-AI-Lab/wattcouncil"
     ]
   },
   {
@@ -5549,7 +6561,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/giannhskp/InfoCIR",
+    "repo_url": null,
     "used_by_skills": [
       "clip-composed-query-similarity-scoring",
       "clip-embedding-dimensionality-reduction",
@@ -5576,6 +6588,12 @@
       "token-influence-score-aggregation",
       "umap-out-of-sample-embedding-transform",
       "visual-context-grounding-for-prompt-enhancement"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/giannhskp/InfoCIR",
+      "https://github.com/miccunifi/SEARLE"
     ]
   },
   {
@@ -5590,12 +6608,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sjarmak/engineering-reliable-coding-agents",
+    "repo_url": null,
     "used_by_skills": [
       "catalog-record-count-verification",
       "claim-to-source-ledger-joining",
       "erc-identifier-consistency-checking",
       "reliability-catalog-record-extraction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sjarmak/engineering-reliable-coding-agents",
+      "https://github.com/sjarmak/engineering-reliable-coding-agents.git"
     ]
   },
   {
@@ -5610,7 +6634,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology",
+    "repo_url": null,
     "used_by_skills": [
       "caption-conditioned-response-evaluation",
       "extraction-accuracy-sample-validation",
@@ -5623,6 +6647,11 @@
       "model-accuracy-computation-against-answer-key",
       "paired-accuracy-significance-testing",
       "vision-language-model-image-question-answering-benchmarking"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Sdamirsa/LLM-VLM-in-Gastroenterology"
     ]
   },
   {
@@ -5637,12 +6666,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/giangbang/Low-Variance-Trust-Region-MARL",
+    "repo_url": null,
     "used_by_skills": [
       "mpe-benchmark-environment-setup",
       "multi-agent-reinforcement-learning-training",
       "sequential-update-advantage-clipping",
       "training-curve-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/giangbang/Low-Variance-Trust-Region-MARL"
     ]
   },
   {
@@ -5657,7 +6691,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/puraminy/MTO",
+    "repo_url": null,
     "used_by_skills": [
       "atomic2020-knowledge-completion-data-formatting",
       "commonsense-knowledge-completion-evaluation",
@@ -5683,6 +6717,11 @@
       "t5-encoder-decoder-fine-tuning",
       "task-category-classification",
       "unsupervised-adaptation-data-preparation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/puraminy/MTO"
     ]
   },
   {
@@ -5697,7 +6736,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/puraminy/MTO",
+    "repo_url": null,
     "used_by_skills": [
       "atomic2020-knowledge-completion-data-formatting",
       "commonsense-knowledge-completion-evaluation",
@@ -5715,6 +6754,11 @@
       "rouge-generation-metric-computation",
       "statistical-correlation-visualization",
       "t5-encoder-decoder-fine-tuning"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/puraminy/MTO"
     ]
   },
   {
@@ -5729,7 +6773,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/puraminy/MTO",
+    "repo_url": null,
     "used_by_skills": [
       "atomic2020-knowledge-completion-data-formatting",
       "commonsense-knowledge-completion-evaluation",
@@ -5755,6 +6799,11 @@
       "t5-encoder-decoder-fine-tuning",
       "task-category-classification",
       "unsupervised-adaptation-data-preparation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/puraminy/MTO"
     ]
   },
   {
@@ -5769,7 +6818,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/puraminy/MTO",
+    "repo_url": null,
     "used_by_skills": [
       "atomic2020-knowledge-completion-data-formatting",
       "commonsense-knowledge-completion-evaluation",
@@ -5795,6 +6844,11 @@
       "t5-encoder-decoder-fine-tuning",
       "task-category-classification",
       "unsupervised-adaptation-data-preparation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/puraminy/MTO"
     ]
   },
   {
@@ -5809,7 +6863,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/puraminy/MTO",
+    "repo_url": null,
     "used_by_skills": [
       "atomic2020-knowledge-completion-data-formatting",
       "atomic2020-relation-verbalization",
@@ -5844,6 +6898,11 @@
       "task-category-classification",
       "training-objective-label-classification",
       "unsupervised-adaptation-data-preparation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/puraminy/MTO"
     ]
   },
   {
@@ -5858,7 +6917,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Singularity-AI-Lab/wattcouncil",
+    "repo_url": null,
     "used_by_skills": [
       "geospatial-coordinate-configuration",
       "hourly-energy-consumption-profile-generation",
@@ -5866,6 +6925,11 @@
       "household-energy-scenario-generation",
       "llm-structured-generation",
       "weather-conditioned-household-scenario-modeling"
+    ],
+    "entry_kind": "artefact",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Singularity-AI-Lab/wattcouncil"
     ]
   },
   {
@@ -5880,12 +6944,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SmileHnu/AudioFab",
+    "repo_url": null,
     "used_by_skills": [
       "few-shot-tool-invocation-prompting",
       "llm-task-decomposition-and-tool-selection",
       "mcp-tool-orchestration",
       "music-style-description"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SmileHnu/AudioFab"
     ]
   },
   {
@@ -5900,7 +6969,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/hasan-rakibul/LLMPathy",
+    "repo_url": null,
     "used_by_skills": [
       "baseline-reimplementation-comparison-giorgi-empathy",
       "correlation-agreement-metric-evaluation",
@@ -5911,6 +6980,11 @@
       "multi-run-median-peak-score-aggregation",
       "noisy-label-correction-alpha-sweep",
       "pcc-ccc-rmse-test-split-evaluation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/hasan-rakibul/LLMPathy"
     ]
   },
   {
@@ -5925,7 +6999,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/huggingface/trl",
+    "repo_url": null,
     "used_by_skills": [
       "base-model-to-assistant-generation-comparison",
       "bradley-terry-contrastive-loss-optimization",
@@ -5951,6 +7025,12 @@
       "supervised-fine-tuning-with-chat-templates",
       "token-sequence-serialization",
       "ultrafeedback-dataset-loading"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/huggingface/trl",
+      "https://github.com/natolambert/rlhf-book"
     ]
   },
   {
@@ -5965,7 +7045,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/sunxin000/TTARAG",
+    "repo_url": null,
     "used_by_skills": [
       "adamw-optimizer-integration-for-llm-finetuning",
       "biomedical-qa-bm25-retrieval",
@@ -5993,6 +7073,11 @@
       "test-time-adaptation-of-language-models",
       "test-time-adaptation-runtime-benchmarking",
       "wall-clock-timing-aggregation-across-configurations"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/sunxin000/TTARAG"
     ]
   },
   {
@@ -6007,7 +7092,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/USD-AI-ResearchLab/uncertainty-aware-llm-rl",
+    "repo_url": null,
     "used_by_skills": [
       "algorithm-pseudocode-conformance-testing",
       "astar-optimal-trajectory-synthesis",
@@ -6037,6 +7122,11 @@
       "sparse-reward-shaping-configuration",
       "symbolic-to-text-trajectory-prompting",
       "training-curve-and-radar-visualization"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/USD-AI-ResearchLab/uncertainty-aware-llm-rl"
     ]
   },
   {
@@ -6051,7 +7141,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/giannhskp/InfoCIR",
+    "repo_url": null,
     "used_by_skills": [
       "clip-embedding-dimensionality-reduction",
       "cross-view-linked-visualization-rendering",
@@ -6061,6 +7151,11 @@
       "semantic-vs-style-signal-disentanglement",
       "style-debiased-embedding-projection",
       "umap-out-of-sample-embedding-transform"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/giannhskp/InfoCIR"
     ]
   },
   {
@@ -6075,13 +7170,18 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/nasp-thu/prophetfuzz",
+    "repo_url": null,
     "used_by_skills": [
       "command-placeholder-resolution",
       "file-placeholder-matching",
       "llm-generated-code-validation",
       "prefix-matching-file-correction",
       "sandboxed-python-script-execution"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/nasp-thu/prophetfuzz"
     ]
   },
   {
@@ -6096,7 +7196,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/natolambert/rlhf-book",
+    "repo_url": null,
     "used_by_skills": [
       "chat-template-data-formatting",
       "instruction-tuning-sft-stage",
@@ -6105,6 +7205,11 @@
       "ppo-clip-objective-implementation",
       "ppo-clipped-surrogate-objective-notation",
       "preference-pair-reward-model-training"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/natolambert/rlhf-book"
     ]
   },
   {
@@ -6119,7 +7224,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/BGWH123/VSSD",
+    "repo_url": null,
     "used_by_skills": [
       "baseline-ablation-comparison-tables",
       "multimodal-chain-of-thought-distillation",
@@ -6128,6 +7233,11 @@
       "saliency-based-image-perturbation",
       "scienceqa-benchmark-evaluation",
       "two-stage-chain-of-thought-inference"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/BGWH123/VSSD"
     ]
   },
   {
@@ -6142,7 +7252,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/BGWH123/VSSD",
+    "repo_url": null,
     "used_by_skills": [
       "attention-guided-image-perturbation",
       "attention-map-upsampling-and-gaussian-smoothing",
@@ -6153,6 +7263,11 @@
       "multimodal-llm-checkpoint-inference",
       "multimodal-rationale-generation-evaluation",
       "saliency-top-k-threshold-mask-generation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/BGWH123/VSSD"
     ]
   },
   {
@@ -6167,7 +7282,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Singularity-AI-Lab/wattcouncil",
+    "repo_url": null,
     "used_by_skills": [
       "geospatial-coordinate-configuration",
       "hourly-consumption-pattern-alignment",
@@ -6183,6 +7298,11 @@
       "smart-meter-load-profile-comparison",
       "synthetic-energy-data-benchmarking",
       "weather-conditioned-household-scenario-modeling"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Singularity-AI-Lab/wattcouncil"
     ]
   },
   {
@@ -6197,12 +7317,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SmileHnu/AudioFab",
+    "repo_url": null,
     "used_by_skills": [
       "audio-agent-capability-matrix-reconstruction",
       "mcp-service-coverage-mapping",
       "prior-system-feature-extraction",
       "tool-management-architecture-verification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SmileHnu/AudioFab"
     ]
   },
   {
@@ -6217,12 +7342,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SmileHnu/AudioFab",
+    "repo_url": null,
     "used_by_skills": [
       "audio-agent-capability-matrix-reconstruction",
       "mcp-service-coverage-mapping",
       "prior-system-feature-extraction",
       "tool-management-architecture-verification"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SmileHnu/AudioFab"
     ]
   },
   {
@@ -6237,7 +7367,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/ARCLab-MIT/kspdg",
+    "repo_url": null,
     "used_by_skills": [
       "benchmark-metric-extraction-from-papers",
       "dora-low-rank-adaptation-setup",
@@ -6250,6 +7380,11 @@
       "peft-hyperparameter-specification",
       "pursuit-evasion-distance-metrics",
       "sequential-ablation-study-reconstruction"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/ARCLab-MIT/kspdg"
     ]
   },
   {
@@ -6264,7 +7399,7 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/SmileHnu/AudioFab",
+    "repo_url": null,
     "used_by_skills": [
       "audio-toolchain-orchestration",
       "automatic-speech-transcription",
@@ -6272,6 +7407,11 @@
       "speech-emotion-recognition",
       "temporal-word-rate-threshold-filtering",
       "timbre-preserving-speech-resynthesis"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/SmileHnu/AudioFab"
     ]
   },
   {
@@ -6286,12 +7426,17 @@
     "license": null,
     "license_detection": null,
     "license_subject": null,
-    "repo_url": "https://github.com/Fleeting-hyh/StreamingCoT",
+    "repo_url": null,
     "used_by_skills": [
       "multimodal-quality-screening",
       "social-interaction-threshold-filtering",
       "video-frame-decoding-and-sampling",
       "video-metadata-aggregation"
+    ],
+    "entry_kind": "software",
+    "license_evidence": null,
+    "source_paper_repos": [
+      "https://github.com/Fleeting-hyh/StreamingCoT"
     ]
   }
 ]
