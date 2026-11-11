@@ -30,7 +30,7 @@ This repository holds the agentic-ai skill collection of AgenticScienceBuilder (
 
 | Path | Title | Skills | Tools | Released | DOI |
 |---|---|---|---|---|---|
-| `collections/agentic-ai/v1` | ASB Agentic AI and LLM systems Skill Collection v1 | 668 | 215 | 2026-11-09 | [10.5281/zenodo.24093110](https://doi.org/10.5281/zenodo.24093110) |
+| `collections/agentic-ai/v1` | ASB Agentic AI and LLM systems Skill Collection v1 | 668 | 215 | 2026-11-10 | [10.5281/zenodo.24122112](https://doi.org/10.5281/zenodo.24122112) |
 
 ## Status
 
