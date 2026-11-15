@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-14T21:17:08.728081+00:00",
+  "generated_at": "2026-11-15T16:39:51.705656+00:00",
   "collection_dir": "collections/agentic-ai/v1",
   "corpus_path": "collections/agentic-ai/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "e2b6db26415b15154a9e245bdbf6dc5351e513324c5013623f39a88a43b0405e",
+      "sha256": "c7566c4dae4e36db621f1adb749b7b3abac5699bf5aea9537d5aff67651cf839",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -67,8 +67,8 @@
         },
         {
           "path": ".zenodo.json",
-          "bytes": 2564,
-          "sha256": "5c0010ec99df9cdb66bf2b4658cc2d1eecb7bb77bfe3acfd25c7c52447a28452"
+          "bytes": 2714,
+          "sha256": "0e2cbddfd8347f40e7fa924efe7406a2244b74e067b60303962436fe5548227b"
         },
         {
           "path": "CITATION.cff",
@@ -81,8 +81,8 @@
         },
         {
           "path": "bin/report_issue.py",
-          "bytes": 44558,
-          "sha256": "91a8606109067b015cd6d1af497b12f82149cc2b4aa9fcdabb67984201eee197"
+          "bytes": 44518,
+          "sha256": "fc5f56dc586aa6bb28d4930ce4170204633cdcc0f70ade2221b3c1db79ae5d4d"
         },
         {
           "path": "bin/search_skills.py",
@@ -6135,8 +6135,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 4289,
-          "sha256": "21d4a95b9bbc9795482924c53af32ff59aebae54d6c31e6e19c703d062d0db3b"
+          "bytes": 4281,
+          "sha256": "c6997a731262774c4f505678cf0745988ae34b1ac03cfc37898ac9c30da24e04"
         },
         {
           "path": "skills_index.json",
@@ -7242,8 +7242,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 4733,
-          "sha256": "10c75869eff3856ea1ac7557f512a4d5db864832ec8e4947c1c5d09afd034c44"
+          "bytes": 4725,
+          "sha256": "3f842d299b0989c9c0d949f363f85a38e0ec637c4dea0752932ead1b488c2ddf"
         },
         {
           "path": "workflows/domain-rag-citation-evaluation",
@@ -7675,5 +7675,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "8d7b6dcf8de58e9a9a1a644698141853001120b697f620a23b1b4104fad61005"
+  "receipt_sha256": "c3f87e674dc61580b95d2fbe4c6ddc8966729f9cdfbae2165df0ee51a0e10014"
 }
